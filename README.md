@@ -28,6 +28,9 @@
         * 入口都在：http://book.crifan.com/books/
       * 和 https://crifan.github.io 上
         * 对应源码是：https://github.com/crifan/crifan.github.io
+    * `gitbook`的电子书的源码
+      * 全部源码都已公开放在`github`上了，详见：https://github.com/crifan
+      * 如何利用gitbook的源码去创建自己的电子书，可以参考：https://github.com/crifan/gitbook_template
 
 下面就来详细介绍一下，都有哪些方面的电子书，以及大概的内容分类如何，便于每人找到自己想要的内容：
 
@@ -267,7 +270,7 @@
 
 在涉及到移动端开发时，可以参考：
 
-* [移动端APP开发总结](https://crifan.github.io/mobiel_app_summary/website)
+* [移动端APP开发总结](https://crifan.github.io/mobile_app_summary/website)
 
 #### 上层软件的其他领域
 
