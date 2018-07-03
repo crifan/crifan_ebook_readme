@@ -1,12 +1,16 @@
 # Crifan的电子书的使用说明
 
+## 源码
+
+[crifan/crifan_ebook_readme: Crifan的电子书的使用说明](https://github.com/crifan/crifan_ebook_readme)
+
 ## 为何要有：Crifan的电子书
 
-我之前折腾过很多方面的内容，包括技术类的，非技术类的。
+我之前折腾过很多方面的内容，包括技术类的和非技术类的。
 
-关于技术类中又分很多种，其中都放到了我的网站 crifan.com 上，目前已有7000+的技术帖子，但多数都是零散的某个细节的知识点。
+关于技术类中又分很多种，其中都放到了我的网站 crifan.com 上，目前已有`7000+`的技术帖子，但多数都是零散的某个细节的知识点。
 
-当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用(`Docbook`、`Gitbook`等)工具去变成电子书，方便别人参考。
+当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](http://book.crifan.com/books/ebook_system_gitbook/website/)等)工具去变成电子书，免费发布出来方便别人参考。
 
 目前已经整理出`70+`的成系列的电子书了，下面就来详细介绍一下。
 
@@ -23,11 +27,11 @@
   * 另一方面属于非技术，比如生活类的，学习类的
 * 制作工具上：也分两类
   * 一类是用`Docbook`制作的
-    * 主入口在：http://www.crifan.com/files/doc/docbook/
+    * 主入口在：https://www.crifan.com/files/doc/docbook/
   * 另一类是用`Gitbook`制作的
     * 弄了2份一样的，分别放在了
       * 自己的 crifan.com 的网站上
-        * 入口都在：http://book.crifan.com/books/
+        * 入口都在：https://book.crifan.com/books/
       * 和 https://crifan.github.io 上
         * 对应源码是：https://github.com/crifan/crifan.github.io
     * `gitbook`的电子书的源码
@@ -59,17 +63,17 @@
 不论哪方面的技术，都有一些通用的学习方面，逻辑概念，总结如下：
 
 * 关于如何利用工具和脚本提供工作效率的：
-  * [如何提高工作效率](https://crifan.github.io/improve_work_efficiency/website)
+  * [如何提高工作效率](https://book.crifan.com/books/improve_work_efficiency/website/)
 * 关于要有良好的编程习惯和逻辑，才能写出高质量代码：
-  * [编程习惯和代码风格](https://crifan.github.io/program_code_style/website)
+  * [编程习惯和代码风格](https://book.crifan.com/books/program_code_style/website/)
   * [计算机语言编程规范](http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html)
 * 对于不同领域的技术，都有一些通用的概念需要了解，才能更好的开发：
-  * [计算机编程通用逻辑知识概念](https://crifan.github.io/program_common_logic/website)
+  * [计算机编程通用逻辑知识概念](https://book.crifan.com/books/program_common_logic/website/)
 * 以及都有一些通知的基础知识：
   * [软件开发基础知识](http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
   * [软件技术开发通用知识](http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
 * 想要能用google搜索技术资料，可以使用shadowsocks：
-  * [科学上网相关知识总结](https://crifan.github.io/scientific_network_summary/website)
+  * [科学上网相关知识总结](https://book.crifan.com/books/scientific_network_summary/website/)
 
 ### 推荐的工具或软件
 
@@ -216,15 +220,15 @@
 
 和HTTP方面的知识：
 
-* [HTTP知识总结](https://crifan.github.io/http_summary/website)
+* [HTTP知识总结](https://book.crifan.com/books/http_summary/website/)
 
 以及后台人员设计RESTFul的API接口需要了解的：
 
-* [HTTP后台端：RESTful API接口设计](https://crifan.github.io/http_restful_api/website)
+* [HTTP后台端：RESTful API接口设计](https://book.crifan.com/books/http_restful_api/website/)
 
 以及后台人员开发调试接口时，移动端调用接口时，测试人员测试接口时，可以用到的Postman工具：
 
-* [API开发利器：Postman](https://crifan.github.io/api_tool_postman/website)
+* [API开发利器：Postman](https://book.crifan.com/books/api_tool_postman/website/)
 
 各种计算机语言通用的的方面的知识总结：
 
@@ -257,11 +261,11 @@
 
 在涉及到Web网页自动化测试，写爬虫等，会涉及到Selenium：
 
-* [Selenium知识总结](https://crifan.github.io/selenium_summary/website)
+* [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website/)
 
 而在Web和上层领域内，对于html类的内容提取常会涉及到Xpath：
 
-* [XPath知识总结](https://crifan.github.io/xpath_summary/website)
+* [XPath知识总结](https://book.crifan.com/books/xpath_summary/website/)
 
 关于如何搭建网站，以及如何给网站搬家的话，可以参考：
 
@@ -272,7 +276,7 @@
 
 在涉及到移动端开发时，可以参考：
 
-* [移动端APP开发总结](https://crifan.github.io/mobile_app_summary/website)
+* [移动端APP开发总结](https://book.crifan.com/books/mobile_app_summary/website/)
 
 #### 上层软件的其他领域
 
@@ -280,7 +284,17 @@
 
 * [ANTLR教程](http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
 
-想要和我一样，制作出复杂的电子书，可以用相关的工具，比如：
+想要和我一样，制作出复杂的电子书，可以：
+
+先学习通用的语法格式：
+
+* [最流行的文档格式：Markdown](https://book.crifan.com/books/doc_format_markdown/website)
+
+然后再去使用相对简单好用的工具：
+
+* [电子书制作利器：GitBook](https://book.crifan.com/books/ebook_system_gitbook/website/)
+
+也可以去用更加强大但比较复杂的工具，比如：
 
 * [Docbook开发手记](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
 
@@ -305,6 +319,7 @@
 * [Python语言总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
 
 关于某个特定的模块的总结：
+
 * [Python专题教程：BeautifulSoup详解](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
 * [Python专题教程：正则表达式re模块详解](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
 * [Python专题教程：字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
@@ -348,17 +363,17 @@ https://github.com/crifan/crifanLib
 
 而开始了工作后，需要了解的各种基本概念和常识，包括招聘和应聘，薪资待遇，股票和期权，创业和公司等：
 
-* [工作和职业相关知识](https://crifan.github.io/work_job_summary/website)
+* [工作和职业相关知识](https://book.crifan.com/books/work_job_summary/website/)
 
 而和别人合作时，往往涉及到文件共享，资料共享，协同编辑等内容，可以使用有道云协作：
 
-* [有道云笔记和云协作使用总结](https://crifan.github.io/youdao_note_summary/website)
+* [有道云笔记和云协作使用总结](https://book.crifan.com/books/youdao_note_summary/website/)
 
 而工作后，会遇到具体的某个商业领域相关的知识，比如：
 
 和汽车销售行业，售前和售后，整车厂和经销商，经销商和客户等相关内容：
 
-* [汽车销售领域知识总结](https://crifan.github.io/automobile_sales_summary/website)
+* [汽车销售领域知识总结](https://book.crifan.com/books/automobile_sales_summary/website/)
 
 ## 生活类
 
