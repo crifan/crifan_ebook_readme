@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20190815`
+最后更新：`20200711`
 
 ## 源码
 
@@ -8,12 +8,13 @@
 
 ## Crifan电子书的简要说明
 
-关于Crifan的电子书，想忽略细节解释只看重点，只需看此概览：
+关于[Crifan](https://www.crifan.com/about/)的电子书，无需细节只关注重点，则只需看此概览：
 
 * 技术类
   * 通用
     * [提高效率](https://book.crifan.com/books/improve_work_efficiency/website)
     * 编程和开发
+      * [学习方法和思路](https://book.crifan.com/books/learn_tech_method_experience/website/)
       * [风格](https://book.crifan.com/books/program_code_style/website)
       * [规范](http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html)
       * [通用概念](https://book.crifan.com/books/program_common_logic/website)
@@ -26,13 +27,15 @@
         * 好用工具
           * [Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
           * [VSCode](http://book.crifan.com/books/best_editor_vscode/website)
+          * [PyCharm](http://book.crifan.com/books/most_intelligent_python_ide_pycharm/website)
       * 自动化
         * [Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
       * API
         * [Postman](https://book.crifan.com/books/api_tool_postman/website)
       * 远程连接
         * [SecureCRT](http://crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html)
-      * 
+      * [画图工具](https://book.crifan.com/books/best_diagram_tool/website/)
+      * [文件对比](http://book.crifan.com/books/file_compare_tool_summary/website)
   * 不同层次
     * 上层：纯软件
       * 通用
@@ -42,66 +45,105 @@
         * 编程语言
           * [基础知识](http://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
           * [语言简介](http://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
+        * 数据库
+          * [MySQL](https://book.crifan.com/books/popular_rmdb_mysql/website/)
+          * [MongoDB](https://book.crifan.com/books/popular_document_db_mongodb/website/)
         * 数据交互
           * [JSON](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
-        * 字符
-          * 编码
-            * [详解](http://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
-            * [应用](http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
-            * Python
-              * [字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
-          * 处理
-            * [正则](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
-              * Python
-                * [re模块](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
-        * 桌面端
-          * [C#](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
-        * Web
-          * 网站
-            * [建站](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
-            * [搬家](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
-        * 移动端
-          * [APP开发](https://book.crifan.com/books/mobile_app_summary/website)
-          * 安全和破解
-            * [安卓](http://book.crifan.com/books/android_app_security_crack/website)
-        * 爬虫
-          * 原理
-            * 新教程
-              * [爬虫技术](http://book.crifan.com/books/crawl_your_data_spider_technology/website)
-            * 旧教程
-              * [原理和实现](http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
+        * 版本管理
+          * [Git](http://book.crifan.com/books/version_control_git/website)
+        * 字符编码
+          * [详解](http://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
+          * [应用](http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
           * Python
-            * 新教程
-              * [用Python写爬虫](http://book.crifan.com/books/use_python_write_spider/website)
-            * 旧教程
-              * [Python抓取网页](http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
-            * Python爬虫框架
-              * [PySpider](http://book.crifan.com/books/python_spider_pyspider/website)
-          * 相关
-            * Web自动化
-              * [Selenium](https://book.crifan.com/books/selenium_summary/website)
-            * 内容提取
-              * [XPath](https://book.crifan.com/books/xpath_summary/website)
-              * [BeautifulSoup](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
-          * 抓包工具
-            * [Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)
-        * 编译器
-          * [ANTLR](http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
-        * 电子书
-          * 格式
-            * [Markdown](https://book.crifan.com/books/doc_format_markdown/website)
-          * 制作工具
-            * [GitBook](https://book.crifan.com/books/ebook_system_gitbook/website)
-            * [Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
-        * 编程语言
-          * 个人crifan的库 CrifanLib
-            * [C# crifanLib.cs](http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
-            * [Python crifanLib.py](http://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
+            * [字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
+        * 正则表达式
+          * 教程
+            * [旧](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
+            * [新](https://book.crifan.com/books/super_search_regex/website/)
+          * [应用举例](https://book.crifan.com/books/regex_usage_examples/website/)
           * Python
-            * 教程
+            * re模块
+              * [旧](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
+              * [新](http://book.crifan.com/books/python_regex_re_intro/website)
+      * 桌面端
+        * [C#](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
+        * 跨平台应用
+          * [lectron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
+      * Apple
+        * [开发总结](https://book.crifan.com/books/apple_develop_summary/website/)
+      * Web
+        * 网站
+          * [建站](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
+          * [搬家](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
+      * 移动端
+        * [APP开发](https://book.crifan.com/books/mobile_app_summary/website)
+        * 安全和破解
+          * [安卓](http://book.crifan.com/books/android_app_security_crack/website)
+          * [Xposed](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
+          * [Nox模拟器](https://book.crifan.com/books/good_android_emulator_nox/website/)
+        * 自动化测试
+          * [概览](https://book.crifan.com/books/mobile_automation_overview/website/)
+          * iOS
+            * [facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
+          * Android
+            * [uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
+      * 爬虫
+        * 原理
+          * 新教程
+            * [爬虫技术](http://book.crifan.com/books/crawl_your_data_spider_technology/website)
+          * 旧教程
+            * [原理和实现](http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
+        * Python
+          * 新教程
+            * [用Python写爬虫](http://book.crifan.com/books/use_python_write_spider/website)
+          * 旧教程
+            * [Python抓取网页](http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
+          * Python爬虫框架
+            * [PySpider](http://book.crifan.com/books/python_spider_pyspider/website)
+            * [Scrapy](http://book.crifan.com/books/python_spider_scrapy/website)
+        * 相关
+          * Web自动化
+            * [Selenium](https://book.crifan.com/books/selenium_summary/website)
+          * 内容解析
+            * [XPath](https://book.crifan.com/books/xpath_summary/website)
+            * BeautifulSoup
+              * [旧教程](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
+              * [新教程](http://book.crifan.com/books/html_parse_tool_beautifulsoup/website)
+            * [PyQuery](http://book.crifan.com/books/python_html_parse_pyquery/website)
+        * 抓包工具
+          * [Charles](http://book.crifan.com/books/app_capture_package_tool_charles/website)
+      * 编译器
+        * [ANTLR](http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
+      * 电子书
+        * 格式
+          * [Markdown](https://book.crifan.com/books/doc_format_markdown/website)
+        * 制作工具
+          * [GitBook](https://book.crifan.com/books/ebook_system_gitbook/website)
+          * [Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
+      * 压缩工具
+        * [常见总结](https://book.crifan.com/books/common_compress_tool_summary/website/)
+      * 音视频
+        * [ffmpeg](https://book.crifan.com/books/media_process_ffmpeg/website/)
+      * 编程语言
+        * 个人crifan的库 CrifanLib
+          * [C# crifanLib.cs](http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
+          * [Python crifanLib.py](http://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
+        * 常用代码段
+          * [Python](https://book.crifan.com/books/python_common_code_snippet/website/)
+        * Python
+          * 教程
+            * 旧
               * [入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
               * [中级教程](http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
               * [总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
+            * 新
+              * [新手小白常见错误](https://book.crifan.com/books/python_newbie_mistakes_questions/website/)
+              * [让你人生不苦短](https://book.crifan.com/books/make_life_better_python/website/)
+          * 网络库
+            * [总结](http://book.crifan.com/books/python_experience_http_lib/website)
+          * 虚拟环境
+            * [总结](https://book.crifan.com/books/python_summary_virtual_environment/website/)
     * 中间：嵌入式
       * 通用
         * [概念](http://book.crifan.com/books/common_logic_hardware_embedded/website)
@@ -171,7 +213,6 @@
         * [有道云笔记和云协作](https://book.crifan.com/books/youdao_note_summary/website)
     * 领域知识
       * [汽车销售](https://book.crifan.com/books/automobile_sales_summary/website)
-      * 
   * 生活类
     * 电脑使用
       * [基础知识](http://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
@@ -180,7 +221,9 @@
         * [教程](http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
         * 常见
           * [VirtualBox](http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
-          * [VMWare](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
+          * VMWare
+            * [旧](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
+            * [新](https://book.crifan.com/books/popular_virtual_machine_vmware/website/)
     * [买房](http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html)
     * [生活经验](http://book.crifan.com/books/resident_life_experience_summary/website)
   * 娱乐类
@@ -194,9 +237,9 @@
 
 当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](http://book.crifan.com/books/ebook_system_gitbook/website)等)工具去制作出电子书，免费发布出来供别人参考。
 
-目前已经整理出**89**本成系列的电子书了，接下来详细介绍：
+目前已经整理出**100多**本成系列的电子书了，接下来详细介绍：
 
-> 另：手上还有**好几十本**电子书的内容已基本完成，待之后能抽出时间再陆续发布出来。
+> 另：手上还有**几十本**电子书的内容已基本完成，待之后能抽出时间再尽快整理发布出来。
 
 ## 为何要有：Crifan的电子书的使用说明
 
@@ -247,6 +290,8 @@
 
 不论哪方面的技术，都有一些通用的学习方面，逻辑概念，总结如下：
 
+* 关于如何学习和利用网络资料，以及一些技术方面的心得体会和总结：
+  * [学习方法思路及技术心得总结](https://book.crifan.com/books/learn_tech_method_experience/website/)
 * 关于如何利用工具和脚本提供工作效率的：
   * [如何提高工作效率](https://book.crifan.com/books/improve_work_efficiency/website)
 * 关于要有良好的编程习惯和逻辑，才能写出高质量代码：
@@ -284,6 +329,24 @@
 
 * [史上最好用的编辑器：VSCode](http://book.crifan.com/books/best_editor_vscode/website)
 
+Python开发中最专业的IDE：
+
+* [最智能的Python的IDE：PyCharm](http://book.crifan.com/books/most_intelligent_python_ide_pycharm/website)
+
+#### 画图工具软件
+
+涉及到画路程图、结构图、架构图等，可以参考：
+
+[好用的画图工具](https://book.crifan.com/books/best_diagram_tool/website/)
+
+去选择合适的画图工具。
+
+#### 文件对比工具
+
+如果需要对比文件、文件夹中的内容，可以参考：
+
+[文件内容对比工具总结](http://book.crifan.com/books/file_compare_tool_summary/website)
+
 #### 自动化以提高效率
 
 不论是嵌入式还是上层软件，都可以用一些工具，从手动变自动，去提高做事效率，比如Makefile：
@@ -301,6 +364,12 @@
 通过SSH连接远程服务器的工具方面，常用SecureCRT：
 
 * [【crifan推荐】支持多种协议的串口开发工具：SecureCRT](http://crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html)
+
+#### 代码版本管理
+
+当前最流行的是`Git`：
+
+* [最流行的版本管理系统：Git](http://book.crifan.com/books/version_control_git/website)
 
 ### 硬件类
 
@@ -471,9 +540,7 @@
 
 * [JSON详解](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
 
-不同的语言和工具中，都支持用正则表达式去实现复杂的规则去提取想要的数据：
-
-* [正则表达式学习心得](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
+##### 字符编码
 
 而用不同的编辑器或IDE，以及处理文件相关的内容时，往往会涉及到文件的字符编码，可参考：
 
@@ -483,11 +550,30 @@
 
 * [字符编码应用](http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
 
+##### 正则表达式
+
+不同的语言和工具中，都支持用正则表达式去实现复杂的规则去提取想要的数据。可以参考：
+
+* 之前用docbook写的旧教程：
+  * [正则表达式学习心得](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
+* 后来用gibbook写的新教程
+  * [应用广泛的超强搜索：正则表达式](https://book.crifan.com/books/super_search_regex/website/)
+
 #### PC桌面端软件
 
-在写Windows平台的桌面端软件时，可以使用C#：
+在写Windows平台的桌面端软件时，可以使用`C#`：
 
 * [C#学习心得](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
+
+如果想要开发跨平台的桌面端应用，可以考虑选用`Electron`：
+
+* [跨平台桌面应用框架：Electron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
+
+#### 苹果系统
+
+苹果的`Mac`、`iOS`等相关开发总结：
+
+[苹果相关开发总结](https://book.crifan.com/books/apple_develop_summary/website/)
 
 #### 网页Web领域开发
 
@@ -502,6 +588,20 @@
 
 * [移动端APP开发总结](https://book.crifan.com/books/mobile_app_summary/website)
 
+##### 移动端自动化测试
+
+想了解移动端自动化测试的概况，可以参考：
+
+* [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
+
+关于iOS端的自动化测试，可以考虑用`facebook-wda`：
+
+* [iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
+
+安卓端的话，可以用`uiautomator2`：
+
+* [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
+
 #### 爬虫
 
 折腾网络爬虫（和模拟登录）领域的话，可以先去了解宏观逻辑和概念：
@@ -515,6 +615,7 @@
 然后才涉及到基于某语言（Python）去具体选择什么框架（PySpider），以提高爬虫效率：
 
 * [Python爬虫框架：PySpider](http://book.crifan.com/books/python_spider_pyspider/website)
+* [主流Python爬虫框架：Scrapy](http://book.crifan.com/books/python_spider_scrapy/website)
 
 在爬虫领域往往会涉及（当前其他领域也会用）到Web网页自动化，才会涉及到Selenium：
 
@@ -539,6 +640,11 @@
 
 * [安卓应用的安全和破解](http://book.crifan.com/books/android_app_security_crack/website)
 
+以及辅助工具：
+
+* [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
+* [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+
 #### 上层软件的其他领域
 
 比如想要开发自己特定领域内的语言的解析器，即实现自己的编译器，可以使用ANTLR：
@@ -560,24 +666,55 @@
 
 * [Docbook开发手记](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
 
+在数据库方面，主流的文档数据库有：
+
+* [主流关系数据库：MySQL ](https://book.crifan.com/books/popular_rmdb_mysql/website/)
+* [主流文档型数据库：MongoDB](https://book.crifan.com/books/popular_document_db_mongodb/website/)
+
+不同系统中都会涉及到文件和代码等压缩，可以参考：
+
+* [常见压缩工具总结](https://book.crifan.com/books/common_compress_tool_summary/website/)
+
+如果涉及到音视频的处理，可以用强大的`ffmpeg`：
+
+* [强大的音视频处理工具：ffmpeg](https://book.crifan.com/books/media_process_ffmpeg/website/)
+
 #### Python语言
 
 折腾折腾Pyton期间，单独整理了一系列的内容，供参考：
 
-用于入门级的介绍的：
-
-* [python初级教程：入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
-
-关于整体的Python的心得和总结：
-
-* [python中级教程：开发总结](http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
-* [Python语言总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
-
-关于某个特定的模块的总结：
-
-* [Python专题教程：BeautifulSoup详解](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
-* [Python专题教程：正则表达式re模块详解](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
-* [Python专题教程：字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
+* 旧的
+  * 用于入门级的介绍的：
+    * [python初级教程：入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
+  * 关于整体的Python的心得和总结：
+    * [python中级教程：开发总结](http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
+    * [Python语言总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
+  * 关于某个特定的模块的总结：
+    * BeautifulSoup
+      * 旧教程
+        * [Python专题教程：BeautifulSoup详解](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
+      * 新教程
+        * [网页解析利器：BeautifulSoup](http://book.crifan.com/books/html_parse_tool_beautifulsoup/website)
+    * PyQuery
+      * [HTML解析库Python版jQuery：PyQuery](http://book.crifan.com/books/python_html_parse_pyquery/website)
+    * re模块
+      * 旧的
+        * [Python专题教程：正则表达式re模块详解](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
+      * 新的
+        * [Python中正则表达式：re模块详解](http://book.crifan.com/books/python_regex_re_intro/website)
+    * 字符编码
+      * [Python专题教程：字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
+    * 网络库
+      * [Python心得：http网络库](http://book.crifan.com/books/python_experience_http_lib/website)
+* 新的
+  * 对于新手小白常见的错误和解决方案和引申思考：
+    * [Python新手小白常见错误和问题](https://book.crifan.com/books/python_newbie_mistakes_questions/website/)
+  * 全新整理的
+    * [让你人生不苦短的编程语言：Python](https://book.crifan.com/books/make_life_better_python/website/)
+    * 常用代码段：
+      * [Python常用代码段](https://book.crifan.com/books/python_common_code_snippet/website/)
+  * 虚拟环境
+    * [Python心得：虚拟环境](https://book.crifan.com/books/python_summary_virtual_environment/website/)
 
 #### 我Crifan个人相关内容
 
@@ -609,11 +746,15 @@
 
 和技术开发有点关系，但是更主要是属于电脑使用方面的，虚拟机：
 
-在Windows/Mac中，按照Mac或Windows的系统，而用到的工具，比如VMWare或VirtualBox：
+在`Windows`、`Mac`等系统中，想要安装另外一个系统，可以用虚拟机软件，比如`VMWare`或`VirtualBox`：
 
 * [虚拟机教程](http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
 * [VirtualBox教程](http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
-* [VMWare教程](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
+* VMWare
+  * 旧的
+    * [VMWare教程](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
+  * 新的
+    * [主流虚拟机软件：VMWare](https://book.crifan.com/books/popular_virtual_machine_vmware/website/)
 
 ### 工作类
 
