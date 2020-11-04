@@ -1,6 +1,12 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20200711`
+最后更新：`20201104`
+
+---
+
+[toc]
+
+---
 
 ## 源码
 
@@ -13,6 +19,7 @@
 * 技术类
   * 通用
     * [提高效率](https://book.crifan.com/books/improve_work_efficiency/website)
+    * [电脑通用知识](http://book.crifan.com/books/computer_tech_summary/website)
     * 编程和开发
       * [学习方法和思路](https://book.crifan.com/books/learn_tech_method_experience/website/)
       * [风格](https://book.crifan.com/books/program_code_style/website)
@@ -28,8 +35,6 @@
           * [Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
           * [VSCode](http://book.crifan.com/books/best_editor_vscode/website)
           * [PyCharm](http://book.crifan.com/books/most_intelligent_python_ide_pycharm/website)
-      * 自动化
-        * [Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
       * API
         * [Postman](https://book.crifan.com/books/api_tool_postman/website)
       * 远程连接
@@ -48,8 +53,10 @@
         * 数据库
           * [MySQL](https://book.crifan.com/books/popular_rmdb_mysql/website/)
           * [MongoDB](https://book.crifan.com/books/popular_document_db_mongodb/website/)
-        * 数据交互
-          * [JSON](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
+        * 数据格式
+          * JSON
+            * [旧](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
+            * [新](http://book.crifan.com/books/common_data_format_json/website)
         * 版本管理
           * [Git](http://book.crifan.com/books/version_control_git/website)
         * 字符编码
@@ -66,28 +73,42 @@
             * re模块
               * [旧](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
               * [新](http://book.crifan.com/books/python_regex_re_intro/website)
+      * 安全领域
+        * [概览](http://book.crifan.com/books/information_security_overview/website)
+        * 移动端
+          * [安卓](http://book.crifan.com/books/android_app_security_crack/website)
+          * 辅助工具
+            * [Xposed](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
+            * [Nox模拟器](https://book.crifan.com/books/good_android_emulator_nox/website/)
+        * [工控](http://book.crifan.com/books/industrial_control_security_overview/website)
+      * 自动化
+        * 工具
+          * [Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
+        * 测试
+          * [概览](https://book.crifan.com/books/test_automation_overview/website/)
+          * Web
+            * [Selenium](https://book.crifan.com/books/selenium_summary/website)
+          * 移动端
+            * [概览](https://book.crifan.com/books/mobile_automation_overview/website/)
+            * iOS
+              * [facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
+            * Android
+              * [uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
       * 桌面端
         * [C#](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
         * 跨平台应用
-          * [lectron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
+          * [electron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
       * Apple
         * [开发总结](https://book.crifan.com/books/apple_develop_summary/website/)
       * Web
         * 网站
           * [建站](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
           * [搬家](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
+        * 数据可视化
+          * JS图表库
+            * [ECharts](https://book.crifan.com/books/popular_js_chart_lib_echarts/website/)
       * 移动端
         * [APP开发](https://book.crifan.com/books/mobile_app_summary/website)
-        * 安全和破解
-          * [安卓](http://book.crifan.com/books/android_app_security_crack/website)
-          * [Xposed](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
-          * [Nox模拟器](https://book.crifan.com/books/good_android_emulator_nox/website/)
-        * 自动化测试
-          * [概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-          * iOS
-            * [facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
-          * Android
-            * [uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
       * 爬虫
         * 原理
           * 新教程
@@ -103,8 +124,6 @@
             * [PySpider](http://book.crifan.com/books/python_spider_pyspider/website)
             * [Scrapy](http://book.crifan.com/books/python_spider_scrapy/website)
         * 相关
-          * Web自动化
-            * [Selenium](https://book.crifan.com/books/selenium_summary/website)
           * 内容解析
             * [XPath](https://book.crifan.com/books/xpath_summary/website)
             * BeautifulSoup
@@ -125,6 +144,16 @@
         * [常见总结](https://book.crifan.com/books/common_compress_tool_summary/website/)
       * 音视频
         * [ffmpeg](https://book.crifan.com/books/media_process_ffmpeg/website/)
+      * 通信领域
+        * 移动网络
+          * [演化](http://book.crifan.com/books/mobile_network_evolution_history/website)
+        * 多媒体
+          * [IMS](https://crifan.github.io/multimedia_core_system_ims/website/)
+        * RCS=5G消息
+          * [概述](http://book.crifan.com/books/5g_message_rcs_tech_summary/)
+          * [开发](https://book.crifan.com/books/rcs_tech_dev_summary/website/)
+        * 5G
+          * [概览](https://book.crifan.com/books/5g_tech_summary/website/)
       * 编程语言
         * 个人crifan的库 CrifanLib
           * [C# crifanLib.cs](http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
@@ -144,6 +173,8 @@
             * [总结](http://book.crifan.com/books/python_experience_http_lib/website)
           * 虚拟环境
             * [总结](https://book.crifan.com/books/python_summary_virtual_environment/website/)
+          * 操作文件
+            * [CSV和Excel](http://book.crifan.com/books/python_experience_csv_excel/website)
     * 中间：嵌入式
       * 通用
         * [概念](http://book.crifan.com/books/common_logic_hardware_embedded/website)
@@ -226,6 +257,7 @@
             * [新](https://book.crifan.com/books/popular_virtual_machine_vmware/website/)
     * [买房](http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html)
     * [生活经验](http://book.crifan.com/books/resident_life_experience_summary/website)
+    * [苏州](http://book.crifan.com/books/china_suitable_living_suzhou/website)
   * 娱乐类
     * [羽毛球](http://book.crifan.com/books/all_age_sports_badminton/website)
 
@@ -302,6 +334,8 @@
 * 以及都有一些通知的基础知识：
   * [软件开发基础知识](http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
   * [软件技术开发通用知识](http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
+* 对于计算机，或者说电脑，各种不同类型系统都有一些通用的基础知识：
+  * [计算机电脑知识总结](http://book.crifan.com/books/computer_tech_summary/website)
 
 ### 推荐的工具或软件
 
@@ -346,12 +380,6 @@ Python开发中最专业的IDE：
 如果需要对比文件、文件夹中的内容，可以参考：
 
 [文件内容对比工具总结](http://book.crifan.com/books/file_compare_tool_summary/website)
-
-#### 自动化以提高效率
-
-不论是嵌入式还是上层软件，都可以用一些工具，从手动变自动，去提高做事效率，比如Makefile：
-
-* [自动化利器：Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
 
 #### API接口测试
 
@@ -536,9 +564,12 @@ Python开发中最专业的IDE：
 * [计算机编程语言基础知识](http://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
 * [各种计算机语言简介和总结](http://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
 
-在涉及到前台和后台数据交互，往往都是用JSON：
+在涉及到前台和后台数据交互，常用数据格式是JSON：
 
-* [JSON详解](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
+* 旧教程
+  * [JSON详解](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
+* 新教程
+  * [主流数据格式：JSON](http://book.crifan.com/books/common_data_format_json/website)
 
 ##### 字符编码
 
@@ -556,8 +587,63 @@ Python开发中最专业的IDE：
 
 * 之前用docbook写的旧教程：
   * [正则表达式学习心得](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
-* 后来用gibbook写的新教程
+* 后来用gitbook写的新教程
   * [应用广泛的超强搜索：正则表达式](https://book.crifan.com/books/super_search_regex/website/)
+  * 以及实际的使用案例：
+    * [正则表达式应用举例](http://book.crifan.com/books/regex_usage_examples/website)
+
+#### 安全领域
+
+需要先对安全领域有个总体的了解，可参考自己边学边整理出的：
+
+* [信息安全概览](http://book.crifan.com/books/information_security_overview/website)
+
+然后再去分别了解不同领域内的安全技术：
+
+##### 移动端的安全
+
+爬取安卓app的数据期间，折腾过如何破解安卓，后整理心得如下：
+
+* [安卓应用的安全和破解](http://book.crifan.com/books/android_app_security_crack/website)
+
+以及辅助工具：
+
+* [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
+* [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+
+##### 工控领域的安全
+
+在自己学习期间，边学边整理出对应的入门教程：
+
+* [工控安全概览](http://book.crifan.com/books/industrial_control_security_overview/website)
+
+#### 自动化
+
+##### 把工作自动化的工具
+
+不论是嵌入式还是上层软件，都可以用一些工具，从手动变自动，去提高做事效率，比如Makefile：
+
+* [自动化利器：Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
+
+##### 自动化测试
+
+Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有：
+
+* [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website)
+
+而对于移动端的自动化测试：
+
+想了解概况，可以参考：
+
+* [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
+
+关于iOS端的自动化测试，可以考虑用`facebook-wda`：
+
+* [iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
+
+安卓端的话，可以用`uiautomator2`：
+
+* [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
 
 #### PC桌面端软件
 
@@ -582,25 +668,15 @@ Python开发中最专业的IDE：
 * [建设网站详细教程](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
 * [网站搬家详解](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
 
+在数据可视化方面，有很多JS图形库，图标库，其中主流的有：
+
+* [流行的JS图表库：ECharts](https://book.crifan.com/books/popular_js_chart_lib_echarts/website/)
+
 #### 移动端APP开发
 
 在涉及到移动端开发时，可以参考：
 
 * [移动端APP开发总结](https://book.crifan.com/books/mobile_app_summary/website)
-
-##### 移动端自动化测试
-
-想了解移动端自动化测试的概况，可以参考：
-
-* [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-
-关于iOS端的自动化测试，可以考虑用`facebook-wda`：
-
-* [iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
-
-安卓端的话，可以用`uiautomator2`：
-
-* [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
 
 #### 爬虫
 
@@ -617,10 +693,6 @@ Python开发中最专业的IDE：
 * [Python爬虫框架：PySpider](http://book.crifan.com/books/python_spider_pyspider/website)
 * [主流Python爬虫框架：Scrapy](http://book.crifan.com/books/python_spider_scrapy/website)
 
-在爬虫领域往往会涉及（当前其他领域也会用）到Web网页自动化，才会涉及到Selenium：
-
-* [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website)
-
 在爬虫领域内涉及到提取内容时，往往才会涉及到Xpath：
 
 * [XPath知识总结](https://book.crifan.com/books/xpath_summary/website)
@@ -634,16 +706,25 @@ Python开发中最专业的IDE：
 * [详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）](http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
 * [Python专题教程：抓取网站，模拟登陆，抓取动态网页](http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
 
-#### 安全与破解
+#### 通信领域
 
-爬取安卓app的数据期间，折腾过如何破解安卓，后整理心得如下：
+在移动通信网络中，总体网络从1G到5G的演化，可以参考：
 
-* [安卓应用的安全和破解](http://book.crifan.com/books/android_app_security_crack/website)
+* [移动网络演化史](http://book.crifan.com/books/mobile_network_evolution_history/website)
 
-以及辅助工具：
+期间出现了相关技术：
 
-* [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
-* [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+* IMS
+  * [多媒体业务核心子系统：IMS](http://book.crifan.com/books/multimedia_core_system_ims/website)
+* RCS
+  * 概览
+    * [5G消息RCS技术总结](http://book.crifan.com/books/5g_message_rcs_tech_summary/website)
+  * 开发
+    * [RCS技术开发总结](https://book.crifan.com/books/rcs_tech_dev_summary/website/)
+
+而最新的5G技术，总体概览如下：
+
+* [5G技术概述](http://book.crifan.com/books/5g_tech_summary/website)
 
 #### 上层软件的其他领域
 
@@ -668,7 +749,7 @@ Python开发中最专业的IDE：
 
 在数据库方面，主流的文档数据库有：
 
-* [主流关系数据库：MySQL ](https://book.crifan.com/books/popular_rmdb_mysql/website/)
+* [主流关系数据库：MySQL](https://book.crifan.com/books/popular_rmdb_mysql/website/)
 * [主流文档型数据库：MongoDB](https://book.crifan.com/books/popular_document_db_mongodb/website/)
 
 不同系统中都会涉及到文件和代码等压缩，可以参考：
@@ -706,6 +787,8 @@ Python开发中最专业的IDE：
       * [Python专题教程：字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
     * 网络库
       * [Python心得：http网络库](http://book.crifan.com/books/python_experience_http_lib/website)
+    * 操作excel和CSV
+      * [Python心得：操作CSV和Excel](http://book.crifan.com/books/python_experience_csv_excel/website)
 * 新的
   * 对于新手小白常见的错误和解决方案和引申思考：
     * [Python新手小白常见错误和问题](https://book.crifan.com/books/python_newbie_mistakes_questions/website/)
@@ -716,7 +799,7 @@ Python开发中最专业的IDE：
   * 虚拟环境
     * [Python心得：虚拟环境](https://book.crifan.com/books/python_summary_virtual_environment/website/)
 
-#### 我Crifan个人相关内容
+#### 我Crifan的技术库
 
 在折腾技术方面，整理出一些，相对通用的库，整理出来，供参考：
 
@@ -774,7 +857,7 @@ Python开发中最专业的IDE：
 
 * [汽车销售领域知识总结](https://book.crifan.com/books/automobile_sales_summary/website)
 
-## 生活类
+### 生活类
 
 和买房前后需要注意哪些事项，具体买房的过程的内容：
 
@@ -784,7 +867,11 @@ Python开发中最专业的IDE：
 
 * [居民生活经验总结](http://book.crifan.com/books/resident_life_experience_summary/website)
 
-## 娱乐类
+针对苏州这个城市，也专门整理了极其详尽的各种资料，尤其是宏观规划，详见：
+
+* [中国宜居城市：苏州](http://book.crifan.com/books/china_suitable_living_suzhou/website)
+
+### 娱乐类
 
 本人常年打羽毛球，有些心得，整理如下，供喜欢羽毛球运动的参考：
 
