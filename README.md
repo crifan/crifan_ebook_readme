@@ -16,8 +16,9 @@
 
 关于[Crifan](https://www.crifan.com/about/)的电子书，无需细节只关注重点，则只需看此概览：
 
-* 在线浏览
-  * [crifan电子书概览](https://www.processon.com/mindmap/5fa62139079129448c93148c)
+* 脑图
+  * 在线浏览
+    * [crifan电子书概览](https://www.processon.com/mindmap/5fa62139079129448c93148c)
   * 图片
     * ![crifan电子书概览](assets/processon/crifan电子书概览.png)
 * 文字版
