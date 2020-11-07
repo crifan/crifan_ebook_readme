@@ -18,7 +18,7 @@
 
 * 脑图
   * 在线浏览
-    * [crifan电子书概览](https://www.processon.com/mindmap/5fa62139079129448c93148c)
+    * [crifan电子书概览](https://www.processon.com/view/link/5fa6221f637689653d8b9a1c)
   * 图片
     * ![crifan电子书概览](assets/processon/crifan电子书概览.png)
 * 文字版
