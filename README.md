@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20201107`
+最后更新：`20210203`
 
 ---
 
@@ -364,7 +364,7 @@
 
 * [【crifan推荐】轻量级文本编辑器，Notepad最佳替代品：Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
 
-现在觉得更好用的、最好用的编辑器（设置可称之为IDE）：VSCode：
+现在觉得更好用的、最好用的编辑器（甚至可称之为IDE）：VSCode：
 
 * [史上最好用的编辑器：VSCode](http://book.crifan.com/books/best_editor_vscode/website)
 
