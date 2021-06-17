@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20210203`
+最后更新：`20210617`
 
 ---
 
@@ -81,17 +81,26 @@
                 * [新](http://book.crifan.com/books/python_regex_re_intro/website)
         * 信息安全
           * [概览](http://book.crifan.com/books/information_security_overview/website)
-          * 移动端
-            * [安卓](http://book.crifan.com/books/android_app_security_crack/website)
+          * [Web安全](https://book.crifan.com/books/avoid_hacker_attack_web_security/website/)
+            * [渗透测试](https://book.crifan.com/books/infiltrate_your_net_penetration_testing/website/)
+            * [安全分析](https://book.crifan.com/books/grasp_hacker_track_security_analysis/website/)
+          * [二进制安全](https://book.crifan.com/books/explore_underlying_mechanism_binary_security/website/)
+          * 移动安全
+            * [Android安全](http://book.crifan.com/books/android_app_security_crack/website)
+            * [iOS安全](https://book.crifan.com/books/prevent_iphone_hacked_ios_security/website/)
+          * 设备安全
+            * [工控安全](http://book.crifan.com/books/industrial_control_security_overview/website)
+            * [汽车安全](https://book.crifan.com/books/guard_your_car_car_safety/website/)
+        * 移动端
+          * 安卓
             * 辅助工具
               * [Xposed](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
               * [Nox模拟器](https://book.crifan.com/books/good_android_emulator_nox/website/)
-          * [工控](http://book.crifan.com/books/industrial_control_security_overview/website)
         * 自动化
           * 工具
             * [Makefile](http://book.crifan.com/books/good_automation_tool_makefile/website)
           * 测试
-            * [概览](https://book.crifan.com/books/test_automation_overview/website/)
+            * [概览](https://book.crifan.com/books/free_hand_test_automation/website/)
             * Web
               * [Selenium](https://book.crifan.com/books/selenium_summary/website)
             * 移动端
@@ -270,7 +279,7 @@
 
 我`Crifan Li`之前折腾过很多方面的内容，包括技术类的和非技术类的。
 
-关于技术类中又分很多种，其中都放到了我的网站 crifan.com 上的[工作和技术](https://www.crifan.com/category/work_and_job/)，目前已有**6000多**的技术帖子，但多数都是零散的某个细节的知识点和某个具体问题的解决过程和结果。
+关于技术类中又分很多种，其中都放到了我的网站 crifan.com 上的[工作和技术](https://www.crifan.com/category/work_and_job/)，目前已有**7000多**的技术帖，但多数内容都是零散的某个细节知识点和某个具体问题的解决过程和结果。
 
 当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](http://book.crifan.com/books/ebook_system_gitbook/website)等)工具去制作出电子书，免费发布出来供别人参考。
 
@@ -605,7 +614,29 @@ Python开发中最专业的IDE：
 
 然后再去分别了解不同领域内的安全技术：
 
-##### 移动端的安全
+##### Web安全
+
+其中侧总基于浏览器的、Web相关的安全是：
+
+* [防止被黑客攻击：Web安全](https://book.crifan.com/books/avoid_hacker_attack_web_security/website/)
+
+其中Web安全包含几个主要方面：
+
+* 渗透测试
+  * [潜入你的网络：渗透测试](https://book.crifan.com/books/infiltrate_your_net_penetration_testing/website/)
+* 模糊测试
+* 安全(日志)分析
+  * [掌握黑客的行踪：安全分析](https://book.crifan.com/books/grasp_hacker_track_security_analysis/website/)
+
+##### 二进制安全
+
+二进制安全，也称`PWN`，主要侧重点是操作系统的底层机制：
+
+* [探究底层机制：二进制安全](https://book.crifan.com/books/explore_underlying_mechanism_binary_security/website/)
+
+其中对于Windows系统，就是常说的Windows的漏洞和挖掘等方向。
+
+##### 移动端安全
 
 爬取安卓app的数据期间，折腾过如何破解安卓，后整理心得如下：
 
@@ -616,11 +647,18 @@ Python开发中最专业的IDE：
 * [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.com/books/crack_assistant_xposed_framework/website/)
 * [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
 
-##### 工控领域的安全
+另外，iOS设备的安全，也边学边整理出教程：
 
-在自己学习期间，边学边整理出对应的入门教程：
+* [防止iPhone被黑：iOS安全](https://book.crifan.com/books/prevent_iphone_hacked_ios_security/website/)
 
-* [工控安全概览](http://book.crifan.com/books/industrial_control_security_overview/website)
+##### 设备安全
+
+对于`设备安全`~=`物联网安全`，包含几个子领域=不同侧重点：
+
+* 工控领域
+  * [工控安全概览](http://book.crifan.com/books/industrial_control_security_overview/website)
+* 汽车领域
+  * [守护你的座驾：汽车安全](https://book.crifan.com/books/guard_your_car_car_safety/website/)
 
 #### 自动化
 
@@ -632,23 +670,26 @@ Python开发中最专业的IDE：
 
 ##### 自动化测试
 
-Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有：
+对于自动化测试，先看概览以了解有哪些子领域：
 
-* [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website)
+* [自动化测试概览](https://book.crifan.com/books/free_hand_test_automation/website/)
 
-而对于移动端的自动化测试：
+然后再去了解不同子领域：
 
-想了解概况，可以参考：
-
-* [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-
-关于iOS端的自动化测试，可以考虑用`facebook-wda`：
-
-* [iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
-
-安卓端的话，可以用`uiautomator2`：
-
-* [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
+* Web端
+  * Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有
+    * Selenium
+      * [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website)
+* 移动端
+  * 先了解概况
+    * [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
+  * 再看具体不同方向和工具
+    * Android端
+      * 安卓端的话，可以用`uiautomator2`
+        * [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
+    * iOS端
+      * 关于iOS端的自动化测试，可以考虑用`facebook-wda`：
+        * [iOS自动化测试利器：facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
 
 #### PC桌面端软件
 
@@ -719,7 +760,7 @@ Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫�
 
 期间出现了相关技术：
 
-* IMS
+* (RCS底层所依赖的技术)IMS
   * [多媒体业务核心子系统：IMS](http://book.crifan.com/books/multimedia_core_system_ims/website)
 * RCS
   * 概览
@@ -813,7 +854,8 @@ Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫�
 其中关于自己的库函数，各种语言都有：
 
 * https://github.com/crifan/crifanLib
-  * 其中Python已单独整理出：https://github.com/crifan/crifanLibPython
+  * 其中Python已单独整理出
+    * https://github.com/crifan/crifanLibPython
 
 其中关于C#和Python，分别写了专门的电子书解释如何使用：
 
