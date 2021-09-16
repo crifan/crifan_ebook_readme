@@ -4,7 +4,9 @@
     * https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html
     * https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html
     * https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html
+    * https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html
     * https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html
+    * https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html
     * https://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html
     * https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html
     * https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html
@@ -21,11 +23,13 @@
     * https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html
     * https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html
     * https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html
+    * https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html
     * https://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html
     * https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html
     * https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html
     * https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html
     * https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html
     * https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html
     * https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html
     * https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html
@@ -40,9 +44,12 @@
     * https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html
     * https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html
     * https://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html
+    * https://www.crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html
     * https://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html
+    * https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html
     * https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html
     * https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html
+    * https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html
     * https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html
     * https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html
     * https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html
@@ -56,79 +63,81 @@
     * https://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html
     * https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html
     * https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html
-    * https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html
   * gitbook
     * https://book.crifan.com/books/5g_message_rcs_tech_summary/website
     * https://book.crifan.com/books/5g_tech_summary/website
     * https://book.crifan.com/books/all_age_sports_badminton/website
     * https://book.crifan.com/books/android_app_security_crack/website
+    * https://book.crifan.com/books/android_automation_uiautomator2/website
+    * https://book.crifan.com/books/api_tool_postman/website
     * https://book.crifan.com/books/app_capture_package_tool_charles/website
+    * https://book.crifan.com/books/apple_develop_summary/website
+    * https://book.crifan.com/books/automobile_sales_summary/website
+    * https://book.crifan.com/books/avoid_hacker_attack_web_security/website
+    * https://book.crifan.com/books/best_diagram_tool/website
     * https://book.crifan.com/books/best_editor_vscode/website
     * https://book.crifan.com/books/china_suitable_living_suzhou/website
+    * https://book.crifan.com/books/common_compress_tool_summary/website
     * https://book.crifan.com/books/common_data_format_json/website
     * https://book.crifan.com/books/common_logic_hardware_embedded/website
     * https://book.crifan.com/books/computer_tech_summary/website
-    * https://book.crifan.com/books/crawl_your_data_spider_technology/website
-    * https://book.crifan.com/books/ebook_system_gitbook/website
-    * https://book.crifan.com/books/file_compare_tool_summary/website
-    * https://book.crifan.com/books/gitbook_demo/website
-    * https://book.crifan.com/books/good_automation_tool_makefile/website
-    * https://book.crifan.com/books/html_parse_tool_beautifulsoup/website
-    * https://book.crifan.com/books/ic_chip_industry_chain_summary/website
-    * https://book.crifan.com/books/industrial_automation_plc/website
-    * https://book.crifan.com/books/industrial_control_security_overview/website
-    * https://book.crifan.com/books/information_security_overview/website
-    * https://book.crifan.com/books/mobile_network_evolution_history/website
-    * https://book.crifan.com/books/most_intelligent_python_ide_pycharm/website
-    * https://book.crifan.com/books/multimedia_core_system_ims/website
-    * https://book.crifan.com/books/python_experience_csv_excel/website
-    * https://book.crifan.com/books/python_experience_http_lib/website
-    * https://book.crifan.com/books/python_html_parse_pyquery/website
-    * https://book.crifan.com/books/python_regex_re_intro/website
-    * https://book.crifan.com/books/python_spider_pyspider/website
-    * https://book.crifan.com/books/python_spider_scrapy/website
-    * https://book.crifan.com/books/regex_usage_examples/website
-    * https://book.crifan.com/books/resident_life_experience_summary/website
-    * https://book.crifan.com/books/smart_speaker_disassemble_summary/website
-    * https://book.crifan.com/books/use_python_write_spider/website
-    * https://book.crifan.com/books/popular_version_control_git/website
-    * https://book.crifan.com/books/5g_tech_summary/website
-    * https://book.crifan.com/books/android_automation_uiautomator2/website
-    * https://book.crifan.com/books/api_tool_postman/website
-    * https://book.crifan.com/books/apple_develop_summary/website
-    * https://book.crifan.com/books/automobile_sales_summary/website
-    * https://book.crifan.com/books/best_diagram_tool/website
-    * https://book.crifan.com/books/common_compress_tool_summary/website
     * https://book.crifan.com/books/crack_assistant_xposed_framework/website
+    * https://book.crifan.com/books/crawl_your_data_spider_technology/website
     * https://book.crifan.com/books/desktop_app_framework_electron/website
     * https://book.crifan.com/books/doc_format_markdown/website
     * https://book.crifan.com/books/ebook_system_gitbook/website
     * https://book.crifan.com/books/editor_ide_summary/website
+    * https://book.crifan.com/books/explore_underlying_mechanism_binary_security/website
+    * https://book.crifan.com/books/file_compare_tool_summary/website
+    * https://book.crifan.com/books/free_hand_test_automation/website
+    * https://book.crifan.com/books/gitbook_demo/website
     * https://book.crifan.com/books/good_android_emulator_nox/website
+    * https://book.crifan.com/books/good_automation_tool_makefile/website
+    * https://book.crifan.com/books/grasp_hacker_track_security_analysis/website
+    * https://book.crifan.com/books/guard_your_car_car_safety/website
+    * https://book.crifan.com/books/html_parse_tool_beautifulsoup/website
     * https://book.crifan.com/books/http_restful_api/website
     * https://book.crifan.com/books/http_summary/website
+    * https://book.crifan.com/books/ic_chip_industry_chain_summary/website
     * https://book.crifan.com/books/improve_work_efficiency/website
+    * https://book.crifan.com/books/industrial_automation_plc/website
+    * https://book.crifan.com/books/industrial_control_security_overview/website
+    * https://book.crifan.com/books/infiltrate_your_net_penetration_testing/website
+    * https://book.crifan.com/books/information_security_overview/website
     * https://book.crifan.com/books/ios_automation_facebook_wda/website
     * https://book.crifan.com/books/learn_tech_method_experience/website
     * https://book.crifan.com/books/make_life_better_python/website
     * https://book.crifan.com/books/media_process_ffmpeg/website
     * https://book.crifan.com/books/mobile_app_summary/website
     * https://book.crifan.com/books/mobile_automation_overview/website
+    * https://book.crifan.com/books/mobile_network_evolution_history/website
+    * https://book.crifan.com/books/most_intelligent_python_ide_pycharm/website
+    * https://book.crifan.com/books/multimedia_core_system_ims/website
     * https://book.crifan.com/books/popular_document_db_mongodb/website
     * https://book.crifan.com/books/popular_js_chart_lib_echarts/website
     * https://book.crifan.com/books/popular_rmdb_mysql/website
+    * https://book.crifan.com/books/popular_version_control_git/website
     * https://book.crifan.com/books/popular_virtual_machine_vmware/website
+    * https://book.crifan.com/books/prevent_iphone_hacked_ios_security/website
     * https://book.crifan.com/books/program_code_style/website
     * https://book.crifan.com/books/program_common_logic/website
     * https://book.crifan.com/books/python_common_code_snippet/website
+    * https://book.crifan.com/books/python_experience_csv_excel/website
+    * https://book.crifan.com/books/python_experience_http_lib/website
+    * https://book.crifan.com/books/python_html_parse_pyquery/website
     * https://book.crifan.com/books/python_newbie_mistakes_questions/website
+    * https://book.crifan.com/books/python_regex_re_intro/website
+    * https://book.crifan.com/books/python_spider_pyspider/website
+    * https://book.crifan.com/books/python_spider_scrapy/website
     * https://book.crifan.com/books/python_summary_virtual_environment/website
     * https://book.crifan.com/books/rcs_tech_dev_summary/website
     * https://book.crifan.com/books/regex_usage_examples/website
+    * https://book.crifan.com/books/resident_life_experience_summary/website
     * https://book.crifan.com/books/scientific_network_summary/website
     * https://book.crifan.com/books/selenium_summary/website
+    * https://book.crifan.com/books/smart_speaker_disassemble_summary/website
     * https://book.crifan.com/books/super_search_regex/website
-    * https://book.crifan.com/books/test_automation_overview/website
+    * https://book.crifan.com/books/use_python_write_spider/website
     * https://book.crifan.com/books/work_job_summary/website
     * https://book.crifan.com/books/xpath_summary/website
     * https://book.crifan.com/books/youdao_note_summary/website
