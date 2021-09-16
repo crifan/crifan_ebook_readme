@@ -103,16 +103,20 @@
             * [概览](https://book.crifan.com/books/free_hand_test_automation/website/)
             * Web
               * [Selenium](https://book.crifan.com/books/selenium_summary/website)
+              * [Playwright](https://book.crifan.com/books/web_automation_tool_playwright/website)
+              * [puppeteer](https://book.crifan.com/books/web_automation_tool_puppeteer/website)
             * 移动端
               * [概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-              * iOS
-                * [facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
+                * 通用
+                  * [Appium](https://book.crifan.com/books/popular_automation_framework_appium/website)
               * Android
                 * [uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
+              * iOS
+                * [facebook-wda](https://book.crifan.com/books/ios_automation_facebook_wda/website/)
         * 桌面端
           * [C#](https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
           * 跨平台应用
-            * [electron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
+            * [Electron](https://book.crifan.com/books/desktop_app_framework_electron/website/)
         * Apple
           * [开发总结](https://book.crifan.com/books/apple_develop_summary/website/)
         * Web
@@ -165,7 +169,7 @@
           * 多媒体
             * [IMS](https://crifan.github.io/multimedia_core_system_ims/website/)
           * RCS=5G消息
-            * [概述](https://book.crifan.com/books/5g_message_rcs_tech_summary/)
+            * [概述](https://book.crifan.com/books/5g_message_rcs_tech_summary/website/)
             * [开发](https://book.crifan.com/books/rcs_tech_dev_summary/website/)
           * 5G
             * [概览](https://book.crifan.com/books/5g_tech_summary/website/)
@@ -184,11 +188,11 @@
                 * [让你人生不苦短](https://book.crifan.com/books/make_life_better_python/website/)
             * [常用代码段](https://book.crifan.com/books/python_common_code_snippet/website/)
             * 网络库
-              * [总结](https://book.crifan.com/books/python_experience_http_lib/website)
+              * [总结](https://book.crifan.com/books/python_summary_http_lib/website/)
             * 虚拟环境
-              * [总结](https://book.crifan.com/books/python_summary_virtual_environment/website/)
+              * [总结](https://book.crifan.com/books/isolate_python_project_virtual_environment/website/)
             * 操作文件
-              * [CSV和Excel](https://book.crifan.com/books/python_experience_csv_excel/website)
+              * [CSV和Excel](https://book.crifan.com/books/python_process_csv_excel/website)
       * 中间：嵌入式
         * 通用
           * [概念](https://book.crifan.com/books/common_logic_hardware_embedded/website)
@@ -283,7 +287,7 @@
 
 当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](https://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](https://book.crifan.com/books/ebook_system_gitbook/website)等)工具去制作出电子书，免费发布出来供别人参考。
 
-目前已经整理出**100多**本成系列的电子书了，接下来详细介绍：
+目前已经整理出**130多**本成系列的电子书了，接下来详细介绍：
 
 > 另：手上还有**几十本**电子书的内容已基本完成，待之后能抽出时间再尽快整理发布出来。
 
@@ -680,10 +684,16 @@ Python开发中最专业的IDE：
   * Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有
     * Selenium
       * [Selenium知识总结](https://book.crifan.com/books/selenium_summary/website)
+    * Playwright
+      * [跨平台Web自动化神器：Playwright](https://book.crifan.com/books/web_automation_tool_playwright/website/)
+    * puppeteer
+      * [Web前端自动化利器：puppeteer](https://book.crifan.com/books/web_automation_tool_puppeteer/website/)
 * 移动端
   * 先了解概况
     * [移动端自动化测试概览](https://book.crifan.com/books/mobile_automation_overview/website/)
-  * 再看具体不同方向和工具
+  * 再看具体的不同方向的工具
+    * 通用=跨平台
+      * [主流跨平台自动化框架：Appium](https://book.crifan.com/books/popular_automation_framework_appium/website)
     * Android端
       * 安卓端的话，可以用`uiautomator2`
         * [安卓自动化测试利器：uiautomator2](https://book.crifan.com/books/android_automation_uiautomator2/website/)
@@ -832,9 +842,9 @@ Python开发中最专业的IDE：
     * 字符编码
       * [Python专题教程：字符串和字符编码](https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
     * 网络库
-      * [Python心得：http网络库](https://book.crifan.com/books/python_experience_http_lib/website)
+      * [Python心得：http网络库](https://book.crifan.com/books/python_summary_http_lib/website)
     * 操作excel和CSV
-      * [Python心得：操作CSV和Excel](https://book.crifan.com/books/python_experience_csv_excel/website)
+      * [Python心得：操作CSV和Excel](https://book.crifan.com/books/python_process_csv_excel/website)
 * 新的
   * 对于新手小白常见的错误和解决方案和引申思考：
     * [Python新手小白常见错误和问题](https://book.crifan.com/books/python_newbie_mistakes_questions/website/)
