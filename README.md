@@ -54,8 +54,8 @@
           * API
             * [RESTful](https://book.crifan.org/books/http_restful_api/website)
           * 编程语言
-            * [基础知识](http://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
-            * [语言简介](http://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
+            * [基础知识](https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
+            * [语言简介](https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
           * 数据库
             * [MySQL](https://book.crifan.org/books/popular_rmdb_mysql/website/)
             * [MongoDB](https://book.crifan.org/books/popular_document_db_mongodb/website/)
@@ -66,10 +66,10 @@
           * 版本管理
             * [Git](https://book.crifan.org/books/version_control_git/website)
           * 字符编码
-            * [详解](http://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
-            * [应用](http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
+            * [详解](https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
+            * [应用](https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
             * Python
-              * [字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
+              * [字符串和字符编码](https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
           * 正则表达式
             * 教程
               * [旧](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
@@ -138,15 +138,15 @@
               * iOS
                 * [facebook-wda](https://book.crifan.org/books/ios_automation_facebook_wda/website/)
         * 桌面端
-          * [C#](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
+          * [C#](https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
           * 跨平台应用
             * [Electron](https://book.crifan.org/books/desktop_app_framework_electron/website/)
         * Apple
           * [开发总结](https://book.crifan.org/books/apple_develop_summary/website/)
         * Web
           * 网站
-            * [建站](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
-            * [搬家](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
+            * [建站](https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
+            * [搬家](https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
           * 数据可视化
             * JS图表库
               * [ECharts](https://book.crifan.org/books/popular_js_chart_lib_echarts/website/)
@@ -157,12 +157,12 @@
             * 新
               * [爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website)
             * 旧
-              * [原理和实现](http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
+              * [原理和实现](https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
           * Python
             * 新
               * [用Python写爬虫](https://book.crifan.org/books/use_python_write_spider/website)
             * 旧
-              * [Python抓取网页](http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
+              * [Python抓取网页](https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
             * Python爬虫框架
               * [PySpider](https://book.crifan.org/books/python_spider_pyspider/website)
               * [Scrapy](https://book.crifan.org/books/python_spider_scrapy/website)
@@ -176,7 +176,7 @@
           * 抓包工具
             * [Charles](https://book.crifan.org/books/app_capture_package_tool_charles/website)
         * 编译器
-          * [ANTLR](http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
+          * [ANTLR](https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
         * 电子书
           * 格式
             * [Markdown](https://book.crifan.org/books/doc_format_markdown/website)
@@ -199,14 +199,14 @@
             * [概览](https://book.crifan.org/books/5g_tech_summary/website/)
         * 编程语言
           * 个人crifan的库 CrifanLib
-            * [C# crifanLib.cs](http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
-            * [Python crifanLib.py](http://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
+            * [C# crifanLib.cs](https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
+            * [Python crifanLib.py](https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
           * Python
             * 教程
               * 旧
-                * [入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
-                * [中级教程](http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
-                * [总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
+                * [入门详解](https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
+                * [中级教程](https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
+                * [总结](https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
               * 新
                 * [新手小白常见错误](https://book.crifan.org/books/python_newbie_mistakes_questions/website/)
                 * [让你人生不苦短](https://book.crifan.org/books/make_life_better_python/website/)
@@ -222,58 +222,58 @@
           * [概念](https://book.crifan.org/books/common_logic_hardware_embedded/website)
           * 嵌入式
             * [软件开发](https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html)
-            * [驱动开发](http://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html)
+            * [驱动开发](https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html)
             * 嵌入式Linux
-              * [软件开发](http://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html)
-              * [驱动开发](http://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html)
+              * [软件开发](https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html)
+              * [驱动开发](https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html)
         * 开发前=开发环境
           * 交叉编译
-            * [概览](http://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html)
+            * [概览](https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html)
             * 常见工具
-              * [Buildroot](http://crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html)
-              * [crosstool-ng](http://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html)
+              * [Buildroot](https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html)
+              * [crosstool-ng](https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html)
           * Linux on Win
-            * [Cygwin](http://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html)
+            * [Cygwin](https://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html)
         * 开发期间=开发知识
           * 系统启动
-            * [Uboot的start.S](http://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html)
-          * [中断](http://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html)
+            * [Uboot的start.S](https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html)
+          * [中断](https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html)
           * CPU
-            * [ARM和MIPS对比](http://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html)
+            * [ARM和MIPS对比](https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html)
           * DMA
-            * [ARM的AMBA的PL08X](http://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html)
+            * [ARM的AMBA的PL08X](https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html)
           * 无线网卡
-            * [驱动](http://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html)
+            * [驱动](https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html)
           * Nand Flash
             * Linux
-              * [MTD](http://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html)
-              * [驱动](http://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html)
+              * [MTD](https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html)
+              * [驱动](https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html)
           * USB
-            * [基础知识](http://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html)
-            * [HID](http://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html)
+            * [基础知识](https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html)
+            * [HID](https://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html)
             * Linux
-              * [U盘驱动](http://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html)
+              * [U盘驱动](https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html)
           * 蓝牙
-            * [协议](http://crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html)
+            * [协议](https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html)
           * RS232串口
-            * [协议](http://crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html)
+            * [协议](https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html)
           * 音频
-            * [MPEG和MP3的CBR/VBR](http://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html)
+            * [MPEG和MP3的CBR/VBR](https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html)
           * 其他
-            * [GNU Binutils](http://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html)
+            * [GNU Binutils](https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html)
         * 开发完成=烧录+升级
-          * [固件烧录](http://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html)
-          * [升级Linux系统](http://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html)  
+          * [固件烧录](https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html)
+          * [升级Linux系统](https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html)  
         * 其他领域
           * [PLC](https://book.crifan.org/books/industrial_automation_plc/website)
           * [现场总线](http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html)
           * 条形码Symbology
-            * [Code 128](http://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html)
-            * [GS1-128](http://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html)
-            * [Plessey和MSI](http://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html)
-            * [UPC系列和EAN](http://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html)
+            * [Code 128](https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html)
+            * [GS1-128](https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html)
+            * [Plessey和MSI](https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html)
+            * [UPC系列和EAN](https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html)
       * 底层：硬件
-        * [基础知识](http://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html)
+        * [基础知识](https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html)
         * 芯片
           * [产业链](https://book.crifan.org/books/ic_chip_industry_chain_summary/website)
         * 智能音箱
@@ -288,12 +288,12 @@
         * [汽车销售](https://book.crifan.org/books/automobile_sales_summary/website)
     * 生活类
       * 电脑使用
-        * [基础知识](http://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
-        * [推荐软件](http://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html)
+        * [基础知识](https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
+        * [推荐软件](https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html)
         * 虚拟机
-          * [教程](http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
+          * [教程](https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
           * 常见
-            * [VirtualBox](http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
+            * [VirtualBox](https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
             * VMWare
               * [旧](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
               * [新](https://book.crifan.org/books/popular_virtual_machine_vmware/website/)
@@ -374,8 +374,8 @@
 * 对于不同领域的技术，都有一些通用的概念需要了解，才能更好的开发：
   * [计算机编程通用逻辑知识概念](https://book.crifan.org/books/program_common_logic/website)
 * 以及都有一些通知的基础知识：
-  * [软件开发基础知识](http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
-  * [软件技术开发通用知识](http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
+  * [软件开发基础知识](https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
+  * [软件技术开发通用知识](https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
 * 对于计算机，或者说电脑，各种不同类型系统都有一些通用的基础知识：
   * [计算机电脑知识总结](https://book.crifan.org/books/computer_tech_summary/website)
 
@@ -399,7 +399,7 @@
 
 之前Windows下觉得最好用的编辑器Notepad++：
 
-* [【crifan推荐】轻量级文本编辑器，Notepad最佳替代品：Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
+* [【crifan推荐】轻量级文本编辑器，Notepad最佳替代品：Notepad++](https://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
 
 现在觉得更好用的、最好用的编辑器（甚至可称之为IDE）：VSCode：
 
@@ -433,13 +433,13 @@ Python开发中最专业的IDE：
 
 通过SSH连接远程服务器的工具方面，常用SecureCRT：
 
-* [【crifan推荐】支持多种协议的串口开发工具：SecureCRT](http://crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html)
+* [【crifan推荐】支持多种协议的串口开发工具：SecureCRT](https://www.crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html)
 
 #### 代码版本管理
 
 当前最流行的是`Git`：
 
-* [最流行的版本管理系统：Git](https://book.crifan.org/books/version_control_git/website)
+* [最流行的版本管理系统：Git](https://book.crifan.org/books/popular_version_control_git/website)
 
 ### 硬件类
 
@@ -447,7 +447,7 @@ Python开发中最专业的IDE：
 
 只整理了点和硬件相关的皮毛：
 
-* [硬件电路基础知识](http://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html)
+* [硬件电路基础知识](https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html)
 
 之前拆过智能音箱，然后总结了相关各种细节：
 
@@ -467,11 +467,11 @@ Python开发中最专业的IDE：
 
 关于CPU方面的：
 
-* [ARM与MIPS的详细对比](http://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html)
+* [ARM与MIPS的详细对比](https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html)
 
 和技术和概念相关的，比如：
 
-* [【详解】中断相关的知识](http://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html)
+* [【详解】中断相关的知识](https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html)
 
 #### 开发环境+交叉编译器
 
@@ -479,22 +479,22 @@ Python开发中最专业的IDE：
 
 先去搞清楚什么是交叉编译：
 
-* [交叉编译详解](http://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html)
+* [交叉编译详解](https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html)
 
 然后再去了解相关的GNU方面的工具：
 
-* [GNU Binutils详解](http://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html)
+* [GNU Binutils详解](https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html)
 
 然后再去用具体的某个工具，去搭建交叉编译环境（和相关的工具链、rootfs等内容）：
 
-* [Buildroot详解](http://crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html)
-* [crosstool-ng详解](http://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html)
+* [Buildroot详解](https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html)
+* [crosstool-ng详解](https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html)
 
 关于开发环境的：
 
 在Windows上折腾Linux方面的开发，用Cygiwn：
 
-* [Cygwin详解](http://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html)
+* [Cygwin详解](https://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html)
 
 #### 嵌入式Linux+嵌入式Linux驱动
 
@@ -504,17 +504,17 @@ Python开发中最专业的IDE：
 
 如果想要了解嵌入式软件中关于驱动开发的事情，可以去看：
 
-* [嵌入式驱动开发](http://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html)
+* [嵌入式驱动开发](https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html)
 
 而关于嵌入式Linux方面的软件和软件中的驱动，可以去看：
 
-* [嵌入式Linux软件开发](http://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html)
-* [嵌入式Linux驱动开发](http://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html)
+* [嵌入式Linux软件开发](https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html)
+* [嵌入式Linux驱动开发](https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html)
 
 关于嵌入式Linux开发期间的，有：
 
-* [【详解】嵌入式开发中固件的烧录方式](http://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html)
-* [在Linux运行期间升级Linux系统（Uboot+kernel+Rootfs）](http://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html)
+* [【详解】嵌入式开发中固件的烧录方式](https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html)
+* [在Linux运行期间升级Linux系统（Uboot+kernel+Rootfs）](https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html)
 
 而关于典型的Uboot+Kernel+Rootfs的嵌入式Linux中的Uboot：
 
@@ -522,31 +522,31 @@ Python开发中最专业的IDE：
 
 而关于启动的逻辑的具体分析：
 
-* [Uboot中start.S源码的指令级的详尽解析](http://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html)
+* [Uboot中start.S源码的指令级的详尽解析](https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html)
 
 而关于具体的某个模块/功能方面的驱动有：
 
 关于DMA的驱动：
 
-* [详解ARM的AMBA设备中的DMA设备PL08X的Linux驱动](http://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html)
+* [详解ARM的AMBA设备中的DMA设备PL08X的Linux驱动](https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html)
 
 关于无线网卡的驱动：
 
-* [如何在Linux下写无线网卡的驱动](http://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html)
+* [如何在Linux下写无线网卡的驱动](https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html)
 
 关于Nand Flash方面的驱动和介绍：
 
-* [【详解】如何编写Linux下Nand Flash驱动](http://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html)
+* [【详解】如何编写Linux下Nand Flash驱动](https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html)
 
 而其中Linux中关于Nand Flash的是MTD层，MTD中关于如何识别Nand Flash和启动过程的解析是：
 
-* [Linux MTD下获取Nand flash各个参数的过程的详细解析](http://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html)
+* [Linux MTD下获取Nand flash各个参数的过程的详细解析](https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html)
 
 而关于USB方面的协议介绍和相关驱动开发总结是：
 
-* [USB基础知识概论](http://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html)
-* [如何实现Linux下的U盘（USB Mass Storage）驱动](http://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html)
-* [USB HID Learning Record](http://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html)
+* [USB基础知识概论](https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html)
+* [如何实现Linux下的U盘（USB Mass Storage）驱动](https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html)
+* [USB HID Learning Record](https://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html)
 
 #### 具体模块或领域
 
@@ -560,30 +560,30 @@ Python开发中最专业的IDE：
 
 ##### 大的方向=嵌入式的不同应用领域
 
-* [现场总线Fieldbus简析](http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html)
+* [现场总线Fieldbus简析](https://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html)
 
 条形码Symbology相关的，各种不同类型的条形码的总结：
 
-* [Code 128 Symbology Introduction](http://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html)
-* [GS1-128条形码和相关的AI及FNC1的详解](http://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html)
-* [Plessey & MSI Symbology Introduction](http://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html)
-* [UPC/UPC-A/UPC-E & EAN Barcode Symbology](http://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html)
+* [Code 128 Symbology Introduction](https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html)
+* [GS1-128条形码和相关的AI及FNC1的详解](https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html)
+* [Plessey & MSI Symbology Introduction](https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html)
+* [UPC/UPC-A/UPC-E & EAN Barcode Symbology](https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html)
 
 ##### 小方面来说=关于具体的模块/硬件/协议方面
 
 关于蓝牙的：
 
-* [蓝牙协议详解](http://crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html)
+* [蓝牙协议详解](https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html)
 
 关于串口/RS232的：
 
-* [RS232串口协议详解](http://crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html)
+* [RS232串口协议详解](https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html)
 
 关于音频领域的：
 
 关于MPEG和MP3的知识：
 
-* [MPEG简介 + 如何计算CBR和VBR的MP3的播放时间](http://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html)
+* [MPEG简介 + 如何计算CBR和VBR的MP3的播放时间](https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html)
 
 ### 上层软件
 
@@ -603,13 +603,13 @@ Python开发中最专业的IDE：
 
 各种计算机语言通用的的方面的知识总结：
 
-* [计算机编程语言基础知识](http://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
-* [各种计算机语言简介和总结](http://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
+* [计算机编程语言基础知识](https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
+* [各种计算机语言简介和总结](https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
 
 在涉及到前台和后台数据交互，常用数据格式是JSON：
 
 * 旧教程
-  * [JSON详解](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
+  * [JSON详解](https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
 * 新教程
   * [主流数据格式：JSON](https://book.crifan.org/books/common_data_format_json/website)
 
@@ -617,18 +617,18 @@ Python开发中最专业的IDE：
 
 而用不同的编辑器或IDE，以及处理文件相关的内容时，往往会涉及到文件的字符编码，可参考：
 
-* [字符编码详解](http://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
+* [字符编码详解](https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
 
 而上面的教程内容太多太杂，如果只是想要简单的使用编码方面的知识，可以直接去看：
 
-* [字符编码应用](http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
+* [字符编码应用](https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
 
 ##### 正则表达式
 
 不同的语言和工具中，都支持用正则表达式去实现复杂的规则去提取想要的数据。可以参考：
 
 * 之前用docbook写的旧教程：
-  * [正则表达式学习心得](http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
+  * [正则表达式学习心得](https://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html)
 * 后来用gitbook写的新教程
   * [应用广泛的超强搜索：正则表达式](https://book.crifan.org/books/super_search_regex/website/)
   * 以及实际的使用案例：
@@ -756,7 +756,7 @@ Python开发中最专业的IDE：
 
 在写Windows平台的桌面端软件时，可以使用`C#`：
 
-* [C#学习心得](http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
+* [C#学习心得](https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html)
 
 如果想要开发跨平台的桌面端应用，可以考虑选用`Electron`：
 
@@ -772,8 +772,8 @@ Python开发中最专业的IDE：
 
 关于如何搭建网站，以及如何给网站搬家的话，可以参考：
 
-* [建设网站详细教程](http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
-* [网站搬家详解](http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
+* [建设网站详细教程](https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html)
+* [网站搬家详解](https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html)
 
 在数据可视化方面，有很多JS图形库，图标库，其中主流的有：
 
@@ -810,8 +810,8 @@ Python开发中最专业的IDE：
 
 另外，之前也写过相关的爬虫方面的资料：
 
-* [详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）](http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
-* [Python专题教程：抓取网站，模拟登陆，抓取动态网页](http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
+* [详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）](https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
+* [Python专题教程：抓取网站，模拟登陆，抓取动态网页](https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
 
 #### 通信领域
 
@@ -837,7 +837,7 @@ Python开发中最专业的IDE：
 
 比如想要开发自己特定领域内的语言的解析器，即实现自己的编译器，可以使用ANTLR：
 
-* [ANTLR教程](http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
+* [ANTLR教程](https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
 
 想要和我一样去制作出复杂的电子书，则可以：
 
@@ -850,9 +850,13 @@ Python开发中最专业的IDE：
 * [电子书制作利器：GitBook](https://book.crifan.org/books/ebook_system_gitbook/website)
   * 如果想要更简单易用更省心，可以基于我的[Gitbook的模板](https://github.com/crifan/gitbook_template)去制作，生成的效果是[Gitbook演示](https://book.crifan.org/books/gitbook_demo/website)
 
+不过gitbook官网放弃维护，所以换用兼容和集成自`Gitbook`的`HonKit`：
+
+* [crifan/honkit_template: 用于创建HonKit电子书的HonKit的模板](https://github.com/crifan/honkit_template)
+
 也可以用更加强大但非常复杂的，技术类书籍专业制作工具Docbook：
 
-* [Docbook开发手记](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
+* [Docbook开发手记](https://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
 
 在数据库方面，主流的文档数据库有：
 
@@ -873,25 +877,25 @@ Python开发中最专业的IDE：
 
 * 旧的
   * 用于入门级的介绍的：
-    * [python初级教程：入门详解](http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
+    * [python初级教程：入门详解](https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html)
   * 关于整体的Python的心得和总结：
-    * [python中级教程：开发总结](http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
-    * [Python语言总结](http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
+    * [python中级教程：开发总结](https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html)
+    * [Python语言总结](https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html)
   * 关于某个特定的模块的总结：
     * BeautifulSoup
       * 旧教程
-        * [Python专题教程：BeautifulSoup详解](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
+        * [Python专题教程：BeautifulSoup详解](https://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
       * 新教程
         * [网页解析利器：BeautifulSoup](https://book.crifan.org/books/html_parse_tool_beautifulsoup/website)
     * PyQuery
       * [HTML解析库Python版jQuery：PyQuery](https://book.crifan.org/books/python_html_parse_pyquery/website)
     * re模块
       * 旧的
-        * [Python专题教程：正则表达式re模块详解](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
+        * [Python专题教程：正则表达式re模块详解](https://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
       * 新的
         * [Python中正则表达式：re模块详解](https://book.crifan.org/books/python_regex_re_intro/website)
     * 字符编码
-      * [Python专题教程：字符串和字符编码](http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
+      * [Python专题教程：字符串和字符编码](https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
     * 网络库
       * [Python心得：http网络库](https://book.crifan.org/books/python_summary_http_lib/website/)
     * 操作excel和CSV
@@ -920,8 +924,8 @@ Python开发中最专业的IDE：
 
 其中关于C#和Python，分别写了专门的电子书解释如何使用：
 
-* [详解crifan的C#库：crifanLib.cs](http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
-* [详解crifan的Python库：crifanLib.py](http://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
+* [详解crifan的C#库：crifanLib.cs](https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html)
+* [详解crifan的Python库：crifanLib.py](https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html)
 
 ## 非技术类
 
@@ -929,21 +933,21 @@ Python开发中最专业的IDE：
 
 和电脑/计算机使用方面的知识，比如有哪些常见的操作系统，以及如何安装软件和驱动等知识的：
 
-* [电脑基础知识教程](http://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
+* [电脑基础知识教程](https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
 
 以及觉得很多好用的工具和软件，也进行了推荐：
 
-* [crifan推荐软件](http://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html)
+* [crifan推荐软件](https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html)
 
 和技术开发有点关系，但是更主要是属于电脑使用方面的，虚拟机：
 
 在`Windows`、`Mac`等系统中，想要安装另外一个系统，可以用虚拟机软件，比如`VMWare`或`VirtualBox`：
 
-* [虚拟机教程](http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
-* [VirtualBox教程](http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
+* [虚拟机教程](https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html)
+* [VirtualBox教程](https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html)
 * VMWare
   * 旧的
-    * [VMWare教程](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
+    * [VMWare教程](https://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
   * 新的
     * [主流虚拟机软件：VMWare](https://book.crifan.org/books/popular_virtual_machine_vmware/website/)
 
@@ -969,7 +973,7 @@ Python开发中最专业的IDE：
 
 和买房前后需要注意哪些事项，具体买房的过程的内容：
 
-* [买房详细教程](http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html)
+* [买房详细教程](https://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html)
 
 以及日常生活期间也有些心得供参考：
 

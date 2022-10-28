@@ -1,62 +1,77 @@
 
 * crifan所有电子书列表
   * docbook
-    * http://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html
-    * http://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html
-    * http://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html
     * http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html
-    * http://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html
-    * http://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html
-    * http://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html
-    * http://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html
-    * http://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html
-    * http://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html
-    * http://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html
-    * http://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html
-    * http://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html
-    * http://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html
-    * http://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html
     * http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html
-    * http://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html
-    * http://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html
-    * http://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html
     * http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html
-    * http://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html
-    * http://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html
-    * http://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html
     * http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html
-    * http://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html
-    * http://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html
-    * http://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html
-    * http://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html
-    * http://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html
-    * http://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html
     * http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html
     * http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html
-    * http://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html
-    * http://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html
     * http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html
     * http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html
-    * http://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html
     * http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html
-    * http://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html
-    * http://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html
-    * http://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html
-    * http://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html
-    * http://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html
-    * http://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html
-    * http://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html
-    * http://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html
-    * http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html
     * http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html
-    * http://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html
-    * http://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html
+    * https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html
+    * https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html
+    * https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html
+    * https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html
+    * https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html
+    * https://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html
+    * https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html
+    * https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html
+    * https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html
+    * https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html
+    * https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html
+    * https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html
+    * https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html
+    * https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html
+    * https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html
+    * https://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html
+    * https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html
+    * https://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html
+    * https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html
+    * https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html
+    * https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html
     * https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html
+    * https://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html
+    * https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html
+    * https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html
+    * https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html
+    * https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html
+    * https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html
+    * https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html
+    * https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html
+    * https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html
+    * https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html
+    * https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html
+    * https://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html
+    * https://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html
+    * https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html
+    * https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html
+    * https://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html
+    * https://www.crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html
+    * https://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html
+    * https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html
+    * https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html
+    * https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html
+    * https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html
+    * https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html
+    * https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html
+    * https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html
+    * https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html
+    * https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html
+    * https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html
+    * https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html
+    * https://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html
+    * https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html
+    * https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html
+    * https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html
   * gitbook
     * https://book.crifan.org/books/5g_message_rcs_tech_summary/website
     * https://book.crifan.org/books/5g_tech_summary/website
@@ -126,6 +141,7 @@
     * https://book.crifan.org/books/popular_document_db_mongodb/website
     * https://book.crifan.org/books/popular_js_chart_lib_echarts/website
     * https://book.crifan.org/books/popular_rmdb_mysql/website
+    * https://book.crifan.org/books/popular_version_control_git/website
     * https://book.crifan.org/books/popular_virtual_machine_vmware/website
     * https://book.crifan.org/books/prevent_iphone_hacked_ios_security/website
     * https://book.crifan.org/books/program_code_style/website
