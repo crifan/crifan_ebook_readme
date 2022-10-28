@@ -14,7 +14,7 @@
 
 ## Crifan电子书的简要说明
 
-关于[Crifan](https://www.crifan.com/about/)的电子书，无需细节只关注重点，则只需看此概览：
+关于[Crifan](https://www.crifan.org/about/)的电子书，无需细节只关注重点，则只需看此概览：
 
 * 脑图
   * 在线浏览
