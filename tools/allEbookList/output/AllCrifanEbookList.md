@@ -164,7 +164,6 @@
     * https://book.crifan.org/books/smart_speaker_disassemble_summary/website
     * https://book.crifan.org/books/super_search_regex/website
     * https://book.crifan.org/books/use_python_write_spider/website
-    * https://book.crifan.org/books/version_control_git/website
     * https://book.crifan.org/books/web_automation_tool_playwright/website
     * https://book.crifan.org/books/web_automation_tool_puppeteer/website
     * https://book.crifan.org/books/work_job_summary/website

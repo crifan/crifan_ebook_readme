@@ -64,7 +64,7 @@
               * [旧](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
               * [新](https://book.crifan.org/books/common_data_format_json/website)
           * 版本管理
-            * [Git](https://book.crifan.org/books/version_control_git/website)
+            * [Git](https://book.crifan.org/books/popular_version_control_git/website/)
           * 字符编码
             * [详解](https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html)
             * [应用](https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html)
@@ -104,7 +104,7 @@
                     * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
                     * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
                     * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
-                      * [iOS逆向开发：ObjC运行时Runtime](https://book.crifan.org/books/ios_re_objc_runtime/website/)
+                      * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
                       * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
                     * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
                     * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
@@ -697,7 +697,7 @@ Python开发中最专业的IDE：
         * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
         * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
         * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
-          * [iOS逆向开发：ObjC运行时Runtime](https://book.crifan.org/books/ios_re_objc_runtime/website/)
+          * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
           * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
         * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
         * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
