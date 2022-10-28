@@ -1,7 +1,7 @@
 
 # Function: Generate all crifan ebook list
 # Author: Crifan Li
-# Update: 20201212
+# Update: 20221028
 # Latest: https://github.com/crifan/crifan_ebook_readme/blob/master/allEbookList/generateAllBookList.py
 
 import re
@@ -62,13 +62,17 @@ uniqueDocbookUrlTotalNum = len(uniqueDocbookUrlList)
 print("uniqueDocbookUrlTotalNum=%s" % uniqueDocbookUrlTotalNum) # 56
 
 # * [VSCode](http://book.crifan.com/books/best_editor_vscode/website)
-allGitbookUrlList = re.findall("https?://book\.crifan\.com/books/\w+/website", mdStr)
+# allGitbookUrlList = re.findall("https?://book\.crifan\.com/books/\w+/website", mdStr)
+allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website", mdStr)
 allGitbookNameTotalNum = len(allGitbookUrlList)
 print("allGitbookNameTotalNum=%s" % allGitbookNameTotalNum) # 139
 uniqueGitbookUrlList = uniqueList(allGitbookUrlList)
 uniqueGitbookUrlList.sort()
 uniqueGitbookUrlTotalNum = len(uniqueGitbookUrlList)
 print("uniqueGitbookUrlTotalNum=%s" % uniqueGitbookUrlTotalNum) # 74
+
+uniqueAllTotalNum = uniqueDocbookUrlTotalNum + uniqueGitbookUrlTotalNum
+print("uniqueAllTotalNum=%s" % uniqueAllTotalNum) # 130
 
 allDockbookMdStr = "\n    * ".join(uniqueDocbookUrlList)
 allGitbookMdStr  = "\n    * ".join(uniqueGitbookUrlList)
