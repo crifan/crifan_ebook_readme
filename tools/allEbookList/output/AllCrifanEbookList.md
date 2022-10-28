@@ -105,7 +105,7 @@
     * https://book.crifan.org/books/good_android_emulator_nox/website
     * https://book.crifan.org/books/good_automation_tool_makefile/website
     * https://book.crifan.org/books/grasp_hacker_track_security_analysis/website
-    * https://book.crifan.org/books/guard_your_car_car_safety/website
+    * https://book.crifan.org/books/guard_your_car_safety/website
     * https://book.crifan.org/books/html_parse_tool_beautifulsoup/website
     * https://book.crifan.org/books/http_restful_api/website
     * https://book.crifan.org/books/http_summary/website

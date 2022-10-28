@@ -114,7 +114,7 @@
                     * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
           * 设备安全
             * [工控安全](https://book.crifan.org/books/industrial_control_security_overview/website)
-            * [汽车安全](https://book.crifan.org/books/guard_your_car_car_safety/website/)
+            * [汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
         * 移动端
           * 安卓
             * 辅助工具
@@ -713,7 +713,7 @@ Python开发中最专业的IDE：
 * 工控领域
   * [工控安全概览](https://book.crifan.org/books/industrial_control_security_overview/website)
 * 汽车领域
-  * [守护你的座驾：汽车安全](https://book.crifan.org/books/guard_your_car_car_safety/website/)
+  * [守护你的座驾：汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
 
 #### 自动化
 
