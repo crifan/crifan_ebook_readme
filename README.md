@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20221028`
+最后更新：`20221107`
 
 ---
 
@@ -24,35 +24,35 @@
 * 文字版
   * 技术类
     * 通用
-      * [提高效率](https://book.crifan.org/books/improve_work_efficiency/website)
-      * [电脑通用知识](https://book.crifan.org/books/computer_tech_summary/website)
+      * [提高效率](https://book.crifan.org/books/improve_work_efficiency/website/)
+      * [电脑通用知识](https://book.crifan.org/books/computer_tech_summary/website/)
       * 编程和开发
         * [学习方法和思路](https://book.crifan.org/books/learn_tech_method_experience/website/)
-        * [风格](https://book.crifan.org/books/program_code_style/website)
+        * [风格](https://book.crifan.org/books/program_code_style/website/)
         * [规范](http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html)
-        * [通用概念](https://book.crifan.org/books/program_common_logic/website)
+        * [通用概念](https://book.crifan.org/books/program_common_logic/website/)
         * [基础知识](http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
         * [通用知识](http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
       * 推荐工具
-        * [科学上网](https://book.crifan.org/books/scientific_network_summary/website)
+        * [科学上网](https://book.crifan.org/books/scientific_network_summary/website/)
         * 编辑器和IDE
           * [总结](https://book.crifan.org/books/editor_ide_summary/website/)
           * 好用工具
             * [Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
-            * [VSCode](https://book.crifan.org/books/best_editor_vscode/website)
-            * [PyCharm](https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website)
+            * [VSCode](https://book.crifan.org/books/best_editor_vscode/website/)
+            * [PyCharm](https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website/)
         * API
-          * [Postman](https://book.crifan.org/books/api_tool_postman/website)
+          * [Postman](https://book.crifan.org/books/api_tool_postman/website/)
         * 远程连接
           * [SecureCRT](http://crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html)
         * [画图工具](https://book.crifan.org/books/best_diagram_tool/website/)
-        * [文件对比](https://book.crifan.org/books/file_compare_tool_summary/website)
+        * [文件对比](https://book.crifan.org/books/file_compare_tool_summary/website/)
     * 不同层次
       * 上层：纯软件
         * 通用
-          * [HTTP](https://book.crifan.org/books/http_summary/website)
+          * [HTTP](https://book.crifan.org/books/http_summary/website/)
           * API
-            * [RESTful](https://book.crifan.org/books/http_restful_api/website)
+            * [RESTful](https://book.crifan.org/books/http_restful_api/website/)
           * 编程语言
             * [基础知识](https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html)
             * [语言简介](https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html)
@@ -62,7 +62,7 @@
           * 数据格式
             * JSON
               * [旧](http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
-              * [新](https://book.crifan.org/books/common_data_format_json/website)
+              * [新](https://book.crifan.org/books/common_data_format_json/website/)
           * 版本管理
             * [Git](https://book.crifan.org/books/popular_version_control_git/website/)
           * 字符编码
@@ -78,42 +78,52 @@
             * Python
               * re模块
                 * [旧](http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
-                * [新](https://book.crifan.org/books/python_regex_re_intro/website)
+                * [新](https://book.crifan.org/books/python_regex_re_intro/website/)
         * 信息安全
-          * [概览](https://book.crifan.org/books/information_security_overview/website)
+          * [概览](https://book.crifan.org/books/information_security_overview/website/)
           * [Web安全](https://book.crifan.org/books/avoid_hacker_attack_web_security/website/)
             * [渗透测试](https://book.crifan.org/books/infiltrate_your_net_penetration_testing/website/)
             * [安全分析](https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/)
           * [二进制安全](https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/)
           * 移动安全
-            * [Android安全和逆向](https://book.crifan.org/books/android_app_security_crack/website)
+            * [Android安全和逆向](https://book.crifan.org/books/android_app_security_crack/website/)
               * Android逆向
                 * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
-                  * [Android逆向：动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
+                  * [开启root](https://book.crifan.org/books/android_re_enable_root/website/)
+                  * [重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
+                  * [动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
             * iOS安全和逆向
-              * 旧
-                * [iOS安全](https://book.crifan.org/books/prevent_iphone_hacked_ios_security/website/)
               * iOS安全
                 * [iOS安全与防护](https://book.crifan.org/books/ios_security_protect/website/)
               * iOS逆向
                 * [iOS逆向开发](https://book.crifan.org/books/ios_reverse_dev/website/)
-                  * 系列
-                    * [iOS逆向开发：iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
-                    * [iOS逆向开发：砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
-                    * [iOS逆向开发：静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
-                    * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
-                    * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
-                    * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
-                      * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
-                      * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
-                    * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
-                    * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
+                  * 典型流程
+                    * [iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
+                    * [砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
+                    * [静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
+                    * [动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
+                      * [MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+                  * 涉及领域
+                    * [越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
+                    * [iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
+                      * [ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
+                      * [Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
+                    * [越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
+                  * 实例
+                    * [YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
+                      * [protobuf逆向](https://book.crifan.org/books/ios_re_protobuf_reverse/website/)
                   * 相关
-                    * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
-                    * [最流行汇编语言：ARM](https://book.crifan.org/books/popular_assembly_arm/website/)
-                    * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
+                    * 开发语言
+                      * [ARM汇编](https://book.crifan.org/books/popular_assembly_arm/website/)
+                      * [C](https://book.crifan.org/books/c_lang_dev_summary/website/)
+                      * [iOS](https://book.crifan.org/books/ios_dev_summary/website/)
+                    * 工具
+                      * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
+                      * [Xcode](https://book.crifan.org/books/xcode_dev_summary/website/)
+                        * [调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
+                        * [调试器LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
           * 设备安全
-            * [工控安全](https://book.crifan.org/books/industrial_control_security_overview/website)
+            * [工控安全](https://book.crifan.org/books/industrial_control_security_overview/website/)
             * [汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
         * 移动端
           * 安卓
@@ -122,17 +132,17 @@
               * [Nox模拟器](https://book.crifan.org/books/good_android_emulator_nox/website/)
         * 自动化
           * 工具
-            * [Makefile](https://book.crifan.org/books/good_automation_tool_makefile/website)
+            * [Makefile](https://book.crifan.org/books/good_automation_tool_makefile/website/)
           * 测试
             * [概览](https://book.crifan.org/books/free_hand_test_automation/website/)
             * Web
-              * [Selenium](https://book.crifan.org/books/selenium_summary/website)
-              * [Playwright](https://book.crifan.org/books/web_automation_tool_playwright/website)
-              * [puppeteer](https://book.crifan.org/books/web_automation_tool_puppeteer/website)
+              * [Selenium](https://book.crifan.org/books/selenium_summary/website/)
+              * [Playwright](https://book.crifan.org/books/web_automation_tool_playwright/website/)
+              * [puppeteer](https://book.crifan.org/books/web_automation_tool_puppeteer/website/)
             * 移动端
               * [概览](https://book.crifan.org/books/mobile_automation_overview/website/)
                 * 通用
-                  * [Appium](https://book.crifan.org/books/popular_automation_framework_appium/website)
+                  * [Appium](https://book.crifan.org/books/popular_automation_framework_appium/website/)
               * Android
                 * [uiautomator2](https://book.crifan.org/books/android_automation_uiautomator2/website/)
               * iOS
@@ -151,37 +161,37 @@
             * JS图表库
               * [ECharts](https://book.crifan.org/books/popular_js_chart_lib_echarts/website/)
         * 移动端
-          * [APP开发](https://book.crifan.org/books/mobile_app_summary/website)
+          * [APP开发](https://book.crifan.org/books/mobile_app_summary/website/)
         * 爬虫
           * 原理
             * 新
-              * [爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website)
+              * [爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website/)
             * 旧
               * [原理和实现](https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html)
           * Python
             * 新
-              * [用Python写爬虫](https://book.crifan.org/books/use_python_write_spider/website)
+              * [用Python写爬虫](https://book.crifan.org/books/use_python_write_spider/website/)
             * 旧
               * [Python抓取网页](https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html)
             * Python爬虫框架
-              * [PySpider](https://book.crifan.org/books/python_spider_pyspider/website)
-              * [Scrapy](https://book.crifan.org/books/python_spider_scrapy/website)
+              * [PySpider](https://book.crifan.org/books/python_spider_pyspider/website/)
+              * [Scrapy](https://book.crifan.org/books/python_spider_scrapy/website/)
           * 相关
             * 内容解析
-              * [XPath](https://book.crifan.org/books/xpath_summary/website)
+              * [XPath](https://book.crifan.org/books/xpath_summary/website/)
               * BeautifulSoup
                 * [旧](http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
-                * [新](https://book.crifan.org/books/html_parse_tool_beautifulsoup/website)
-              * [PyQuery](https://book.crifan.org/books/python_html_parse_pyquery/website)
+                * [新](https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/)
+              * [PyQuery](https://book.crifan.org/books/python_html_parse_pyquery/website/)
           * 抓包工具
-            * [Charles](https://book.crifan.org/books/app_capture_package_tool_charles/website)
+            * [Charles](https://book.crifan.org/books/app_capture_package_tool_charles/website/)
         * 编译器
           * [ANTLR](https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html)
         * 电子书
           * 格式
-            * [Markdown](https://book.crifan.org/books/doc_format_markdown/website)
+            * [Markdown](https://book.crifan.org/books/doc_format_markdown/website/)
           * 制作工具
-            * [GitBook](https://book.crifan.org/books/ebook_system_gitbook/website)
+            * [GitBook](https://book.crifan.org/books/ebook_system_gitbook/website/)
             * [Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)
         * 压缩工具
           * [常见总结](https://book.crifan.org/books/common_compress_tool_summary/website/)
@@ -189,11 +199,11 @@
           * [ffmpeg](https://book.crifan.org/books/media_process_ffmpeg/website/)
         * 通信领域
           * 移动网络
-            * [演化](https://book.crifan.org/books/mobile_network_evolution_history/website)
+            * [演化](https://book.crifan.org/books/mobile_network_evolution_history/website/)
           * 多媒体
             * [IMS](https://crifan.github.io/multimedia_core_system_ims/website/)
           * RCS=5G消息
-            * [概述](https://book.crifan.org/books/5g_message_rcs_tech_summary/website)
+            * [概述](https://book.crifan.org/books/5g_message_rcs_tech_summary/website/)
             * [开发](https://book.crifan.org/books/rcs_tech_dev_summary/website/)
           * 5G
             * [概览](https://book.crifan.org/books/5g_tech_summary/website/)
@@ -216,10 +226,10 @@
             * 虚拟环境
               * [总结](https://book.crifan.org/books/python_summary_virtual_environment/website/)
             * 操作文件
-              * [CSV和Excel](https://book.crifan.org/books/python_process_csv_excel/website)
+              * [CSV和Excel](https://book.crifan.org/books/python_process_csv_excel/website/)
       * 中间：嵌入式
         * 通用
-          * [概念](https://book.crifan.org/books/common_logic_hardware_embedded/website)
+          * [概念](https://book.crifan.org/books/common_logic_hardware_embedded/website/)
           * 嵌入式
             * [软件开发](https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html)
             * [驱动开发](https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html)
@@ -265,7 +275,7 @@
           * [固件烧录](https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html)
           * [升级Linux系统](https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html)  
         * 其他领域
-          * [PLC](https://book.crifan.org/books/industrial_automation_plc/website)
+          * [PLC](https://book.crifan.org/books/industrial_automation_plc/website/)
           * [现场总线](http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html)
           * 条形码Symbology
             * [Code 128](https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html)
@@ -275,17 +285,17 @@
       * 底层：硬件
         * [基础知识](https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html)
         * 芯片
-          * [产业链](https://book.crifan.org/books/ic_chip_industry_chain_summary/website)
+          * [产业链](https://book.crifan.org/books/ic_chip_industry_chain_summary/website/)
         * 智能音箱
-          * [拆解](https://book.crifan.org/books/smart_speaker_disassemble_summary/website)
+          * [拆解](https://book.crifan.org/books/smart_speaker_disassemble_summary/website/)
   * 非技术
     * 工作类
-      * [工作和职业](https://book.crifan.org/books/work_job_summary/website)
+      * [工作和职业](https://book.crifan.org/books/work_job_summary/website/)
       * 工具和软件
         * 协作
-          * [有道云笔记和云协作](https://book.crifan.org/books/youdao_note_summary/website)
+          * [有道云笔记和云协作](https://book.crifan.org/books/youdao_note_summary/website/)
       * 领域知识
-        * [汽车销售](https://book.crifan.org/books/automobile_sales_summary/website)
+        * [汽车销售](https://book.crifan.org/books/automobile_sales_summary/website/)
     * 生活类
       * 电脑使用
         * [基础知识](https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html)
@@ -298,10 +308,10 @@
               * [旧](http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html)
               * [新](https://book.crifan.org/books/popular_virtual_machine_vmware/website/)
       * [买房](http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html)
-      * [生活经验](https://book.crifan.org/books/resident_life_experience_summary/website)
-      * [苏州](https://book.crifan.org/books/china_suitable_living_suzhou/website)
+      * [生活经验](https://book.crifan.org/books/resident_life_experience_summary/website/)
+      * [苏州](https://book.crifan.org/books/china_suitable_living_suzhou/website/)
     * 娱乐类
-      * [羽毛球](https://book.crifan.org/books/all_age_sports_badminton/website)
+      * [羽毛球](https://book.crifan.org/books/all_age_sports_badminton/website/)
 
 ## 为何要有：Crifan的电子书
 
@@ -309,7 +319,7 @@
 
 关于技术类中又分很多种，其中都放到了我的网站 crifan.com 上的[工作和技术](https://www.crifan.org/category/work_and_job/)，目前已有**7000多**的技术帖，但多数内容都是零散的某个细节知识点和某个具体问题的解决过程和结果。
 
-当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](https://book.crifan.org/books/ebook_system_gitbook/website)等)工具去制作出电子书，免费发布出来供别人参考。
+当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用([Docbook](http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html)、[Gitbook](https://book.crifan.org/books/ebook_system_gitbook/website/)等)工具去制作出电子书，免费发布出来供别人参考。
 
 目前已经整理出**150多**本成系列的电子书了，接下来详细介绍：
 
@@ -367,17 +377,17 @@
 * 关于如何学习和利用网络资料，以及一些技术方面的心得体会和总结：
   * [学习方法思路及技术心得总结](https://book.crifan.org/books/learn_tech_method_experience/website/)
 * 关于如何利用工具和脚本提供工作效率的：
-  * [如何提高工作效率](https://book.crifan.org/books/improve_work_efficiency/website)
+  * [如何提高工作效率](https://book.crifan.org/books/improve_work_efficiency/website/)
 * 关于要有良好的编程习惯和逻辑，才能写出高质量代码：
-  * [编程习惯和代码风格](https://book.crifan.org/books/program_code_style/website)
+  * [编程习惯和代码风格](https://book.crifan.org/books/program_code_style/website/)
   * [计算机语言编程规范](http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html)
 * 对于不同领域的技术，都有一些通用的概念需要了解，才能更好的开发：
-  * [计算机编程通用逻辑知识概念](https://book.crifan.org/books/program_common_logic/website)
+  * [计算机编程通用逻辑知识概念](https://book.crifan.org/books/program_common_logic/website/)
 * 以及都有一些通知的基础知识：
   * [软件开发基础知识](https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html)
   * [软件技术开发通用知识](https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html)
 * 对于计算机，或者说电脑，各种不同类型系统都有一些通用的基础知识：
-  * [计算机电脑知识总结](https://book.crifan.org/books/computer_tech_summary/website)
+  * [计算机电脑知识总结](https://book.crifan.org/books/computer_tech_summary/website/)
 
 ### 推荐的工具或软件
 
@@ -387,7 +397,7 @@
 
 想要用外网，比如用google等搜索技术资料，可以使用shadowsocks：
 
-* [科学上网相关知识总结](https://book.crifan.org/books/scientific_network_summary/website)
+* [科学上网相关知识总结](https://book.crifan.org/books/scientific_network_summary/website/)
 
 #### 编辑器和IDE
 
@@ -403,11 +413,11 @@
 
 现在觉得更好用的、最好用的编辑器（甚至可称之为IDE）：VSCode：
 
-* [史上最好用的编辑器：VSCode](https://book.crifan.org/books/best_editor_vscode/website)
+* [史上最好用的编辑器：VSCode](https://book.crifan.org/books/best_editor_vscode/website/)
 
 Python开发中最专业的IDE：
 
-* [最智能的Python的IDE：PyCharm](https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website)
+* [最智能的Python的IDE：PyCharm](https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website/)
 
 #### 画图工具软件
 
@@ -421,13 +431,13 @@ Python开发中最专业的IDE：
 
 如果需要对比文件、文件夹中的内容，可以参考：
 
-[文件内容对比工具总结](https://book.crifan.org/books/file_compare_tool_summary/website)
+[文件内容对比工具总结](https://book.crifan.org/books/file_compare_tool_summary/website/)
 
 #### API接口测试
 
 后端人员，移动端开发人员，测试人员等涉及调试api接口时，可以用Postman：
 
-* [API开发利器：Postman](https://book.crifan.org/books/api_tool_postman/website)
+* [API开发利器：Postman](https://book.crifan.org/books/api_tool_postman/website/)
 
 #### ssh远程连接工具
 
@@ -439,7 +449,7 @@ Python开发中最专业的IDE：
 
 当前最流行的是`Git`：
 
-* [最流行的版本管理系统：Git](https://book.crifan.org/books/popular_version_control_git/website)
+* [最流行的版本管理系统：Git](https://book.crifan.org/books/popular_version_control_git/website/)
 
 ### 硬件类
 
@@ -451,11 +461,11 @@ Python开发中最专业的IDE：
 
 之前拆过智能音箱，然后总结了相关各种细节：
 
-* [智能音箱拆解总结](https://book.crifan.org/books/smart_speaker_disassemble_summary/website)
+* [智能音箱拆解总结](https://book.crifan.org/books/smart_speaker_disassemble_summary/website/)
 
 且在拆解期间又去整理了芯片和产业链的相关知识：
 
-* [芯片产业链总结](https://book.crifan.org/books/ic_chip_industry_chain_summary/website)
+* [芯片产业链总结](https://book.crifan.org/books/ic_chip_industry_chain_summary/website/)
 
 ### 嵌入式软件
 
@@ -463,7 +473,7 @@ Python开发中最专业的IDE：
 
 嵌入式领域（包括很多硬件反面）都有些通用的基础知识和概念：
 
-* [硬件和嵌入式通用逻辑知识概念](https://book.crifan.org/books/common_logic_hardware_embedded/website)
+* [硬件和嵌入式通用逻辑知识概念](https://book.crifan.org/books/common_logic_hardware_embedded/website/)
 
 关于CPU方面的：
 
@@ -556,7 +566,7 @@ Python开发中最专业的IDE：
 
 关于PLC的知识的总结：
 
-[工控自动化技术：PLC](https://book.crifan.org/books/industrial_automation_plc/website)
+[工控自动化技术：PLC](https://book.crifan.org/books/industrial_automation_plc/website/)
 
 ##### 大的方向=嵌入式的不同应用领域
 
@@ -595,11 +605,11 @@ Python开发中最专业的IDE：
 
 和HTTP方面的知识：
 
-* [HTTP知识总结](https://book.crifan.org/books/http_summary/website)
+* [HTTP知识总结](https://book.crifan.org/books/http_summary/website/)
 
 以及后台人员设计RESTFul的API接口需要了解的：
 
-* [HTTP后台端：RESTful API接口设计](https://book.crifan.org/books/http_restful_api/website)
+* [HTTP后台端：RESTful API接口设计](https://book.crifan.org/books/http_restful_api/website/)
 
 各种计算机语言通用的的方面的知识总结：
 
@@ -611,7 +621,7 @@ Python开发中最专业的IDE：
 * 旧教程
   * [JSON详解](https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html)
 * 新教程
-  * [主流数据格式：JSON](https://book.crifan.org/books/common_data_format_json/website)
+  * [主流数据格式：JSON](https://book.crifan.org/books/common_data_format_json/website/)
 
 ##### 字符编码
 
@@ -632,13 +642,13 @@ Python开发中最专业的IDE：
 * 后来用gitbook写的新教程
   * [应用广泛的超强搜索：正则表达式](https://book.crifan.org/books/super_search_regex/website/)
   * 以及实际的使用案例：
-    * [正则表达式应用举例](https://book.crifan.org/books/regex_usage_examples/website)
+    * [正则表达式应用举例](https://book.crifan.org/books/regex_usage_examples/website/)
 
 #### 信息安全
 
 需要先对信息安全领域有个总体的了解，可参考我自己边学边整理出的：
 
-* [信息安全概览](https://book.crifan.org/books/information_security_overview/website)
+* [信息安全概览](https://book.crifan.org/books/information_security_overview/website/)
 
 然后再去分别了解不同领域内的安全技术：
 
@@ -664,26 +674,33 @@ Python开发中最专业的IDE：
 
 其中对于Windows系统，就是常说的Windows的漏洞和挖掘等方向。
 
-##### 移动端安全
+##### 设备安全
+
+对于`设备安全`~=`物联网安全`，包含几个子领域=不同侧重点：
+
+* 工控领域
+  * [工控安全概览](https://book.crifan.org/books/industrial_control_security_overview/website/)
+* 汽车领域
+  * [守护你的座驾：汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
+
+##### 移动端安全和逆向
 
 爬取安卓app的数据期间，折腾过如何破解安卓，后整理心得如下：
 
-* [安卓应用的安全和破解](https://book.crifan.org/books/android_app_security_crack/website)
+* [安卓应用的安全和破解](https://book.crifan.org/books/android_app_security_crack/website/)
 
 以及辅助工具：
 
 * [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
 * [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
 
-另外，iOS设备的安全，也边学边整理出教程：
-
-* [防止iPhone被黑：iOS安全](https://book.crifan.org/books/prevent_iphone_hacked_ios_security/website/)
-
-后来又整理出iOS和Android的安全和逆向的成套教程：
+后来整理出移动端安全和逆向的成套的教程：
 
 * Android安全和逆向
   * Android逆向
     * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
+      * [Android逆向：开启root](https://book.crifan.org/books/android_re_enable_root/website/)
+      * [Android逆向：重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
       * [Android逆向：动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
 * iOS安全和逆向
   * iOS安全
@@ -691,29 +708,32 @@ Python开发中最专业的IDE：
   * iOS逆向
     * [iOS逆向开发](https://book.crifan.org/books/ios_reverse_dev/website/)
       * 系列
-        * [iOS逆向开发：iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
-        * [iOS逆向开发：砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
-        * [iOS逆向开发：静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
-        * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
-        * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
-        * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
-          * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
-          * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
-        * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
-        * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
+        * 典型流程
+          * [iOS逆向开发：iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
+          * [iOS逆向开发：砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
+          * [iOS逆向开发：静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
+          * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
+            * [iOS逆向开发：MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+        * 涉及领域
+          * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
+          * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
+            * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
+            * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
+          * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
+        * 实例
+          * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
+            * [iOS逆向YouTube：protobuf逆向](https://book.crifan.org/books/ios_re_protobuf_reverse/website/)
       * 相关
-        * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
-        * [最流行汇编语言：ARM](https://book.crifan.org/books/popular_assembly_arm/website/)
-        * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
-
-##### 设备安全
-
-对于`设备安全`~=`物联网安全`，包含几个子领域=不同侧重点：
-
-* 工控领域
-  * [工控安全概览](https://book.crifan.org/books/industrial_control_security_overview/website)
-* 汽车领域
-  * [守护你的座驾：汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
+        * 开发语言
+          * 汇编
+            * [最流行汇编语言：ARM](https://book.crifan.org/books/popular_assembly_arm/website/)
+          * [C语言开发心得](https://book.crifan.org/books/c_lang_dev_summary/website/)
+          * [iOS开发心得](https://book.crifan.org/books/ios_dev_summary/website/)
+        * 工具
+          * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
+          * [Xcode开发心得](https://book.crifan.org/books/xcode_dev_summary/website/)
+            * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
+            * [Xcode开发：调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
 
 #### 自动化
 
@@ -721,7 +741,7 @@ Python开发中最专业的IDE：
 
 不论是嵌入式还是上层软件，都可以用一些工具，从手动变自动，去提高做事效率，比如Makefile：
 
-* [自动化利器：Makefile](https://book.crifan.org/books/good_automation_tool_makefile/website)
+* [自动化利器：Makefile](https://book.crifan.org/books/good_automation_tool_makefile/website/)
 
 ##### 自动化测试
 
@@ -734,7 +754,7 @@ Python开发中最专业的IDE：
 * Web端
   * Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有
     * Selenium
-      * [Selenium知识总结](https://book.crifan.org/books/selenium_summary/website)
+      * [Selenium知识总结](https://book.crifan.org/books/selenium_summary/website/)
     * Playwright
       * [跨平台Web自动化神器：Playwright](https://book.crifan.org/books/web_automation_tool_playwright/website/)
     * puppeteer
@@ -744,7 +764,7 @@ Python开发中最专业的IDE：
     * [移动端自动化测试概览](https://book.crifan.org/books/mobile_automation_overview/website/)
   * 再看具体的不同方向的工具
     * 通用=跨平台
-      * [主流跨平台自动化框架：Appium](https://book.crifan.org/books/popular_automation_framework_appium/website)
+      * [主流跨平台自动化框架：Appium](https://book.crifan.org/books/popular_automation_framework_appium/website/)
     * Android端
       * 安卓端的话，可以用`uiautomator2`
         * [安卓自动化测试利器：uiautomator2](https://book.crifan.org/books/android_automation_uiautomator2/website/)
@@ -783,30 +803,37 @@ Python开发中最专业的IDE：
 
 在涉及到移动端开发时，可以参考：
 
-* [移动端APP开发总结](https://book.crifan.org/books/mobile_app_summary/website)
+* [移动端APP开发总结](https://book.crifan.org/books/mobile_app_summary/website/)
+
+后续整理出了，不同端的开发总结：
+
+* Android
+  * [Android开发总结](https://book.crifan.org/books/android_dev_summary/website/)
+* iOS
+  * [iOS开发心得](https://book.crifan.org/books/ios_dev_summary/website/)
 
 #### 爬虫
 
 折腾网络爬虫（和模拟登录）领域的话，可以先去了解宏观逻辑和概念：
 
-* [爬取你要的数据：爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website)
+* [爬取你要的数据：爬虫技术](https://book.crifan.org/books/crawl_your_data_spider_technology/website/)
 
 再去选择合适的语言去写爬虫，比如目前最适合的是Python：
 
-* [如何用Python写爬虫](https://book.crifan.org/books/use_python_write_spider/website)
+* [如何用Python写爬虫](https://book.crifan.org/books/use_python_write_spider/website/)
 
 然后才涉及到基于某语言（Python）去具体选择什么框架（PySpider），以提高爬虫效率：
 
-* [Python爬虫框架：PySpider](https://book.crifan.org/books/python_spider_pyspider/website)
-* [主流Python爬虫框架：Scrapy](https://book.crifan.org/books/python_spider_scrapy/website)
+* [Python爬虫框架：PySpider](https://book.crifan.org/books/python_spider_pyspider/website/)
+* [主流Python爬虫框架：Scrapy](https://book.crifan.org/books/python_spider_scrapy/website/)
 
 在爬虫领域内涉及到提取内容时，往往才会涉及到Xpath：
 
-* [XPath知识总结](https://book.crifan.org/books/xpath_summary/website)
+* [XPath知识总结](https://book.crifan.org/books/xpath_summary/website/)
 
 如果想要抓包app时可以用：
 
-* [app抓包利器：Charles](https://book.crifan.org/books/app_capture_package_tool_charles/website)
+* [app抓包利器：Charles](https://book.crifan.org/books/app_capture_package_tool_charles/website/)
 
 另外，之前也写过相关的爬虫方面的资料：
 
@@ -817,21 +844,21 @@ Python开发中最专业的IDE：
 
 在移动通信网络中，总体网络从1G到5G的演化，可以参考：
 
-* [移动网络演化史](https://book.crifan.org/books/mobile_network_evolution_history/website)
+* [移动网络演化史](https://book.crifan.org/books/mobile_network_evolution_history/website/)
 
 期间出现了相关技术：
 
 * (RCS底层所依赖的技术)IMS
-  * [多媒体业务核心子系统：IMS](https://book.crifan.org/books/multimedia_core_system_ims/website)
+  * [多媒体业务核心子系统：IMS](https://book.crifan.org/books/multimedia_core_system_ims/website/)
 * RCS
   * 概览
-    * [5G消息RCS技术总结](https://book.crifan.org/books/5g_message_rcs_tech_summary/website)
+    * [5G消息RCS技术总结](https://book.crifan.org/books/5g_message_rcs_tech_summary/website/)
   * 开发
     * [RCS技术开发总结](https://book.crifan.org/books/rcs_tech_dev_summary/website/)
 
 而最新的5G技术，总体概览如下：
 
-* [5G技术概述](https://book.crifan.org/books/5g_tech_summary/website)
+* [5G技术概述](https://book.crifan.org/books/5g_tech_summary/website/)
 
 #### 上层软件的其他领域
 
@@ -843,12 +870,12 @@ Python开发中最专业的IDE：
 
 先学习通用的语法格式Markdown：
 
-* [最流行的文档格式：Markdown](https://book.crifan.org/books/doc_format_markdown/website)
+* [最流行的文档格式：Markdown](https://book.crifan.org/books/doc_format_markdown/website/)
 
 再去使用相对简单好用的工具GitBook去制作电子书：
 
-* [电子书制作利器：GitBook](https://book.crifan.org/books/ebook_system_gitbook/website)
-  * 如果想要更简单易用更省心，可以基于我的[Gitbook的模板](https://github.com/crifan/gitbook_template)去制作，生成的效果是[Gitbook演示](https://book.crifan.org/books/gitbook_demo/website)
+* [电子书制作利器：GitBook](https://book.crifan.org/books/ebook_system_gitbook/website/)
+  * 如果想要更简单易用更省心，可以基于我的[Gitbook的模板](https://github.com/crifan/gitbook_template)去制作，生成的效果是[Gitbook演示](https://book.crifan.org/books/gitbook_demo/website/)
 
 不过gitbook官网放弃维护，所以换用兼容和集成自`Gitbook`的`HonKit`：
 
@@ -886,20 +913,20 @@ Python开发中最专业的IDE：
       * 旧教程
         * [Python专题教程：BeautifulSoup详解](https://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html)
       * 新教程
-        * [网页解析利器：BeautifulSoup](https://book.crifan.org/books/html_parse_tool_beautifulsoup/website)
+        * [网页解析利器：BeautifulSoup](https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/)
     * PyQuery
-      * [HTML解析库Python版jQuery：PyQuery](https://book.crifan.org/books/python_html_parse_pyquery/website)
+      * [HTML解析库Python版jQuery：PyQuery](https://book.crifan.org/books/python_html_parse_pyquery/website/)
     * re模块
       * 旧的
         * [Python专题教程：正则表达式re模块详解](https://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html)
       * 新的
-        * [Python中正则表达式：re模块详解](https://book.crifan.org/books/python_regex_re_intro/website)
+        * [Python中正则表达式：re模块详解](https://book.crifan.org/books/python_regex_re_intro/website/)
     * 字符编码
       * [Python专题教程：字符串和字符编码](https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html)
     * 网络库
       * [Python心得：http网络库](https://book.crifan.org/books/python_summary_http_lib/website/)
     * 操作excel和CSV
-      * [Python心得：操作CSV和Excel](https://book.crifan.org/books/python_process_csv_excel/website)
+      * [Python心得：操作CSV和Excel](https://book.crifan.org/books/python_process_csv_excel/website/)
 * 新的
   * 对于新手小白常见的错误和解决方案和引申思考：
     * [Python新手小白常见错误和问题](https://book.crifan.org/books/python_newbie_mistakes_questions/website/)
@@ -955,11 +982,11 @@ Python开发中最专业的IDE：
 
 而开始了工作后，需要了解的各种基本概念和常识，包括招聘和应聘，薪资待遇，股票和期权，创业和公司等：
 
-* [工作和职业相关知识](https://book.crifan.org/books/work_job_summary/website)
+* [工作和职业相关知识](https://book.crifan.org/books/work_job_summary/website/)
 
 而和别人合作时，往往涉及到文件共享，资料共享，协同编辑等内容，可以使用有道云协作：
 
-* [有道云笔记和云协作使用总结](https://book.crifan.org/books/youdao_note_summary/website)
+* [有道云笔记和云协作使用总结](https://book.crifan.org/books/youdao_note_summary/website/)
 
 而工作后，会遇到具体的某个商业领域相关的知识，比如：
 
@@ -967,7 +994,7 @@ Python开发中最专业的IDE：
 
 汽车销售行业内的知识，包括售前和售后、整车厂和经销商。经销商和客户等相关内容：
 
-* [汽车销售领域知识总结](https://book.crifan.org/books/automobile_sales_summary/website)
+* [汽车销售领域知识总结](https://book.crifan.org/books/automobile_sales_summary/website/)
 
 ### 生活类
 
@@ -977,14 +1004,14 @@ Python开发中最专业的IDE：
 
 以及日常生活期间也有些心得供参考：
 
-* [居民生活经验总结](https://book.crifan.org/books/resident_life_experience_summary/website)
+* [居民生活经验总结](https://book.crifan.org/books/resident_life_experience_summary/website/)
 
 针对苏州这个城市，也专门整理了极其详尽的各种资料，尤其是宏观规划，详见：
 
-* [中国宜居城市：苏州](https://book.crifan.org/books/china_suitable_living_suzhou/website)
+* [中国宜居城市：苏州](https://book.crifan.org/books/china_suitable_living_suzhou/website/)
 
 ### 娱乐类
 
 本人常年打羽毛球，有些心得，整理如下，供喜欢羽毛球运动的参考：
 
-* [老少皆宜的运动：羽毛球](https://book.crifan.org/books/all_age_sports_badminton/website)
+* [老少皆宜的运动：羽毛球](https://book.crifan.org/books/all_age_sports_badminton/website/)

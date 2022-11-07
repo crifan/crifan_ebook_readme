@@ -63,7 +63,8 @@ print("uniqueDocbookUrlTotalNum=%s" % uniqueDocbookUrlTotalNum) # 56
 
 # * [VSCode](http://book.crifan.com/books/best_editor_vscode/website)
 # allGitbookUrlList = re.findall("https?://book\.crifan\.com/books/\w+/website", mdStr)
-allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website", mdStr)
+# allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website", mdStr)
+allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website/?", mdStr)
 allGitbookNameTotalNum = len(allGitbookUrlList)
 print("allGitbookNameTotalNum=%s" % allGitbookNameTotalNum) # 139
 uniqueGitbookUrlList = uniqueList(allGitbookUrlList)
