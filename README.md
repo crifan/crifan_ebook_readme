@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20221107`
+最后更新：`20221108`
 
 ---
 
@@ -105,6 +105,7 @@
                       * [MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
                   * 涉及领域
                     * [越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
+                      * [iOSOpenDev开发插件](https://book.crifan.org/books/ios_re_iosopendev_tweak/website/)
                     * [iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
                       * [ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
                       * [Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
@@ -716,6 +717,7 @@ Python开发中最专业的IDE：
             * [iOS逆向开发：MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
         * 涉及领域
           * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
+            * [iOS逆向开发：iOSOpenDev开发插件](https://book.crifan.org/books/ios_re_iosopendev_tweak/website/)
           * [iOS逆向开发：iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
             * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
             * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)

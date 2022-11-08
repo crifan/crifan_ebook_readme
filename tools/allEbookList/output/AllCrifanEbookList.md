@@ -124,6 +124,7 @@
     * https://book.crifan.org/books/ios_re_crack_shell_ipa/website/
     * https://book.crifan.org/books/ios_re_dynamic_debug/website/
     * https://book.crifan.org/books/ios_re_ios_internal/website/
+    * https://book.crifan.org/books/ios_re_iosopendev_tweak/website/
     * https://book.crifan.org/books/ios_re_iphone_jailbreak/website/
     * https://book.crifan.org/books/ios_re_jailbreak_tweak/website/
     * https://book.crifan.org/books/ios_re_jb_detection/website/
