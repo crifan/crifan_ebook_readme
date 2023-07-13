@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20221108`
+最后更新：`20230713`
 
 ---
 
@@ -86,6 +86,17 @@
             * [安全分析](https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/)
           * [二进制安全](https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/)
           * 移动安全
+            * 通用
+              * 语言
+                * [ARM汇编](https://book.crifan.org/books/popular_assembly_arm/website/)
+              * 静态分析
+                * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
+              * 动态调试
+                * [Frida](https://book.crifan.org/books/reverse_debug_frida/website/)
+                * [LLDB](https://book.crifan.org/books/popular_debugger_lldb/website/)
+                * 高级逆向
+                  * 代码模拟
+                    * [Unicorn](https://book.crifan.org/books/cpu_emulator_unicorn/website/)
             * [Android安全和逆向](https://book.crifan.org/books/android_app_security_crack/website/)
               * Android逆向
                 * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
@@ -99,30 +110,29 @@
                 * [iOS逆向开发](https://book.crifan.org/books/ios_reverse_dev/website/)
                   * 典型流程
                     * [iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
+                      * [iOS15越狱](https://book.crifan.org/books/ios_re_ios15_jailbreak/website/)
+                      * [包管理器](https://book.crifan.org/books/ios_re_package_manager/website/)
                     * [砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
                     * [静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
                     * [动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
-                      * [MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+                      * [MonkeyDev](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+                      * [Xcode](https://book.crifan.org/books/xcode_dev_summary/website/)
+                        * [调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
                   * 涉及领域
                     * [越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
-                      * [iOSOpenDev开发插件](https://book.crifan.org/books/ios_re_iosopendev_tweak/website/)
+                      * [iOSOpenDev](https://book.crifan.org/books/ios_re_iosopendev_tweak/website/)
                     * [iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)
                       * [ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
                       * [Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
                     * [越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
+                    * [断点](https://book.crifan.org/books/ios_re_debug_breakpoint/website/)
                   * 实例
                     * [YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
                       * [protobuf逆向](https://book.crifan.org/books/ios_re_protobuf_reverse/website/)
                   * 相关
                     * 开发语言
-                      * [ARM汇编](https://book.crifan.org/books/popular_assembly_arm/website/)
                       * [C](https://book.crifan.org/books/c_lang_dev_summary/website/)
                       * [iOS](https://book.crifan.org/books/ios_dev_summary/website/)
-                    * 工具
-                      * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
-                      * [Xcode](https://book.crifan.org/books/xcode_dev_summary/website/)
-                        * [调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
-                        * [调试器LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
           * 设备安全
             * [工控安全](https://book.crifan.org/books/industrial_control_security_overview/website/)
             * [汽车安全](https://book.crifan.org/books/guard_your_car_safety/website/)
@@ -697,6 +707,20 @@ Python开发中最专业的IDE：
 
 后来整理出移动端安全和逆向的成套的教程：
 
+* 通用
+  * 编程语言
+    * 汇编
+      * [最流行汇编语言：ARM](https://book.crifan.org/books/popular_assembly_arm/website/)
+    * 高级语言
+      * [C语言开发心得](https://book.crifan.org/books/c_lang_dev_summary/website/)
+  * 静态分析
+    * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
+  * 动态调试
+    * [逆向调试利器：Frida](https://book.crifan.org/books/reverse_debug_frida/website/)
+    * [主流调试器：LLDB](https://book.crifan.org/books/popular_debugger_lldb/website/)
+    * 高级逆向
+      * 代码模拟
+        * [CPU模拟利器：Unicorn](https://book.crifan.org/books/cpu_emulator_unicorn/website/)
 * Android安全和逆向
   * Android逆向
     * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
@@ -711,10 +735,14 @@ Python开发中最专业的IDE：
       * 系列
         * 典型流程
           * [iOS逆向开发：iPhone越狱](https://book.crifan.org/books/ios_re_iphone_jailbreak/website/)
+            * [iOS逆向：iOS15越狱](https://book.crifan.org/books/ios_re_ios15_jailbreak/website/)
+            * [iOS逆向开发：越狱包管理器](https://book.crifan.org/books/ios_re_package_manager/website/)
           * [iOS逆向开发：砸壳ipa](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)
           * [iOS逆向开发：静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
           * [iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/)
             * [iOS逆向开发：MonkeyDev调试](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+            * [Xcode开发心得](https://book.crifan.org/books/xcode_dev_summary/website/)
+              * [Xcode开发：调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
         * 涉及领域
           * [iOS逆向开发：越狱插件开发](https://book.crifan.org/books/ios_re_jailbreak_tweak/website/)
             * [iOS逆向开发：iOSOpenDev开发插件](https://book.crifan.org/books/ios_re_iosopendev_tweak/website/)
@@ -722,20 +750,13 @@ Python开发中最专业的IDE：
             * [iOS逆向开发：ObjC运行时](https://book.crifan.org/books/ios_re_objc_runtime/website/)
             * [iOS逆向开发：Block匿名函数](https://book.crifan.org/books/ios_re_objc_block/website/)
           * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
+          * [iOS逆向之动态调试：断点](https://book.crifan.org/books/ios_re_debug_breakpoint/website/)
         * 实例
           * [iOS逆向开发：YouTube逆向](https://book.crifan.org/books/ios_re_youtube_reverse/website/)
             * [iOS逆向YouTube：protobuf逆向](https://book.crifan.org/books/ios_re_protobuf_reverse/website/)
       * 相关
         * 开发语言
-          * 汇编
-            * [最流行汇编语言：ARM](https://book.crifan.org/books/popular_assembly_arm/website/)
-          * [C语言开发心得](https://book.crifan.org/books/c_lang_dev_summary/website/)
           * [iOS开发心得](https://book.crifan.org/books/ios_dev_summary/website/)
-        * 工具
-          * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
-          * [Xcode开发心得](https://book.crifan.org/books/xcode_dev_summary/website/)
-            * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
-            * [Xcode开发：调试心得](https://book.crifan.org/books/xcode_dev_debug_summary/website/)
 
 #### 自动化
 

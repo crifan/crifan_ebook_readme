@@ -96,6 +96,7 @@
     * https://book.crifan.org/books/common_data_format_json/website/
     * https://book.crifan.org/books/common_logic_hardware_embedded/website/
     * https://book.crifan.org/books/computer_tech_summary/website/
+    * https://book.crifan.org/books/cpu_emulator_unicorn/website/
     * https://book.crifan.org/books/crack_assistant_xposed_framework/website/
     * https://book.crifan.org/books/crawl_your_data_spider_technology/website/
     * https://book.crifan.org/books/desktop_app_framework_electron/website/
@@ -122,7 +123,9 @@
     * https://book.crifan.org/books/ios_automation_facebook_wda/website/
     * https://book.crifan.org/books/ios_dev_summary/website/
     * https://book.crifan.org/books/ios_re_crack_shell_ipa/website/
+    * https://book.crifan.org/books/ios_re_debug_breakpoint/website/
     * https://book.crifan.org/books/ios_re_dynamic_debug/website/
+    * https://book.crifan.org/books/ios_re_ios15_jailbreak/website/
     * https://book.crifan.org/books/ios_re_ios_internal/website/
     * https://book.crifan.org/books/ios_re_iosopendev_tweak/website/
     * https://book.crifan.org/books/ios_re_iphone_jailbreak/website/
@@ -131,6 +134,7 @@
     * https://book.crifan.org/books/ios_re_monkeydev_debug/website/
     * https://book.crifan.org/books/ios_re_objc_block/website/
     * https://book.crifan.org/books/ios_re_objc_runtime/website/
+    * https://book.crifan.org/books/ios_re_package_manager/website/
     * https://book.crifan.org/books/ios_re_protobuf_reverse/website/
     * https://book.crifan.org/books/ios_re_static_analysis/website/
     * https://book.crifan.org/books/ios_re_youtube_reverse/website/
@@ -146,6 +150,7 @@
     * https://book.crifan.org/books/multimedia_core_system_ims/website/
     * https://book.crifan.org/books/popular_assembly_arm/website/
     * https://book.crifan.org/books/popular_automation_framework_appium/website/
+    * https://book.crifan.org/books/popular_debugger_lldb/website/
     * https://book.crifan.org/books/popular_document_db_mongodb/website/
     * https://book.crifan.org/books/popular_js_chart_lib_echarts/website/
     * https://book.crifan.org/books/popular_rmdb_mysql/website/
@@ -165,6 +170,7 @@
     * https://book.crifan.org/books/rcs_tech_dev_summary/website/
     * https://book.crifan.org/books/regex_usage_examples/website/
     * https://book.crifan.org/books/resident_life_experience_summary/website/
+    * https://book.crifan.org/books/reverse_debug_frida/website/
     * https://book.crifan.org/books/reverse_tool_ida/website/
     * https://book.crifan.org/books/scientific_network_summary/website/
     * https://book.crifan.org/books/selenium_summary/website/
@@ -174,7 +180,6 @@
     * https://book.crifan.org/books/web_automation_tool_playwright/website/
     * https://book.crifan.org/books/web_automation_tool_puppeteer/website/
     * https://book.crifan.org/books/work_job_summary/website/
-    * https://book.crifan.org/books/xcode_debugger_lldb/website/
     * https://book.crifan.org/books/xcode_dev_debug_summary/website/
     * https://book.crifan.org/books/xcode_dev_summary/website/
     * https://book.crifan.org/books/xpath_summary/website/
