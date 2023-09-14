@@ -3,369 +3,126 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-      <link rel="stylesheet" href="file:////Users/crifan/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.6.8/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
-      
-      
-      
-      
+      <link rel="stylesheet" href="file:////Users/crifan/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.7.6/crossnote/dependencies/katex/katex.min.css">
       
       
       
       
       
       <style>
-      /**
- * prism.js Github theme based on GitHub's theme.
- * @author Sam Clarke
- */
-code[class*="language-"],
-pre[class*="language-"] {
-  color: #333;
-  background: none;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.4;
-
-  -moz-tab-size: 8;
-  -o-tab-size: 8;
-  tab-size: 8;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  padding: .8em;
-  overflow: auto;
-  /* border: 1px solid #ddd; */
-  border-radius: 3px;
-  /* background: #fff; */
-  background: #f5f5f5;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
-  white-space: normal;
-  background: #f5f5f5;
-}
-
-.token.comment,
-.token.blockquote {
-  color: #969896;
-}
-
-.token.cdata {
-  color: #183691;
-}
-
-.token.doctype,
-.token.punctuation,
-.token.variable,
-.token.macro.property {
-  color: #333;
-}
-
-.token.operator,
-.token.important,
-.token.keyword,
-.token.rule,
-.token.builtin {
-  color: #a71d5d;
-}
-
-.token.string,
-.token.url,
-.token.regex,
-.token.attr-value {
-  color: #183691;
-}
-
-.token.property,
-.token.number,
-.token.boolean,
-.token.entity,
-.token.atrule,
-.token.constant,
-.token.symbol,
-.token.command,
-.token.code {
-  color: #0086b3;
-}
-
-.token.tag,
-.token.selector,
-.token.prolog {
-  color: #63a35c;
-}
-
-.token.function,
-.token.namespace,
-.token.pseudo-element,
-.token.class,
-.token.class-name,
-.token.pseudo-class,
-.token.id,
-.token.url-reference .token.variable,
-.token.attr-name {
-  color: #795da3;
-}
-
-.token.entity {
-  cursor: help;
-}
-
-.token.title,
-.token.title .token.punctuation {
-  font-weight: bold;
-  color: #1d3e81;
-}
-
-.token.list {
-  color: #ed6a43;
-}
-
-.token.inserted {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-.token.deleted {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-
-/* JSON */
-.language-json .token.property {
-  color: #183691;
-}
-
-.language-markup .token.tag .token.punctuation {
-  color: #333;
-}
-
-/* CSS */
-code.language-css,
-.language-css .token.function {
-  color: #0086b3;
-}
-
-/* YAML */
-.language-yaml .token.atrule {
-  color: #63a35c;
-}
-
-code.language-yaml {
-  color: #183691;
-}
-
-/* Ruby */
-.language-ruby .token.function {
-  color: #333;
-}
-
-/* Markdown */
-.language-markdown .token.url {
-  color: #795da3;
-}
-
-/* Makefile */
-.language-makefile .token.symbol {
-  color: #795da3;
-}
-
-.language-makefile .token.variable {
-  color: #183691;
-}
-
-.language-makefile .token.builtin {
-  color: #0086b3;
-}
-
-/* Bash */
-.language-bash .token.keyword {
-  color: #0086b3;
-}
-
-/* highlight */
-pre[data-line] {
-  position: relative;
-  padding: 1em 0 1em 3em;
-}
-pre[data-line] .line-highlight-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  display: block;
-  width: 100%;
-}
-
-pre[data-line] .line-highlight {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: inherit 0;
-  margin-top: 1em;
-  background: hsla(24, 20%, 50%,.08);
-  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
-  pointer-events: none;
-  line-height: inherit;
-  white-space: pre;
-}
-
-pre[data-line] .line-highlight:before, 
-pre[data-line] .line-highlight[data-end]:after {
-  content: attr(data-start);
-  position: absolute;
-  top: .4em;
-  left: .6em;
-  min-width: 1em;
-  padding: 0 .5em;
-  background-color: hsla(24, 20%, 50%,.4);
-  color: hsl(24, 20%, 95%);
-  font: bold 65%/1.5 sans-serif;
-  text-align: center;
-  vertical-align: .3em;
-  border-radius: 999px;
-  text-shadow: none;
-  box-shadow: 0 1px white;
-}
-
-pre[data-line] .line-highlight[data-end]:after {
-  content: attr(data-end);
-  top: auto;
-  bottom: .4em;
-}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p,html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em!important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em!important;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em!important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
 /* Please visit the URL below for more information: */
 /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
 
       </style>
     </head>
     <body for="html-export">
-      <div class="mume markdown-preview  ">
-      <h1 class="mume-header" id="crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</h1>
+      <div class="crossnote markdown-preview  ">
+      <h1 class="crossnote-header" id="crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">Crifan的电子书的使用说明</h1>
 
-<p>&#x6700;&#x540E;&#x66F4;&#x65B0;&#xFF1A;<code>20230713</code></p>
+<p>最后更新：<code>20230914</code></p>
 <hr>
 
 <div class="md-toc">
-<details style="padding:0;;padding-left:0px;" open>
+<details style="padding:0;;padding-left:0px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;" class="md-toc-link"><p>Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</p>
+          <a href="#crifan的电子书的使用说明" class="md-toc-link"><p>Crifan的电子书的使用说明</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x6E90;&#x7801;" class="md-toc-link">
-            <p>&#x6E90;&#x7801;</p>
+          <a href="#源码" class="md-toc-link">
+            <p>源码</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#crifan&#x7535;&#x5B50;&#x4E66;&#x7684;&#x7B80;&#x8981;&#x8BF4;&#x660E;" class="md-toc-link">
-            <p>Crifan&#x7535;&#x5B50;&#x4E66;&#x7684;&#x7B80;&#x8981;&#x8BF4;&#x660E;</p>
+          <a href="#crifan电子书的简要说明" class="md-toc-link">
+            <p>Crifan电子书的简要说明</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x4E3A;&#x4F55;&#x8981;&#x6709;crifan&#x7684;&#x7535;&#x5B50;&#x4E66;" class="md-toc-link">
-            <p>&#x4E3A;&#x4F55;&#x8981;&#x6709;&#xFF1A;Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;</p>
+          <a href="#为何要有crifan的电子书" class="md-toc-link">
+            <p>为何要有：Crifan的电子书</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x4E3A;&#x4F55;&#x8981;&#x6709;crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;" class="md-toc-link">
-            <p>&#x4E3A;&#x4F55;&#x8981;&#x6709;&#xFF1A;Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</p>
+          <a href="#为何要有crifan的电子书的使用说明" class="md-toc-link">
+            <p>为何要有：Crifan的电子书的使用说明</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x6280;&#x672F;&#x7C7B;" class="md-toc-link"><p>&#x6280;&#x672F;&#x7C7B;</p>
+          <a href="#技术类" class="md-toc-link"><p>技术类</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x6280;&#x672F;&#x7C7B;&#x901A;&#x7528;&#x77E5;&#x8BC6;" class="md-toc-link">
-            <p>&#x6280;&#x672F;&#x7C7B;&#x901A;&#x7528;&#x77E5;&#x8BC6;</p>
+          <a href="#技术类通用知识" class="md-toc-link">
+            <p>技术类通用知识</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x63A8;&#x8350;&#x7684;&#x5DE5;&#x5177;&#x6216;&#x8F6F;&#x4EF6;" class="md-toc-link"><p>&#x63A8;&#x8350;&#x7684;&#x5DE5;&#x5177;&#x6216;&#x8F6F;&#x4EF6;</p>
+          <a href="#推荐的工具或软件" class="md-toc-link"><p>推荐的工具或软件</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x79D1;&#x5B66;&#x4E0A;&#x7F51;" class="md-toc-link">
-            <p>&#x79D1;&#x5B66;&#x4E0A;&#x7F51;</p>
+          <a href="#科学上网" class="md-toc-link">
+            <p>科学上网</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x7F16;&#x8F91;&#x5668;&#x548C;ide" class="md-toc-link"><p>&#x7F16;&#x8F91;&#x5668;&#x548C;IDE</p>
+          <a href="#编辑器和ide" class="md-toc-link"><p>编辑器和IDE</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x548C;ide" class="md-toc-link">
-            <p>&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x548C;IDE</p>
+          <a href="#好用的编辑器和ide" class="md-toc-link">
+            <p>好用的编辑器和IDE</p>
 
           </a></div>
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x753B;&#x56FE;&#x5DE5;&#x5177;&#x8F6F;&#x4EF6;" class="md-toc-link">
-            <p>&#x753B;&#x56FE;&#x5DE5;&#x5177;&#x8F6F;&#x4EF6;</p>
+          <a href="#画图工具软件" class="md-toc-link">
+            <p>画图工具软件</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x6587;&#x4EF6;&#x5BF9;&#x6BD4;&#x5DE5;&#x5177;" class="md-toc-link">
-            <p>&#x6587;&#x4EF6;&#x5BF9;&#x6BD4;&#x5DE5;&#x5177;</p>
+          <a href="#文件对比工具" class="md-toc-link">
+            <p>文件对比工具</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#api&#x63A5;&#x53E3;&#x6D4B;&#x8BD5;" class="md-toc-link">
-            <p>API&#x63A5;&#x53E3;&#x6D4B;&#x8BD5;</p>
+          <a href="#api接口测试" class="md-toc-link">
+            <p>API接口测试</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#ssh&#x8FDC;&#x7A0B;&#x8FDE;&#x63A5;&#x5DE5;&#x5177;" class="md-toc-link">
-            <p>ssh&#x8FDC;&#x7A0B;&#x8FDE;&#x63A5;&#x5DE5;&#x5177;</p>
+          <a href="#ssh远程连接工具" class="md-toc-link">
+            <p>ssh远程连接工具</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x4EE3;&#x7801;&#x7248;&#x672C;&#x7BA1;&#x7406;" class="md-toc-link">
-            <p>&#x4EE3;&#x7801;&#x7248;&#x672C;&#x7BA1;&#x7406;</p>
+          <a href="#代码版本管理" class="md-toc-link">
+            <p>代码版本管理</p>
 
           </a></div>
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x786C;&#x4EF6;&#x7C7B;" class="md-toc-link">
-            <p>&#x786C;&#x4EF6;&#x7C7B;</p>
+          <a href="#硬件类" class="md-toc-link">
+            <p>硬件类</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;" class="md-toc-link"><p>&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;</p>
+          <a href="#嵌入式软件" class="md-toc-link"><p>嵌入式软件</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#x5668;" class="md-toc-link">
-            <p>&#x5F00;&#x53D1;&#x73AF;&#x5883;+&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#x5668;</p>
+          <a href="#开发环境交叉编译器" class="md-toc-link">
+            <p>开发环境+交叉编译器</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5D4C;&#x5165;&#x5F0F;linux&#x5D4C;&#x5165;&#x5F0F;linux&#x9A71;&#x52A8;" class="md-toc-link">
-            <p>&#x5D4C;&#x5165;&#x5F0F;Linux+&#x5D4C;&#x5165;&#x5F0F;Linux&#x9A71;&#x52A8;</p>
+          <a href="#嵌入式linux嵌入式linux驱动" class="md-toc-link">
+            <p>嵌入式Linux+嵌入式Linux驱动</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x5177;&#x4F53;&#x6A21;&#x5757;&#x6216;&#x9886;&#x57DF;" class="md-toc-link"><p>&#x5177;&#x4F53;&#x6A21;&#x5757;&#x6216;&#x9886;&#x57DF;</p>
+          <a href="#具体模块或领域" class="md-toc-link"><p>具体模块或领域</p>
 </a>
           </summary>
         <div>
@@ -374,12 +131,12 @@ pre[data-line] .line-highlight[data-end]:after {
             <p>PLC</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5927;&#x7684;&#x65B9;&#x5411;&#x5D4C;&#x5165;&#x5F0F;&#x7684;&#x4E0D;&#x540C;&#x5E94;&#x7528;&#x9886;&#x57DF;" class="md-toc-link">
-            <p>&#x5927;&#x7684;&#x65B9;&#x5411;=&#x5D4C;&#x5165;&#x5F0F;&#x7684;&#x4E0D;&#x540C;&#x5E94;&#x7528;&#x9886;&#x57DF;</p>
+          <a href="#大的方向嵌入式的不同应用领域" class="md-toc-link">
+            <p>大的方向=嵌入式的不同应用领域</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5C0F;&#x65B9;&#x9762;&#x6765;&#x8BF4;&#x5173;&#x4E8E;&#x5177;&#x4F53;&#x7684;&#x6A21;&#x5757;&#x786C;&#x4EF6;&#x534F;&#x8BAE;&#x65B9;&#x9762;" class="md-toc-link">
-            <p>&#x5C0F;&#x65B9;&#x9762;&#x6765;&#x8BF4;=&#x5173;&#x4E8E;&#x5177;&#x4F53;&#x7684;&#x6A21;&#x5757;/&#x786C;&#x4EF6;/&#x534F;&#x8BAE;&#x65B9;&#x9762;</p>
+          <a href="#小方面来说关于具体的模块硬件协议方面" class="md-toc-link">
+            <p>小方面来说=关于具体的模块/硬件/协议方面</p>
 
           </a></div>
         </div>
@@ -387,106 +144,106 @@ pre[data-line] .line-highlight[data-end]:after {
     
         </div>
       </details>
-    <details style="padding:0;;padding-left:24px;" open>
+    <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;" class="md-toc-link"><p>&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;</p>
+          <a href="#上层软件" class="md-toc-link"><p>上层软件</p>
 </a>
           </summary>
         <div>
-          <details style="padding:0;;padding-left:24px;" open>
+          <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x901A;&#x7528;&#x77E5;&#x8BC6;" class="md-toc-link"><p>&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x901A;&#x7528;&#x77E5;&#x8BC6;</p>
+          <a href="#上层软件的通用知识" class="md-toc-link"><p>上层软件的通用知识</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5B57;&#x7B26;&#x7F16;&#x7801;" class="md-toc-link">
-            <p>&#x5B57;&#x7B26;&#x7F16;&#x7801;</p>
+          <a href="#字符编码" class="md-toc-link">
+            <p>字符编码</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;" class="md-toc-link">
-            <p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</p>
+          <a href="#正则表达式" class="md-toc-link">
+            <p>正则表达式</p>
 
           </a></div>
         </div>
       </details>
-    <details style="padding:0;;padding-left:24px;" open>
+    <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x4FE1;&#x606F;&#x5B89;&#x5168;" class="md-toc-link"><p>&#x4FE1;&#x606F;&#x5B89;&#x5168;</p>
+          <a href="#信息安全" class="md-toc-link"><p>信息安全</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#web&#x5B89;&#x5168;" class="md-toc-link">
-            <p>Web&#x5B89;&#x5168;</p>
+          <a href="#web安全" class="md-toc-link">
+            <p>Web安全</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;" class="md-toc-link">
-            <p>&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;</p>
+          <a href="#二进制安全" class="md-toc-link">
+            <p>二进制安全</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x8BBE;&#x5907;&#x5B89;&#x5168;" class="md-toc-link">
-            <p>&#x8BBE;&#x5907;&#x5B89;&#x5168;</p>
+          <a href="#设备安全" class="md-toc-link">
+            <p>设备安全</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x79FB;&#x52A8;&#x7AEF;&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;" class="md-toc-link">
-            <p>&#x79FB;&#x52A8;&#x7AEF;&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;</p>
+          <a href="#移动端安全和逆向" class="md-toc-link">
+            <p>移动端安全和逆向</p>
 
           </a></div>
         </div>
       </details>
-    <details style="padding:0;;padding-left:24px;" open>
+    <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x81EA;&#x52A8;&#x5316;" class="md-toc-link"><p>&#x81EA;&#x52A8;&#x5316;</p>
+          <a href="#自动化" class="md-toc-link"><p>自动化</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x628A;&#x5DE5;&#x4F5C;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x5DE5;&#x5177;" class="md-toc-link">
-            <p>&#x628A;&#x5DE5;&#x4F5C;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x5DE5;&#x5177;</p>
+          <a href="#把工作自动化的工具" class="md-toc-link">
+            <p>把工作自动化的工具</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;" class="md-toc-link">
-            <p>&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;</p>
+          <a href="#自动化测试" class="md-toc-link">
+            <p>自动化测试</p>
 
           </a></div>
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#pc&#x684C;&#x9762;&#x7AEF;&#x8F6F;&#x4EF6;" class="md-toc-link">
-            <p>PC&#x684C;&#x9762;&#x7AEF;&#x8F6F;&#x4EF6;</p>
+          <a href="#pc桌面端软件" class="md-toc-link">
+            <p>PC桌面端软件</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x82F9;&#x679C;&#x7CFB;&#x7EDF;" class="md-toc-link">
-            <p>&#x82F9;&#x679C;&#x7CFB;&#x7EDF;</p>
+          <a href="#苹果系统" class="md-toc-link">
+            <p>苹果系统</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x7F51;&#x9875;web&#x9886;&#x57DF;&#x5F00;&#x53D1;" class="md-toc-link">
-            <p>&#x7F51;&#x9875;Web&#x9886;&#x57DF;&#x5F00;&#x53D1;</p>
+          <a href="#网页web领域开发" class="md-toc-link">
+            <p>网页Web领域开发</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x79FB;&#x52A8;&#x7AEF;app&#x5F00;&#x53D1;" class="md-toc-link">
-            <p>&#x79FB;&#x52A8;&#x7AEF;APP&#x5F00;&#x53D1;</p>
+          <a href="#移动端app开发" class="md-toc-link">
+            <p>移动端APP开发</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x722C;&#x866B;" class="md-toc-link">
-            <p>&#x722C;&#x866B;</p>
+          <a href="#爬虫" class="md-toc-link">
+            <p>爬虫</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x901A;&#x4FE1;&#x9886;&#x57DF;" class="md-toc-link">
-            <p>&#x901A;&#x4FE1;&#x9886;&#x57DF;</p>
+          <a href="#通信领域" class="md-toc-link">
+            <p>通信领域</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x5176;&#x4ED6;&#x9886;&#x57DF;" class="md-toc-link">
-            <p>&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x5176;&#x4ED6;&#x9886;&#x57DF;</p>
+          <a href="#上层软件的其他领域" class="md-toc-link">
+            <p>上层软件的其他领域</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#python&#x8BED;&#x8A00;" class="md-toc-link">
-            <p>Python&#x8BED;&#x8A00;</p>
+          <a href="#python语言" class="md-toc-link">
+            <p>Python语言</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x6211;crifan&#x7684;&#x6280;&#x672F;&#x5E93;" class="md-toc-link">
-            <p>&#x6211;Crifan&#x7684;&#x6280;&#x672F;&#x5E93;</p>
+          <a href="#我crifan的技术库" class="md-toc-link">
+            <p>我Crifan的技术库</p>
 
           </a></div>
         </div>
@@ -494,36 +251,36 @@ pre[data-line] .line-highlight[data-end]:after {
     
         </div>
       </details>
-    <details style="padding:0;;padding-left:24px;" open>
+    <details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x975E;&#x6280;&#x672F;&#x7C7B;" class="md-toc-link"><p>&#x975E;&#x6280;&#x672F;&#x7C7B;</p>
+          <a href="#非技术类" class="md-toc-link"><p>非技术类</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x7535;&#x8111;&#x8BA1;&#x7B97;&#x673A;&#x4F7F;&#x7528;&#x7C7B;" class="md-toc-link">
-            <p>&#x7535;&#x8111;&#x8BA1;&#x7B97;&#x673A;&#x4F7F;&#x7528;&#x7C7B;</p>
+          <a href="#电脑计算机使用类" class="md-toc-link">
+            <p>电脑计算机使用类</p>
 
-          </a></div><details style="padding:0;;padding-left:24px;" open>
+          </a></div><details style="padding:0;;padding-left:24px;" open="">
         <summary class="md-toc-link-wrapper">
-          <a href="#&#x5DE5;&#x4F5C;&#x7C7B;" class="md-toc-link"><p>&#x5DE5;&#x4F5C;&#x7C7B;</p>
+          <a href="#工作类" class="md-toc-link"><p>工作类</p>
 </a>
           </summary>
         <div>
           <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x9886;&#x57DF;&#x76F8;&#x5173;&#x77E5;&#x8BC6;" class="md-toc-link">
-            <p>&#x9886;&#x57DF;&#x76F8;&#x5173;&#x77E5;&#x8BC6;</p>
+          <a href="#领域相关知识" class="md-toc-link">
+            <p>领域相关知识</p>
 
           </a></div>
         </div>
       </details>
     <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x751F;&#x6D3B;&#x7C7B;" class="md-toc-link">
-            <p>&#x751F;&#x6D3B;&#x7C7B;</p>
+          <a href="#生活类" class="md-toc-link">
+            <p>生活类</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#&#x5A31;&#x4E50;&#x7C7B;" class="md-toc-link">
-            <p>&#x5A31;&#x4E50;&#x7C7B;</p>
+          <a href="#娱乐类" class="md-toc-link">
+            <p>娱乐类</p>
 
           </a></div>
         </div>
@@ -534,52 +291,52 @@ pre[data-line] .line-highlight[data-end]:after {
     
 </div>
 <hr>
-<h2 class="mume-header" id="%E6%BA%90%E7%A0%81">&#x6E90;&#x7801;</h2>
+<h2 class="crossnote-header" id="%E6%BA%90%E7%A0%81">源码</h2>
 
-<p><a href="https://github.com/crifan/crifan_ebook_readme">crifan/crifan_ebook_readme: Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</a></p>
-<h2 class="mume-header" id="crifan%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E">Crifan&#x7535;&#x5B50;&#x4E66;&#x7684;&#x7B80;&#x8981;&#x8BF4;&#x660E;</h2>
+<p><a href="https://github.com/crifan/crifan_ebook_readme">crifan/crifan_ebook_readme: Crifan的电子书的使用说明</a></p>
+<h2 class="crossnote-header" id="crifan%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E">Crifan电子书的简要说明</h2>
 
-<p>&#x5173;&#x4E8E;<a href="https://www.crifan.org/about/">Crifan</a>&#x7684;&#x7535;&#x5B50;&#x4E66;&#xFF0C;&#x65E0;&#x9700;&#x7EC6;&#x8282;&#x53EA;&#x5173;&#x6CE8;&#x91CD;&#x70B9;&#xFF0C;&#x5219;&#x53EA;&#x9700;&#x770B;&#x6B64;&#x6982;&#x89C8;&#xFF1A;</p>
+<p>关于<a href="https://www.crifan.org/about/">Crifan</a>的电子书，无需细节只关注重点，则只需看此概览：</p>
 <ul>
-<li>&#x8111;&#x56FE;
+<li>脑图
 <ul>
-<li>&#x5728;&#x7EBF;&#x6D4F;&#x89C8;
+<li>在线浏览
 <ul>
-<li><a href="https://www.processon.com/view/link/5fa6221f637689653d8b9a1c">crifan&#x7535;&#x5B50;&#x4E66;&#x6982;&#x89C8;</a></li>
+<li><a href="https://www.processon.com/view/link/5fa6221f637689653d8b9a1c">crifan电子书概览</a></li>
 </ul>
 </li>
-<li>&#x56FE;&#x7247;
+<li>图片
 <ul>
-<li><img src="assets/processon/crifan%E7%94%B5%E5%AD%90%E4%B9%A6%E6%A6%82%E8%A7%88.png" alt="crifan&#x7535;&#x5B50;&#x4E66;&#x6982;&#x89C8;"></li>
+<li><img src="assets/processon/crifan%E7%94%B5%E5%AD%90%E4%B9%A6%E6%A6%82%E8%A7%88.png" alt="crifan电子书概览"></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x6587;&#x5B57;&#x7248;
+<li>文字版
 <ul>
-<li>&#x6280;&#x672F;&#x7C7B;
+<li>技术类
 <ul>
-<li>&#x901A;&#x7528;
+<li>通用
 <ul>
-<li><a href="https://book.crifan.org/books/improve_work_efficiency/website/">&#x63D0;&#x9AD8;&#x6548;&#x7387;</a></li>
-<li><a href="https://book.crifan.org/books/computer_tech_summary/website/">&#x7535;&#x8111;&#x901A;&#x7528;&#x77E5;&#x8BC6;</a></li>
-<li>&#x7F16;&#x7A0B;&#x548C;&#x5F00;&#x53D1;
+<li><a href="https://book.crifan.org/books/improve_work_efficiency/website/">提高效率</a></li>
+<li><a href="https://book.crifan.org/books/computer_tech_summary/website/">电脑通用知识</a></li>
+<li>编程和开发
 <ul>
-<li><a href="https://book.crifan.org/books/learn_tech_method_experience/website/">&#x5B66;&#x4E60;&#x65B9;&#x6CD5;&#x548C;&#x601D;&#x8DEF;</a></li>
-<li><a href="https://book.crifan.org/books/program_code_style/website/">&#x98CE;&#x683C;</a></li>
-<li><a href="http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html">&#x89C4;&#x8303;</a></li>
-<li><a href="https://book.crifan.org/books/program_common_logic/website/">&#x901A;&#x7528;&#x6982;&#x5FF5;</a></li>
-<li><a href="http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li><a href="http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html">&#x901A;&#x7528;&#x77E5;&#x8BC6;</a></li>
+<li><a href="https://book.crifan.org/books/learn_tech_method_experience/website/">学习方法和思路</a></li>
+<li><a href="https://book.crifan.org/books/program_code_style/website/">风格</a></li>
+<li><a href="http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html">规范</a></li>
+<li><a href="https://book.crifan.org/books/program_common_logic/website/">通用概念</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html">基础知识</a></li>
+<li><a href="http://crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html">通用知识</a></li>
 </ul>
 </li>
-<li>&#x63A8;&#x8350;&#x5DE5;&#x5177;
+<li>推荐工具
 <ul>
-<li><a href="https://book.crifan.org/books/scientific_network_summary/website/">&#x79D1;&#x5B66;&#x4E0A;&#x7F51;</a></li>
-<li>&#x7F16;&#x8F91;&#x5668;&#x548C;IDE
+<li><a href="https://book.crifan.org/books/scientific_network_summary/website/">科学上网</a></li>
+<li>编辑器和IDE
 <ul>
-<li><a href="https://book.crifan.org/books/editor_ide_summary/website/">&#x603B;&#x7ED3;</a></li>
-<li>&#x597D;&#x7528;&#x5DE5;&#x5177;
+<li><a href="https://book.crifan.org/books/editor_ide_summary/website/">总结</a></li>
+<li>好用工具
 <ul>
 <li><a href="http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html">Notepad++</a></li>
 <li><a href="https://book.crifan.org/books/best_editor_vscode/website/">VSCode</a></li>
@@ -593,22 +350,22 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="https://book.crifan.org/books/api_tool_postman/website/">Postman</a></li>
 </ul>
 </li>
-<li>&#x8FDC;&#x7A0B;&#x8FDE;&#x63A5;
+<li>远程连接
 <ul>
 <li><a href="http://crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html">SecureCRT</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/best_diagram_tool/website/">&#x753B;&#x56FE;&#x5DE5;&#x5177;</a></li>
-<li><a href="https://book.crifan.org/books/file_compare_tool_summary/website/">&#x6587;&#x4EF6;&#x5BF9;&#x6BD4;</a></li>
+<li><a href="https://book.crifan.org/books/best_diagram_tool/website/">画图工具</a></li>
+<li><a href="https://book.crifan.org/books/file_compare_tool_summary/website/">文件对比</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x4E0D;&#x540C;&#x5C42;&#x6B21;
+<li>不同层次
 <ul>
-<li>&#x4E0A;&#x5C42;&#xFF1A;&#x7EAF;&#x8F6F;&#x4EF6;
+<li>上层：纯软件
 <ul>
-<li>&#x901A;&#x7528;
+<li>通用
 <ul>
 <li><a href="https://book.crifan.org/books/http_summary/website/">HTTP</a></li>
 <li>API
@@ -616,59 +373,59 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="https://book.crifan.org/books/http_restful_api/website/">RESTful</a></li>
 </ul>
 </li>
-<li>&#x7F16;&#x7A0B;&#x8BED;&#x8A00;
+<li>编程语言
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html">&#x8BED;&#x8A00;&#x7B80;&#x4ECB;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html">基础知识</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html">语言简介</a></li>
 </ul>
 </li>
-<li>&#x6570;&#x636E;&#x5E93;
+<li>数据库
 <ul>
 <li><a href="https://book.crifan.org/books/popular_rmdb_mysql/website/">MySQL</a></li>
 <li><a href="https://book.crifan.org/books/popular_document_db_mongodb/website/">MongoDB</a></li>
 </ul>
 </li>
-<li>&#x6570;&#x636E;&#x683C;&#x5F0F;
+<li>数据格式
 <ul>
 <li>JSON
 <ul>
-<li><a href="http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html">&#x65E7;</a></li>
-<li><a href="https://book.crifan.org/books/common_data_format_json/website/">&#x65B0;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html">旧</a></li>
+<li><a href="https://book.crifan.org/books/common_data_format_json/website/">新</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x7248;&#x672C;&#x7BA1;&#x7406;
+<li>版本管理
 <ul>
 <li><a href="https://book.crifan.org/books/popular_version_control_git/website/">Git</a></li>
 </ul>
 </li>
-<li>&#x5B57;&#x7B26;&#x7F16;&#x7801;
+<li>字符编码
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html">&#x8BE6;&#x89E3;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html">&#x5E94;&#x7528;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html">详解</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html">应用</a></li>
 <li>Python
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html">&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x5B57;&#x7B26;&#x7F16;&#x7801;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html">字符串和字符编码</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;
+<li>正则表达式
 <ul>
-<li>&#x6559;&#x7A0B;
+<li>教程
 <ul>
-<li><a href="http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html">&#x65E7;</a></li>
-<li><a href="https://book.crifan.org/books/super_search_regex/website/">&#x65B0;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html">旧</a></li>
+<li><a href="https://book.crifan.org/books/super_search_regex/website/">新</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/regex_usage_examples/website/">&#x5E94;&#x7528;&#x4E3E;&#x4F8B;</a></li>
+<li><a href="https://book.crifan.org/books/regex_usage_examples/website/">应用举例</a></li>
 <li>Python
 <ul>
-<li>re&#x6A21;&#x5757;
+<li>re模块
 <ul>
-<li><a href="http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html">&#x65E7;</a></li>
-<li><a href="https://book.crifan.org/books/python_regex_re_intro/website/">&#x65B0;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html">旧</a></li>
+<li><a href="https://book.crifan.org/books/python_regex_re_intro/website/">新</a></li>
 </ul>
 </li>
 </ul>
@@ -677,39 +434,41 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x4FE1;&#x606F;&#x5B89;&#x5168;
+<li>信息安全
 <ul>
-<li><a href="https://book.crifan.org/books/information_security_overview/website/">&#x6982;&#x89C8;</a></li>
-<li><a href="https://book.crifan.org/books/avoid_hacker_attack_web_security/website/">Web&#x5B89;&#x5168;</a>
+<li><a href="https://book.crifan.org/books/information_security_overview/website/">概览</a></li>
+<li><a href="https://book.crifan.org/books/avoid_hacker_attack_web_security/website/">Web安全</a>
 <ul>
-<li><a href="https://book.crifan.org/books/infiltrate_your_net_penetration_testing/website/">&#x6E17;&#x900F;&#x6D4B;&#x8BD5;</a></li>
-<li><a href="https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/">&#x5B89;&#x5168;&#x5206;&#x6790;</a></li>
+<li><a href="https://book.crifan.org/books/infiltrate_your_net_penetration_testing/website/">渗透测试</a></li>
+<li><a href="https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/">安全分析</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/">&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;</a></li>
-<li>&#x79FB;&#x52A8;&#x5B89;&#x5168;
+<li><a href="https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/">二进制安全</a></li>
+<li>移动安全
 <ul>
-<li>&#x901A;&#x7528;
+<li>通用
 <ul>
-<li>&#x8BED;&#x8A00;
+<li>语言
 <ul>
-<li><a href="https://book.crifan.org/books/popular_assembly_arm/website/">ARM&#x6C47;&#x7F16;</a></li>
+<li><a href="https://book.crifan.org/books/popular_assembly_arm/website/">ARM汇编</a></li>
 </ul>
 </li>
-<li>&#x9759;&#x6001;&#x5206;&#x6790;
+<li>静态分析
 <ul>
 <li><a href="https://book.crifan.org/books/reverse_tool_ida/website/">IDA</a></li>
 </ul>
 </li>
-<li>&#x52A8;&#x6001;&#x8C03;&#x8BD5;
+<li>动态调试
 <ul>
 <li><a href="https://book.crifan.org/books/reverse_debug_frida/website/">Frida</a></li>
 <li><a href="https://book.crifan.org/books/popular_debugger_lldb/website/">LLDB</a></li>
-<li>&#x9AD8;&#x7EA7;&#x9006;&#x5411;
+<li>高级逆向
 <ul>
-<li>&#x4EE3;&#x7801;&#x6A21;&#x62DF;
+<li>代码模拟
 <ul>
-<li><a href="https://book.crifan.org/books/cpu_emulator_unicorn/website/">Unicorn</a></li>
+<li><a href="https://book.crifan.org/books/cpu_emulator_unicorn/website/">Unicorn</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ultimate_disassembler_capstone/website/">Capstone</a></li>
 </ul>
 </li>
 </ul>
@@ -718,83 +477,90 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/android_app_security_crack/website/">Android&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;</a>
+</ul>
+</li>
+<li><a href="https://book.crifan.org/books/android_app_security_crack/website/">Android安全和逆向</a>
 <ul>
-<li>Android&#x9006;&#x5411;
+<li>Android逆向
 <ul>
-<li><a href="https://book.crifan.org/books/android_reverse_dev/website/">Android&#x9006;&#x5411;&#x5F00;&#x53D1;</a>
+<li><a href="https://book.crifan.org/books/android_reverse_dev/website/">Android逆向开发</a>
 <ul>
-<li><a href="https://book.crifan.org/books/android_re_enable_root/website/">&#x5F00;&#x542F;root</a></li>
-<li><a href="https://book.crifan.org/books/android_re_repack_apk/website/">&#x91CD;&#x65B0;&#x6253;&#x5305;apk</a></li>
-<li><a href="https://book.crifan.org/books/android_re_dynamic_debug/website/">&#x52A8;&#x6001;&#x8C03;&#x8BD5;</a></li>
+<li><a href="https://book.crifan.org/books/android_re_enable_root/website/">开启root</a></li>
+<li><a href="https://book.crifan.org/books/android_re_static_analysis/website/">静态分析</a>
+<ul>
+<li><a href="https://book.crifan.org/books/android_re_decompile_jadx/website/">jadx</a></li>
+</ul>
+</li>
+<li><a href="https://book.crifan.org/books/android_re_dynamic_debug/website/">动态调试</a></li>
+<li><a href="https://book.crifan.org/books/android_re_repack_apk/website/">重新打包apk</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>iOS&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;
+<li>iOS安全和逆向
 <ul>
-<li>iOS&#x5B89;&#x5168;
+<li>iOS安全
 <ul>
-<li><a href="https://book.crifan.org/books/ios_security_protect/website/">iOS&#x5B89;&#x5168;&#x4E0E;&#x9632;&#x62A4;</a></li>
+<li><a href="https://book.crifan.org/books/ios_security_protect/website/">iOS安全与防护</a></li>
 </ul>
 </li>
-<li>iOS&#x9006;&#x5411;
+<li>iOS逆向
 <ul>
-<li><a href="https://book.crifan.org/books/ios_reverse_dev/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;</a>
+<li><a href="https://book.crifan.org/books/ios_reverse_dev/website/">iOS逆向开发</a>
 <ul>
-<li>&#x5178;&#x578B;&#x6D41;&#x7A0B;
+<li>典型流程
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_iphone_jailbreak/website/">iPhone&#x8D8A;&#x72F1;</a>
+<li><a href="https://book.crifan.org/books/ios_re_iphone_jailbreak/website/">iPhone越狱</a>
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_ios15_jailbreak/website/">iOS15&#x8D8A;&#x72F1;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_package_manager/website/">&#x5305;&#x7BA1;&#x7406;&#x5668;</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_ios15_jailbreak/website/">iOS15越狱</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_package_manager/website/">包管理器</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/ios_re_crack_shell_ipa/website/">&#x7838;&#x58F3;ipa</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_static_analysis/website/">&#x9759;&#x6001;&#x5206;&#x6790;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_dynamic_debug/website/">&#x52A8;&#x6001;&#x8C03;&#x8BD5;</a>
+<li><a href="https://book.crifan.org/books/ios_re_crack_shell_ipa/website/">砸壳ipa</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_static_analysis/website/">静态分析</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_dynamic_debug/website/">动态调试</a>
 <ul>
 <li><a href="https://book.crifan.org/books/ios_re_monkeydev_debug/website/">MonkeyDev</a></li>
 <li><a href="https://book.crifan.org/books/xcode_dev_summary/website/">Xcode</a>
 <ul>
-<li><a href="https://book.crifan.org/books/xcode_dev_debug_summary/website/">&#x8C03;&#x8BD5;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://book.crifan.org/books/xcode_dev_debug_summary/website/">调试心得</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x6D89;&#x53CA;&#x9886;&#x57DF;
+<li>涉及领域
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_jailbreak_tweak/website/">&#x8D8A;&#x72F1;&#x63D2;&#x4EF6;&#x5F00;&#x53D1;</a>
+<li><a href="https://book.crifan.org/books/ios_re_jailbreak_tweak/website/">越狱插件开发</a>
 <ul>
 <li><a href="https://book.crifan.org/books/ios_re_iosopendev_tweak/website/">iOSOpenDev</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/ios_re_ios_internal/website/">iOS&#x5E95;&#x5C42;&#x673A;&#x5236;</a>
+<li><a href="https://book.crifan.org/books/ios_re_ios_internal/website/">iOS底层机制</a>
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_objc_runtime/website/">ObjC&#x8FD0;&#x884C;&#x65F6;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_objc_block/website/">Block&#x533F;&#x540D;&#x51FD;&#x6570;</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_objc_runtime/website/">ObjC运行时</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_objc_block/website/">Block匿名函数</a></li>
 </ul>
 </li>
-<li><a href="https://book.crifan.org/books/ios_re_jb_detection/website/">&#x8D8A;&#x72F1;&#x68C0;&#x6D4B;&#x548C;&#x53CD;&#x8D8A;&#x72F1;&#x68C0;&#x6D4B;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_debug_breakpoint/website/">&#x65AD;&#x70B9;</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_jb_detection/website/">越狱检测和反越狱检测</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_debug_breakpoint/website/">断点</a></li>
 </ul>
 </li>
-<li>&#x5B9E;&#x4F8B;
+<li>实例
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_youtube_reverse/website/">YouTube&#x9006;&#x5411;</a>
+<li><a href="https://book.crifan.org/books/ios_re_youtube_reverse/website/">YouTube逆向</a>
 <ul>
-<li><a href="https://book.crifan.org/books/ios_re_protobuf_reverse/website/">protobuf&#x9006;&#x5411;</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_protobuf_reverse/website/">protobuf逆向</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x76F8;&#x5173;
+<li>相关
 <ul>
-<li>&#x5F00;&#x53D1;&#x8BED;&#x8A00;
+<li>开发语言
 <ul>
 <li><a href="https://book.crifan.org/books/c_lang_dev_summary/website/">C</a></li>
 <li><a href="https://book.crifan.org/books/ios_dev_summary/website/">iOS</a></li>
@@ -810,38 +576,38 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x8BBE;&#x5907;&#x5B89;&#x5168;
+<li>设备安全
 <ul>
-<li><a href="https://book.crifan.org/books/industrial_control_security_overview/website/">&#x5DE5;&#x63A7;&#x5B89;&#x5168;</a></li>
-<li><a href="https://book.crifan.org/books/guard_your_car_safety/website/">&#x6C7D;&#x8F66;&#x5B89;&#x5168;</a></li>
+<li><a href="https://book.crifan.org/books/industrial_control_security_overview/website/">工控安全</a></li>
+<li><a href="https://book.crifan.org/books/guard_your_car_safety/website/">汽车安全</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x79FB;&#x52A8;&#x7AEF;
+<li>移动端
 <ul>
-<li>&#x5B89;&#x5353;
+<li>安卓
 <ul>
-<li>&#x8F85;&#x52A9;&#x5DE5;&#x5177;
+<li>辅助工具
 <ul>
-<li><a href="https://book.crifan.org/books/crack_assistant_xposed_framework/website/">Xposed</a></li>
-<li><a href="https://book.crifan.org/books/good_android_emulator_nox/website/">Nox&#x6A21;&#x62DF;&#x5668;</a></li>
+<li><a href="https://book.crifan.org/books/android_re_xposed_framework/website/">Xposed</a></li>
+<li><a href="https://book.crifan.org/books/good_android_emulator_nox/website/">Nox模拟器</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x81EA;&#x52A8;&#x5316;
+<li>自动化
 <ul>
-<li>&#x5DE5;&#x5177;
+<li>工具
 <ul>
 <li><a href="https://book.crifan.org/books/good_automation_tool_makefile/website/">Makefile</a></li>
 </ul>
 </li>
-<li>&#x6D4B;&#x8BD5;
+<li>测试
 <ul>
-<li><a href="https://book.crifan.org/books/free_hand_test_automation/website/">&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/free_hand_test_automation/website/">概览</a></li>
 <li>Web
 <ul>
 <li><a href="https://book.crifan.org/books/selenium_summary/website/">Selenium</a></li>
@@ -849,11 +615,11 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="https://book.crifan.org/books/web_automation_tool_puppeteer/website/">puppeteer</a></li>
 </ul>
 </li>
-<li>&#x79FB;&#x52A8;&#x7AEF;
+<li>移动端
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_automation_overview/website/">&#x6982;&#x89C8;</a>
+<li><a href="https://book.crifan.org/books/mobile_automation_overview/website/">概览</a>
 <ul>
-<li>&#x901A;&#x7528;
+<li>通用
 <ul>
 <li><a href="https://book.crifan.org/books/popular_automation_framework_appium/website/">Appium</a></li>
 </ul>
@@ -876,10 +642,10 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x684C;&#x9762;&#x7AEF;
+<li>桌面端
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html">C#</a></li>
-<li>&#x8DE8;&#x5E73;&#x53F0;&#x5E94;&#x7528;
+<li>跨平台应用
 <ul>
 <li><a href="https://book.crifan.org/books/desktop_app_framework_electron/website/">Electron</a></li>
 </ul>
@@ -888,20 +654,20 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 <li>Apple
 <ul>
-<li><a href="https://book.crifan.org/books/apple_develop_summary/website/">&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/apple_develop_summary/website/">开发总结</a></li>
 </ul>
 </li>
 <li>Web
 <ul>
-<li>&#x7F51;&#x7AD9;
+<li>网站
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html">&#x5EFA;&#x7AD9;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html">&#x642C;&#x5BB6;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html">建站</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html">搬家</a></li>
 </ul>
 </li>
-<li>&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;
+<li>数据可视化
 <ul>
-<li>JS&#x56FE;&#x8868;&#x5E93;
+<li>JS图表库
 <ul>
 <li><a href="https://book.crifan.org/books/popular_js_chart_lib_echarts/website/">ECharts</a></li>
 </ul>
@@ -910,40 +676,40 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x79FB;&#x52A8;&#x7AEF;
+<li>移动端
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_app_summary/website/">APP&#x5F00;&#x53D1;</a></li>
+<li><a href="https://book.crifan.org/books/mobile_app_summary/website/">APP开发</a></li>
 </ul>
 </li>
-<li>&#x722C;&#x866B;
+<li>爬虫
 <ul>
-<li>&#x539F;&#x7406;
+<li>原理
 <ul>
-<li>&#x65B0;
+<li>新
 <ul>
-<li><a href="https://book.crifan.org/books/crawl_your_data_spider_technology/website/">&#x722C;&#x866B;&#x6280;&#x672F;</a></li>
+<li><a href="https://book.crifan.org/books/crawl_your_data_spider_technology/website/">爬虫技术</a></li>
 </ul>
 </li>
-<li>&#x65E7;
+<li>旧
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html">&#x539F;&#x7406;&#x548C;&#x5B9E;&#x73B0;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html">原理和实现</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>Python
 <ul>
-<li>&#x65B0;
+<li>新
 <ul>
-<li><a href="https://book.crifan.org/books/use_python_write_spider/website/">&#x7528;Python&#x5199;&#x722C;&#x866B;</a></li>
+<li><a href="https://book.crifan.org/books/use_python_write_spider/website/">用Python写爬虫</a></li>
 </ul>
 </li>
-<li>&#x65E7;
+<li>旧
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html">Python&#x6293;&#x53D6;&#x7F51;&#x9875;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html">Python抓取网页</a></li>
 </ul>
 </li>
-<li>Python&#x722C;&#x866B;&#x6846;&#x67B6;
+<li>Python爬虫框架
 <ul>
 <li><a href="https://book.crifan.org/books/python_spider_pyspider/website/">PySpider</a></li>
 <li><a href="https://book.crifan.org/books/python_spider_scrapy/website/">Scrapy</a></li>
@@ -951,15 +717,15 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x76F8;&#x5173;
+<li>相关
 <ul>
-<li>&#x5185;&#x5BB9;&#x89E3;&#x6790;
+<li>内容解析
 <ul>
 <li><a href="https://book.crifan.org/books/xpath_summary/website/">XPath</a></li>
 <li>BeautifulSoup
 <ul>
-<li><a href="http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html">&#x65E7;</a></li>
-<li><a href="https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/">&#x65B0;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html">旧</a></li>
+<li><a href="https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/">新</a></li>
 </ul>
 </li>
 <li><a href="https://book.crifan.org/books/python_html_parse_pyquery/website/">PyQuery</a></li>
@@ -967,26 +733,26 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x6293;&#x5305;&#x5DE5;&#x5177;
+<li>抓包工具
 <ul>
 <li><a href="https://book.crifan.org/books/app_capture_package_tool_charles/website/">Charles</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x7F16;&#x8BD1;&#x5668;
+<li>编译器
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html">ANTLR</a></li>
 </ul>
 </li>
-<li>&#x7535;&#x5B50;&#x4E66;
+<li>电子书
 <ul>
-<li>&#x683C;&#x5F0F;
+<li>格式
 <ul>
 <li><a href="https://book.crifan.org/books/doc_format_markdown/website/">Markdown</a></li>
 </ul>
 </li>
-<li>&#x5236;&#x4F5C;&#x5DE5;&#x5177;
+<li>制作工具
 <ul>
 <li><a href="https://book.crifan.org/books/ebook_system_gitbook/website/">GitBook</a></li>
 <li><a href="http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html">Docbook</a></li>
@@ -994,44 +760,44 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x538B;&#x7F29;&#x5DE5;&#x5177;
+<li>压缩工具
 <ul>
-<li><a href="https://book.crifan.org/books/common_compress_tool_summary/website/">&#x5E38;&#x89C1;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/common_compress_tool_summary/website/">常见总结</a></li>
 </ul>
 </li>
-<li>&#x97F3;&#x89C6;&#x9891;
+<li>音视频
 <ul>
 <li><a href="https://book.crifan.org/books/media_process_ffmpeg/website/">ffmpeg</a></li>
 </ul>
 </li>
-<li>&#x901A;&#x4FE1;&#x9886;&#x57DF;
+<li>通信领域
 <ul>
-<li>&#x79FB;&#x52A8;&#x7F51;&#x7EDC;
+<li>移动网络
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_network_evolution_history/website/">&#x6F14;&#x5316;</a></li>
+<li><a href="https://book.crifan.org/books/mobile_network_evolution_history/website/">演化</a></li>
 </ul>
 </li>
-<li>&#x591A;&#x5A92;&#x4F53;
+<li>多媒体
 <ul>
 <li><a href="https://crifan.github.io/multimedia_core_system_ims/website/">IMS</a></li>
 </ul>
 </li>
-<li>RCS=5G&#x6D88;&#x606F;
+<li>RCS=5G消息
 <ul>
-<li><a href="https://book.crifan.org/books/5g_message_rcs_tech_summary/website/">&#x6982;&#x8FF0;</a></li>
-<li><a href="https://book.crifan.org/books/rcs_tech_dev_summary/website/">&#x5F00;&#x53D1;</a></li>
+<li><a href="https://book.crifan.org/books/5g_message_rcs_tech_summary/website/">概述</a></li>
+<li><a href="https://book.crifan.org/books/rcs_tech_dev_summary/website/">开发</a></li>
 </ul>
 </li>
 <li>5G
 <ul>
-<li><a href="https://book.crifan.org/books/5g_tech_summary/website/">&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/5g_tech_summary/website/">概览</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x7F16;&#x7A0B;&#x8BED;&#x8A00;
+<li>编程语言
 <ul>
-<li>&#x4E2A;&#x4EBA;crifan&#x7684;&#x5E93; CrifanLib
+<li>个人crifan的库 CrifanLib
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html">C# crifanLib.cs</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html">Python crifanLib.py</a></li>
@@ -1039,70 +805,70 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 <li>Python
 <ul>
-<li>&#x6559;&#x7A0B;
+<li>教程
 <ul>
-<li>&#x65E7;
+<li>旧
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html">&#x5165;&#x95E8;&#x8BE6;&#x89E3;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html">&#x4E2D;&#x7EA7;&#x6559;&#x7A0B;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html">&#x603B;&#x7ED3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html">入门详解</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html">中级教程</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html">总结</a></li>
 </ul>
 </li>
-<li>&#x65B0;
+<li>新
 <ul>
-<li><a href="https://book.crifan.org/books/python_newbie_mistakes_questions/website/">&#x65B0;&#x624B;&#x5C0F;&#x767D;&#x5E38;&#x89C1;&#x9519;&#x8BEF;</a></li>
-<li><a href="https://book.crifan.org/books/make_life_better_python/website/">&#x8BA9;&#x4F60;&#x4EBA;&#x751F;&#x4E0D;&#x82E6;&#x77ED;</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://book.crifan.org/books/python_common_code_snippet/website/">&#x5E38;&#x7528;&#x4EE3;&#x7801;&#x6BB5;</a></li>
-<li>&#x7F51;&#x7EDC;&#x5E93;
-<ul>
-<li><a href="https://book.crifan.org/books/python_summary_http_lib/website/">&#x603B;&#x7ED3;</a></li>
-</ul>
-</li>
-<li>&#x865A;&#x62DF;&#x73AF;&#x5883;
-<ul>
-<li><a href="https://book.crifan.org/books/python_summary_virtual_environment/website/">&#x603B;&#x7ED3;</a></li>
-</ul>
-</li>
-<li>&#x64CD;&#x4F5C;&#x6587;&#x4EF6;
-<ul>
-<li><a href="https://book.crifan.org/books/python_process_csv_excel/website/">CSV&#x548C;Excel</a></li>
+<li><a href="https://book.crifan.org/books/python_newbie_mistakes_questions/website/">新手小白常见错误</a></li>
+<li><a href="https://book.crifan.org/books/make_life_better_python/website/">让你人生不苦短</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li><a href="https://book.crifan.org/books/python_common_code_snippet/website/">常用代码段</a></li>
+<li>网络库
+<ul>
+<li><a href="https://book.crifan.org/books/python_summary_http_lib/website/">总结</a></li>
 </ul>
 </li>
+<li>虚拟环境
+<ul>
+<li><a href="https://book.crifan.org/books/python_summary_virtual_environment/website/">总结</a></li>
 </ul>
 </li>
-<li>&#x4E2D;&#x95F4;&#xFF1A;&#x5D4C;&#x5165;&#x5F0F;
+<li>操作文件
 <ul>
-<li>&#x901A;&#x7528;
-<ul>
-<li><a href="https://book.crifan.org/books/common_logic_hardware_embedded/website/">&#x6982;&#x5FF5;</a></li>
-<li>&#x5D4C;&#x5165;&#x5F0F;
-<ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html">&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html">&#x9A71;&#x52A8;&#x5F00;&#x53D1;</a></li>
-<li>&#x5D4C;&#x5165;&#x5F0F;Linux
-<ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html">&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html">&#x9A71;&#x52A8;&#x5F00;&#x53D1;</a></li>
+<li><a href="https://book.crifan.org/books/python_process_csv_excel/website/">CSV和Excel</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x5F00;&#x53D1;&#x524D;=&#x5F00;&#x53D1;&#x73AF;&#x5883;
+</ul>
+</li>
+<li>中间：嵌入式
 <ul>
-<li>&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;
+<li>通用
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html">&#x6982;&#x89C8;</a></li>
-<li>&#x5E38;&#x89C1;&#x5DE5;&#x5177;
+<li><a href="https://book.crifan.org/books/common_logic_hardware_embedded/website/">概念</a></li>
+<li>嵌入式
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html">软件开发</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html">驱动开发</a></li>
+<li>嵌入式Linux
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html">软件开发</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html">驱动开发</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>开发前=开发环境
+<ul>
+<li>交叉编译
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html">概览</a></li>
+<li>常见工具
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html">Buildroot</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html">crosstool-ng</a></li>
@@ -1117,27 +883,27 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li>&#x5F00;&#x53D1;&#x671F;&#x95F4;=&#x5F00;&#x53D1;&#x77E5;&#x8BC6;
+<li>开发期间=开发知识
 <ul>
-<li>&#x7CFB;&#x7EDF;&#x542F;&#x52A8;
+<li>系统启动
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html">Uboot&#x7684;start.S</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html">Uboot的start.S</a></li>
 </ul>
 </li>
-<li><a href="https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html">&#x4E2D;&#x65AD;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html">中断</a></li>
 <li>CPU
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html">ARM&#x548C;MIPS&#x5BF9;&#x6BD4;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html">ARM和MIPS对比</a></li>
 </ul>
 </li>
 <li>DMA
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html">ARM&#x7684;AMBA&#x7684;PL08X</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html">ARM的AMBA的PL08X</a></li>
 </ul>
 </li>
-<li>&#x65E0;&#x7EBF;&#x7F51;&#x5361;
+<li>无线网卡
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html">&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html">驱动</a></li>
 </ul>
 </li>
 <li>Nand Flash
@@ -1145,122 +911,122 @@ pre[data-line] .line-highlight[data-end]:after {
 <li>Linux
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html">MTD</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html">&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html">驱动</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>USB
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html">基础知识</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html">HID</a></li>
 <li>Linux
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html">U&#x76D8;&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html">U盘驱动</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x84DD;&#x7259;
+<li>蓝牙
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html">&#x534F;&#x8BAE;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html">协议</a></li>
 </ul>
 </li>
-<li>RS232&#x4E32;&#x53E3;
+<li>RS232串口
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html">&#x534F;&#x8BAE;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html">协议</a></li>
 </ul>
 </li>
-<li>&#x97F3;&#x9891;
+<li>音频
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html">MPEG&#x548C;MP3&#x7684;CBR/VBR</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html">MPEG和MP3的CBR/VBR</a></li>
 </ul>
 </li>
-<li>&#x5176;&#x4ED6;
+<li>其他
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html">GNU Binutils</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x5F00;&#x53D1;&#x5B8C;&#x6210;=&#x70E7;&#x5F55;+&#x5347;&#x7EA7;
+<li>开发完成=烧录+升级
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html">&#x56FA;&#x4EF6;&#x70E7;&#x5F55;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html">&#x5347;&#x7EA7;Linux&#x7CFB;&#x7EDF;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html">固件烧录</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html">升级Linux系统</a></li>
 </ul>
 </li>
-<li>&#x5176;&#x4ED6;&#x9886;&#x57DF;
+<li>其他领域
 <ul>
 <li><a href="https://book.crifan.org/books/industrial_automation_plc/website/">PLC</a></li>
-<li><a href="http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html">&#x73B0;&#x573A;&#x603B;&#x7EBF;</a></li>
-<li>&#x6761;&#x5F62;&#x7801;Symbology
+<li><a href="http://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html">现场总线</a></li>
+<li>条形码Symbology
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html">Code 128</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html">GS1-128</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html">Plessey&#x548C;MSI</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html">UPC&#x7CFB;&#x5217;&#x548C;EAN</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html">Plessey和MSI</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html">UPC系列和EAN</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x5E95;&#x5C42;&#xFF1A;&#x786C;&#x4EF6;
+<li>底层：硬件
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li>&#x82AF;&#x7247;
+<li><a href="https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html">基础知识</a></li>
+<li>芯片
 <ul>
-<li><a href="https://book.crifan.org/books/ic_chip_industry_chain_summary/website/">&#x4EA7;&#x4E1A;&#x94FE;</a></li>
+<li><a href="https://book.crifan.org/books/ic_chip_industry_chain_summary/website/">产业链</a></li>
 </ul>
 </li>
-<li>&#x667A;&#x80FD;&#x97F3;&#x7BB1;
+<li>智能音箱
 <ul>
-<li><a href="https://book.crifan.org/books/smart_speaker_disassemble_summary/website/">&#x62C6;&#x89E3;</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="https://book.crifan.org/books/smart_speaker_disassemble_summary/website/">拆解</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x975E;&#x6280;&#x672F;
-<ul>
-<li>&#x5DE5;&#x4F5C;&#x7C7B;
-<ul>
-<li><a href="https://book.crifan.org/books/work_job_summary/website/">&#x5DE5;&#x4F5C;&#x548C;&#x804C;&#x4E1A;</a></li>
-<li>&#x5DE5;&#x5177;&#x548C;&#x8F6F;&#x4EF6;
-<ul>
-<li>&#x534F;&#x4F5C;
-<ul>
-<li><a href="https://book.crifan.org/books/youdao_note_summary/website/">&#x6709;&#x9053;&#x4E91;&#x7B14;&#x8BB0;&#x548C;&#x4E91;&#x534F;&#x4F5C;</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x9886;&#x57DF;&#x77E5;&#x8BC6;
+<li>非技术
 <ul>
-<li><a href="https://book.crifan.org/books/automobile_sales_summary/website/">&#x6C7D;&#x8F66;&#x9500;&#x552E;</a></li>
+<li>工作类
+<ul>
+<li><a href="https://book.crifan.org/books/work_job_summary/website/">工作和职业</a></li>
+<li>工具和软件
+<ul>
+<li>协作
+<ul>
+<li><a href="https://book.crifan.org/books/youdao_note_summary/website/">有道云笔记和云协作</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x751F;&#x6D3B;&#x7C7B;
+<li>领域知识
 <ul>
-<li>&#x7535;&#x8111;&#x4F7F;&#x7528;
+<li><a href="https://book.crifan.org/books/automobile_sales_summary/website/">汽车销售</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>生活类
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html">&#x63A8;&#x8350;&#x8F6F;&#x4EF6;</a></li>
-<li>&#x865A;&#x62DF;&#x673A;
+<li>电脑使用
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html">&#x6559;&#x7A0B;</a></li>
-<li>&#x5E38;&#x89C1;
+<li><a href="https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html">基础知识</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html">推荐软件</a></li>
+<li>虚拟机
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html">教程</a></li>
+<li>常见
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html">VirtualBox</a></li>
 <li>VMWare
 <ul>
-<li><a href="http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html">&#x65E7;</a></li>
-<li><a href="https://book.crifan.org/books/popular_virtual_machine_vmware/website/">&#x65B0;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html">旧</a></li>
+<li><a href="https://book.crifan.org/books/popular_virtual_machine_vmware/website/">新</a></li>
 </ul>
 </li>
 </ul>
@@ -1269,14 +1035,14 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
-<li><a href="http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html">&#x4E70;&#x623F;</a></li>
-<li><a href="https://book.crifan.org/books/resident_life_experience_summary/website/">&#x751F;&#x6D3B;&#x7ECF;&#x9A8C;</a></li>
-<li><a href="https://book.crifan.org/books/china_suitable_living_suzhou/website/">&#x82CF;&#x5DDE;</a></li>
+<li><a href="http://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html">买房</a></li>
+<li><a href="https://book.crifan.org/books/resident_life_experience_summary/website/">生活经验</a></li>
+<li><a href="https://book.crifan.org/books/china_suitable_living_suzhou/website/">苏州</a></li>
 </ul>
 </li>
-<li>&#x5A31;&#x4E50;&#x7C7B;
+<li>娱乐类
 <ul>
-<li><a href="https://book.crifan.org/books/all_age_sports_badminton/website/">&#x7FBD;&#x6BDB;&#x7403;</a></li>
+<li><a href="https://book.crifan.org/books/all_age_sports_badminton/website/">羽毛球</a></li>
 </ul>
 </li>
 </ul>
@@ -1284,565 +1050,476 @@ pre[data-line] .line-highlight[data-end]:after {
 </ul>
 </li>
 </ul>
-<h2 class="mume-header" id="%E4%B8%BA%E4%BD%95%E8%A6%81%E6%9C%89crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6">&#x4E3A;&#x4F55;&#x8981;&#x6709;&#xFF1A;Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;</h2>
+<h2 class="crossnote-header" id="%E4%B8%BA%E4%BD%95%E8%A6%81%E6%9C%89crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6">为何要有：Crifan的电子书</h2>
 
-<p>&#x6211;<code>Crifan Li</code>&#x4E4B;&#x524D;&#x6298;&#x817E;&#x8FC7;&#x5F88;&#x591A;&#x65B9;&#x9762;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6280;&#x672F;&#x7C7B;&#x7684;&#x548C;&#x975E;&#x6280;&#x672F;&#x7C7B;&#x7684;&#x3002;</p>
-<p>&#x5173;&#x4E8E;&#x6280;&#x672F;&#x7C7B;&#x4E2D;&#x53C8;&#x5206;&#x5F88;&#x591A;&#x79CD;&#xFF0C;&#x5176;&#x4E2D;&#x90FD;&#x653E;&#x5230;&#x4E86;&#x6211;&#x7684;&#x7F51;&#x7AD9; <a href="http://crifan.com">crifan.com</a> &#x4E0A;&#x7684;<a href="https://www.crifan.org/category/work_and_job/">&#x5DE5;&#x4F5C;&#x548C;&#x6280;&#x672F;</a>&#xFF0C;&#x76EE;&#x524D;&#x5DF2;&#x6709;<strong>7000&#x591A;</strong>&#x7684;&#x6280;&#x672F;&#x5E16;&#xFF0C;&#x4F46;&#x591A;&#x6570;&#x5185;&#x5BB9;&#x90FD;&#x662F;&#x96F6;&#x6563;&#x7684;&#x67D0;&#x4E2A;&#x7EC6;&#x8282;&#x77E5;&#x8BC6;&#x70B9;&#x548C;&#x67D0;&#x4E2A;&#x5177;&#x4F53;&#x95EE;&#x9898;&#x7684;&#x89E3;&#x51B3;&#x8FC7;&#x7A0B;&#x548C;&#x7ED3;&#x679C;&#x3002;</p>
-<p>&#x5F53;&#x6211;&#x5728;&#x67D0;&#x4E2A;&#x6280;&#x672F;&#x9886;&#x57DF;&#x6709;&#x4E86;&#x4E00;&#x5B9A;&#x7684;&#x5FC3;&#x5F97;&#x548C;&#x7ECF;&#x9A8C;&#x540E;&#xFF0C;&#x5C31;&#x4F1A;&#x62BD;&#x7A7A;&#x6574;&#x7406;&#x6210;&#x76F8;&#x5BF9;&#x6210;&#x7CFB;&#x7EDF;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x7528;(<a href="http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html">Docbook</a>&#x3001;<a href="https://book.crifan.org/books/ebook_system_gitbook/website/">Gitbook</a>&#x7B49;)&#x5DE5;&#x5177;&#x53BB;&#x5236;&#x4F5C;&#x51FA;&#x7535;&#x5B50;&#x4E66;&#xFF0C;&#x514D;&#x8D39;&#x53D1;&#x5E03;&#x51FA;&#x6765;&#x4F9B;&#x522B;&#x4EBA;&#x53C2;&#x8003;&#x3002;</p>
-<p>&#x76EE;&#x524D;&#x5DF2;&#x7ECF;&#x6574;&#x7406;&#x51FA;<strong>150&#x591A;</strong>&#x672C;&#x6210;&#x7CFB;&#x5217;&#x7684;&#x7535;&#x5B50;&#x4E66;&#x4E86;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#xFF1A;</p>
+<p>我<code>Crifan Li</code>之前折腾过很多方面的内容，包括技术类的和非技术类的。</p>
+<p>关于技术类中又分很多种，其中都放到了我的网站 <a href="http://crifan.com">crifan.com</a> 上的<a href="https://www.crifan.org/category/work_and_job/">工作和技术</a>，目前已有<strong>7000多</strong>的技术帖，但多数内容都是零散的某个细节知识点和某个具体问题的解决过程和结果。</p>
+<p>当我在某个技术领域有了一定的心得和经验后，就会抽空整理成相对成系统的内容，用(<a href="http://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html">Docbook</a>、<a href="https://book.crifan.org/books/ebook_system_gitbook/website/">Gitbook</a>等)工具去制作出电子书，免费发布出来供别人参考。</p>
+<p>目前已经整理出<strong>150多</strong>本成系列的电子书了，接下来详细介绍：</p>
 <blockquote>
-<p>&#x53E6;&#xFF1A;&#x624B;&#x4E0A;&#x8FD8;&#x6709;<strong>&#x51E0;&#x5341;&#x672C;</strong>&#x7535;&#x5B50;&#x4E66;&#x7684;&#x5185;&#x5BB9;&#x5DF2;&#x57FA;&#x672C;&#x5B8C;&#x6210;&#xFF0C;&#x5F85;&#x4E4B;&#x540E;&#x80FD;&#x62BD;&#x51FA;&#x65F6;&#x95F4;&#x518D;&#x5C3D;&#x5FEB;&#x6574;&#x7406;&#x53D1;&#x5E03;&#x51FA;&#x6765;&#x3002;</p>
+<p>另：手上还有<strong>几十本</strong>电子书的内容已基本完成，待之后能抽出时间再尽快整理发布出来。</p>
 </blockquote>
-<h2 class="mume-header" id="%E4%B8%BA%E4%BD%95%E8%A6%81%E6%9C%89crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">&#x4E3A;&#x4F55;&#x8981;&#x6709;&#xFF1A;Crifan&#x7684;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</h2>
+<h2 class="crossnote-header" id="%E4%B8%BA%E4%BD%95%E8%A6%81%E6%9C%89crifan%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">为何要有：Crifan的电子书的使用说明</h2>
 
-<p>&#x6211;&#x5199;&#x7684;&#x7535;&#x5B50;&#x4E66;&#x6DB5;&#x76D6;&#x8303;&#x56F4;&#x9762;&#x8F83;&#x5E7F;&#xFF0C;&#x9700;&#x8981;&#x4E13;&#x95E8;&#x6574;&#x7406;&#x540E;&#x7684;&#x5206;&#x95E8;&#x522B;&#x7C7B;&#x7684;&#x4ECB;&#x7ECD;&#xFF0C;&#x624D;&#x6709;&#x5229;&#x4E8E;&#x4ED6;&#x4EBA;&#x5FEB;&#x901F;&#x5B9A;&#x4F4D;&#x5230;&#x81EA;&#x5DF1;&#x6240;&#x9700;&#x8981;&#x53C2;&#x8003;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
-<p>&#x76EE;&#x524D;&#x6240;&#x5199;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x603B;&#x7684;&#x6982;&#x89C8;&#xFF1A;</p>
+<p>我写的电子书涵盖范围面较广，需要专门整理后的分门别类的介绍，才有利于他人快速定位到自己所需要参考的内容。</p>
+<p>目前所写电子书的总的概览：</p>
 <ul>
-<li>&#x5185;&#x5BB9;&#x4E0A;&#xFF1A;&#x4E3B;&#x8981;&#x5206;&#x4E24;&#x7C7B;
+<li>内容上：主要分两类
 <ul>
-<li>&#x4E00;&#x65B9;&#x9762;&#xFF1A;&#x6280;&#x672F;&#x7C7B;
+<li>一方面：技术类
 <ul>
-<li>&#x8BA1;&#x7B97;&#x673A;&#x76F8;&#x5173;&#x7684;&#xFF0C;&#x6280;&#x672F;&#x7C7B;&#xFF0C;&#x5F00;&#x53D1;&#x7C7B;</li>
+<li>计算机相关的，技术类，开发类</li>
 </ul>
 </li>
-<li>&#x53E6;&#x4E00;&#x65B9;&#x9762;&#xFF1A;&#x975E;&#x6280;&#x672F;&#x7C7B;
+<li>另一方面：非技术类
 <ul>
-<li>&#x751F;&#x6D3B;&#x7C7B;&#x7684;&#xFF0C;&#x5B66;&#x4E60;&#x7C7B;&#x7684;&#xFF0C;&#x5A31;&#x4E50;&#x7C7B;&#x7B49;</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>&#x5236;&#x4F5C;&#x5DE5;&#x5177;&#x4E0A;&#xFF1A;&#x4E5F;&#x5206;&#x4E24;&#x7C7B;
-<ul>
-<li>&#x4E00;&#x7C7B;&#x662F;&#xFF08;&#x6700;&#x65E9;&#xFF09;&#x7528;<code>Docbook</code>&#x5236;&#x4F5C;&#x7684;
-<ul>
-<li>&#x4E3B;&#x5165;&#x53E3;&#xFF1A;<a href="https://www.crifan.com/files/doc/docbook/">https://www.crifan.com/files/doc/docbook/</a></li>
-</ul>
-</li>
-<li>&#x53E6;&#x4E00;&#x7C7B;&#xFF08;&#x540E;&#x6765;&#xFF0C;&#x73B0;&#x5728;&#xFF09;&#x662F;&#x7528;<code>Gitbook</code>&#x5236;&#x4F5C;&#x7684;
-<ul>
-<li>&#x5F04;&#x4E86;2&#x4EFD;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x5206;&#x522B;&#x53D1;&#x5E03;&#x5230;
-<ul>
-<li>&#x81EA;&#x5DF1;&#x7684; <a href="http://crifan.com">crifan.com</a> &#x7684;&#x7F51;&#x7AD9;&#x4E0A;
-<ul>
-<li>&#x4E3B;&#x5165;&#x53E3;&#xFF1A;<a href="https://book.crifan.com/books/">https://book.crifan.com/books/</a></li>
-</ul>
-</li>
-<li>&#x548C; <a href="https://help.github.com/en/articles/what-is-github-pages">GitHub Pages</a> &#x4E0A;
-<ul>
-<li>&#x4E3B;&#x5165;&#x53E3;&#xFF1A;<a href="https://crifan.github.io">https://crifan.github.io</a></li>
-<li>&#x5BF9;&#x5E94;&#x6E90;&#x7801;&#xFF1A;<a href="https://github.com/crifan/crifan.github.io">https://github.com/crifan/crifan.github.io</a></li>
+<li>生活类的，学习类的，娱乐类等</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><code>gitbook</code>&#x7535;&#x5B50;&#x4E66;&#x7684;&#x6E90;&#x7801;
+<li>制作工具上：也分两类
 <ul>
-<li>&#x5168;&#x90E8;&#x6E90;&#x7801;&#x90FD;&#x5DF2;&#x516C;&#x5F00;&#x653E;&#x5728;<code>github</code>&#x4E0A;&#x4E86;&#xFF0C;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/crifan">https://github.com/crifan</a></li>
-<li>&#x5982;&#x4F55;&#x5229;&#x7528;gitbook&#x7684;&#x6E90;&#x7801;&#x53BB;&#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;&#x7535;&#x5B50;&#x4E66;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;<a href="https://github.com/crifan/gitbook_template">https://github.com/crifan/gitbook_template</a></li>
+<li>一类是（最早）用<code>Docbook</code>制作的
+<ul>
+<li>主入口：<a href="https://www.crifan.com/files/doc/docbook/">https://www.crifan.com/files/doc/docbook/</a></li>
 </ul>
 </li>
+<li>另一类（后来，现在）是用<code>Gitbook</code>制作的
+<ul>
+<li>弄了2份一样的，分别发布到
+<ul>
+<li>自己的 <a href="http://crifan.com">crifan.com</a> 的网站上
+<ul>
+<li>主入口：<a href="https://book.crifan.com/books/">https://book.crifan.com/books/</a></li>
+</ul>
+</li>
+<li>和 <a href="https://help.github.com/en/articles/what-is-github-pages">GitHub Pages</a> 上
+<ul>
+<li>主入口：<a href="https://crifan.github.io">https://crifan.github.io</a></li>
+<li>对应源码：<a href="https://github.com/crifan/crifan.github.io">https://github.com/crifan/crifan.github.io</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>gitbook</code>电子书的源码
+<ul>
+<li>全部源码都已公开放在<code>github</code>上了，详见：<a href="https://github.com/crifan">https://github.com/crifan</a></li>
+<li>如何利用gitbook的源码去创建自己的电子书，可以参考：<a href="https://github.com/crifan/gitbook_template">https://github.com/crifan/gitbook_template</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p>&#x4E0B;&#x9762;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x5404;&#x4E2A;&#x7535;&#x5B50;&#x4E66;&#x7684;&#x5177;&#x4F53;&#x5206;&#x7C7B;&#x548C;&#x5185;&#x5BB9;&#x7B80;&#x4ECB;&#xFF1A;</p>
-<h2 class="mume-header" id="%E6%8A%80%E6%9C%AF%E7%B1%BB">&#x6280;&#x672F;&#x7C7B;</h2>
+</li>
+</ul>
+<p>下面详细介绍各个电子书的具体分类和内容简介：</p>
+<h2 class="crossnote-header" id="%E6%8A%80%E6%9C%AF%E7%B1%BB">技术类</h2>
 
-<p>&#x4ECE;&#x5927;&#x7684;&#x6982;&#x5FF5;&#x4E0A;&#x6765;&#x8BF4;&#xFF0C;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5927;&#x81F4;&#x5206;&#x4E3A;&#xFF1A;</p>
+<p>从大的概念上来说，计算机的技术可以大致分为：</p>
 <ul>
-<li><strong>&#x4E0A;&#x5C42;&#xFF1A;&#x7EAF;&#x8F6F;&#x4EF6;</strong>
+<li><strong>上层：纯软件</strong>
 <ul>
-<li>&#x6D89;&#x53CA;&#x5230;&#x5728;PC&#xFF08;Windows/Mac/Linux&#xFF09;&#x4E0A;&#xFF0C;&#x7528;&#x5404;&#x79CD;&#x7F16;&#x8F91;&#x5668;/IDE&#xFF0C;&#x53BB;&#x7F16;&#x5199;&#x5404;&#x79CD;&#x4EE3;&#x7801;&#xFF0C;&#x5B9E;&#x73B0;&#x5404;&#x79CD;&#x5DE5;&#x5177;/&#x8F6F;&#x4EF6;/&#x811A;&#x672C;&#x7B49;&#x5185;&#x5BB9;</li>
-<li>&#x5305;&#x62EC;PC&#x684C;&#x9762;&#x7AEF;&#x8F6F;&#x4EF6;&#xFF0C;Web&#x9886;&#x57DF;&#x7F51;&#x9875;&#x5F00;&#x53D1;&#xFF0C;&#x79FB;&#x52A8;&#x7AEF;APP&#x5F00;&#x53D1;&#x7B49;&#x7B49;</li>
+<li>涉及到在PC（Windows/Mac/Linux）上，用各种编辑器/IDE，去编写各种代码，实现各种工具/软件/脚本等内容</li>
+<li>包括PC桌面端软件，Web领域网页开发，移动端APP开发等等</li>
 </ul>
 </li>
-<li><strong>&#x4E2D;&#x95F4;&#xFF1A;</strong>&#xFF08;&#x8F6F;&#x786C;&#x4EF6;&#x7ED3;&#x5408;&#x7684;&#xFF09;<strong>&#x5D4C;&#x5165;&#x5F0F;</strong>
+<li><strong>中间：</strong>（软硬件结合的）<strong>嵌入式</strong>
 <ul>
-<li>&#x6D89;&#x53CA;&#x5230;&#x5728;&#x67D0;&#x67D0;&#x5F00;&#x53D1;&#x677F;&#x4E0A;&#xFF0C;&#x5199;&#x5D4C;&#x5165;&#x5F0F;&#x4EE3;&#x7801;&#xFF0C;&#x9A71;&#x52A8;&#x786C;&#x4EF6;&#x5DE5;&#x4F5C;</li>
-<li>&#x5305;&#x62EC;&#x7ED9;&#x522B;&#x4EBA;&#x7684;&#x82AF;&#x7247;&#x6216;&#x5F00;&#x53D1;&#x677F;&#xFF0C;&#x53BB;&#x5199;&#x67D0;BSP&#xFF0C;&#x67D0;&#x4E2A;&#x6A21;&#x5757;&#xFF08;&#x84DD;&#x7259;&#xFF0C;USB&#xFF0C;FM&#xFF0C;Nand Flash&#x7B49;&#xFF09;&#x7684;&#x9A71;&#x52A8;</li>
+<li>涉及到在某某开发板上，写嵌入式代码，驱动硬件工作</li>
+<li>包括给别人的芯片或开发板，去写某BSP，某个模块（蓝牙，USB，FM，Nand Flash等）的驱动</li>
 </ul>
 </li>
-<li><strong>&#x5E95;&#x5C42;&#xFF1A;&#x7EAF;&#x786C;&#x4EF6;</strong>
+<li><strong>底层：纯硬件</strong>
 <ul>
-<li>&#x6D89;&#x53CA;PCB Layout&#xFF0C;&#x8BBE;&#x8BA1;&#x548C;&#x751F;&#x4EA7;&#x5F00;&#x53D1;&#x7248;</li>
-<li>&#x6D89;&#x53CA;&#x5230;&#x5404;&#x79CD;&#x82AF;&#x7247;&#x7684;&#x6D89;&#x53CA;&#xFF0C;&#x5305;&#x62EC;CPU&#xFF0C;&#x5185;&#x5B58;&#xFF0C;&#x663E;&#x793A;&#x5C4F;&#x7B49;&#xFF0C;&#x6D89;&#x53CA;&#x5230;&#x6D41;&#x6C34;&#x7EBF;&#xFF0C;&#x4EE3;&#x5DE5;&#x5382;&#x7B49;&#x7B49;&#x5185;&#x5BB9;</li>
-</ul>
-</li>
-</ul>
-<p>&#x81EA;&#x5DF1;&#x4E3B;&#x8981;&#x6D89;&#x53CA;&#x7684;&#x9886;&#x57DF;&#x662F;&#xFF1A;</p>
-<p><strong>&#x4E2D;&#x95F4;&#x7684;&#x5D4C;&#x5165;&#x5F0F;</strong> &#x548C; <strong>&#x4E0A;&#x5C42;&#x7684;&#x7EAF;&#x8F6F;&#x4EF6;</strong></p>
-<h3 class="mume-header" id="%E6%8A%80%E6%9C%AF%E7%B1%BB%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86">&#x6280;&#x672F;&#x7C7B;&#x901A;&#x7528;&#x77E5;&#x8BC6;</h3>
-
-<p>&#x4E0D;&#x8BBA;&#x54EA;&#x65B9;&#x9762;&#x7684;&#x6280;&#x672F;&#xFF0C;&#x90FD;&#x6709;&#x4E00;&#x4E9B;&#x901A;&#x7528;&#x7684;&#x5B66;&#x4E60;&#x65B9;&#x9762;&#xFF0C;&#x903B;&#x8F91;&#x6982;&#x5FF5;&#xFF0C;&#x603B;&#x7ED3;&#x5982;&#x4E0B;&#xFF1A;</p>
-<ul>
-<li>&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x5B66;&#x4E60;&#x548C;&#x5229;&#x7528;&#x7F51;&#x7EDC;&#x8D44;&#x6599;&#xFF0C;&#x4EE5;&#x53CA;&#x4E00;&#x4E9B;&#x6280;&#x672F;&#x65B9;&#x9762;&#x7684;&#x5FC3;&#x5F97;&#x4F53;&#x4F1A;&#x548C;&#x603B;&#x7ED3;&#xFF1A;
-<ul>
-<li><a href="https://book.crifan.org/books/learn_tech_method_experience/website/">&#x5B66;&#x4E60;&#x65B9;&#x6CD5;&#x601D;&#x8DEF;&#x53CA;&#x6280;&#x672F;&#x5FC3;&#x5F97;&#x603B;&#x7ED3;</a></li>
-</ul>
-</li>
-<li>&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x5229;&#x7528;&#x5DE5;&#x5177;&#x548C;&#x811A;&#x672C;&#x63D0;&#x4F9B;&#x5DE5;&#x4F5C;&#x6548;&#x7387;&#x7684;&#xFF1A;
-<ul>
-<li><a href="https://book.crifan.org/books/improve_work_efficiency/website/">&#x5982;&#x4F55;&#x63D0;&#x9AD8;&#x5DE5;&#x4F5C;&#x6548;&#x7387;</a></li>
-</ul>
-</li>
-<li>&#x5173;&#x4E8E;&#x8981;&#x6709;&#x826F;&#x597D;&#x7684;&#x7F16;&#x7A0B;&#x4E60;&#x60EF;&#x548C;&#x903B;&#x8F91;&#xFF0C;&#x624D;&#x80FD;&#x5199;&#x51FA;&#x9AD8;&#x8D28;&#x91CF;&#x4EE3;&#x7801;&#xFF1A;
-<ul>
-<li><a href="https://book.crifan.org/books/program_code_style/website/">&#x7F16;&#x7A0B;&#x4E60;&#x60EF;&#x548C;&#x4EE3;&#x7801;&#x98CE;&#x683C;</a></li>
-<li><a href="http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html">&#x8BA1;&#x7B97;&#x673A;&#x8BED;&#x8A00;&#x7F16;&#x7A0B;&#x89C4;&#x8303;</a></li>
-</ul>
-</li>
-<li>&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x9886;&#x57DF;&#x7684;&#x6280;&#x672F;&#xFF0C;&#x90FD;&#x6709;&#x4E00;&#x4E9B;&#x901A;&#x7528;&#x7684;&#x6982;&#x5FF5;&#x9700;&#x8981;&#x4E86;&#x89E3;&#xFF0C;&#x624D;&#x80FD;&#x66F4;&#x597D;&#x7684;&#x5F00;&#x53D1;&#xFF1A;
-<ul>
-<li><a href="https://book.crifan.org/books/program_common_logic/website/">&#x8BA1;&#x7B97;&#x673A;&#x7F16;&#x7A0B;&#x901A;&#x7528;&#x903B;&#x8F91;&#x77E5;&#x8BC6;&#x6982;&#x5FF5;</a></li>
-</ul>
-</li>
-<li>&#x4EE5;&#x53CA;&#x90FD;&#x6709;&#x4E00;&#x4E9B;&#x901A;&#x77E5;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF1A;
-<ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html">&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html">&#x8F6F;&#x4EF6;&#x6280;&#x672F;&#x5F00;&#x53D1;&#x901A;&#x7528;&#x77E5;&#x8BC6;</a></li>
-</ul>
-</li>
-<li>&#x5BF9;&#x4E8E;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x7535;&#x8111;&#xFF0C;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7CFB;&#x7EDF;&#x90FD;&#x6709;&#x4E00;&#x4E9B;&#x901A;&#x7528;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF1A;
-<ul>
-<li><a href="https://book.crifan.org/books/computer_tech_summary/website/">&#x8BA1;&#x7B97;&#x673A;&#x7535;&#x8111;&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
+<li>涉及PCB Layout，设计和生产开发版</li>
+<li>涉及到各种芯片的涉及，包括CPU，内存，显示屏等，涉及到流水线，代工厂等等内容</li>
 </ul>
 </li>
 </ul>
-<h3 class="mume-header" id="%E6%8E%A8%E8%8D%90%E7%9A%84%E5%B7%A5%E5%85%B7%E6%88%96%E8%BD%AF%E4%BB%B6">&#x63A8;&#x8350;&#x7684;&#x5DE5;&#x5177;&#x6216;&#x8F6F;&#x4EF6;</h3>
+<p>自己主要涉及的领域是：</p>
+<p><strong>中间的嵌入式</strong> 和 <strong>上层的纯软件</strong></p>
+<h3 class="crossnote-header" id="%E6%8A%80%E6%9C%AF%E7%B1%BB%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86">技术类通用知识</h3>
 
-<p>&#x505A;&#x5404;&#x79CD;&#x9886;&#x57DF;&#x7684;&#x6280;&#x672F;&#x5F00;&#x53D1;&#xFF0C;&#x751A;&#x81F3;&#x975E;&#x6280;&#x672F;&#x65B9;&#x9762;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x90FD;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x4E00;&#x4E9B;&#x597D;&#x7528;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x5229;&#x5668;&#xFF0C;&#x73B0;&#x6574;&#x7406;&#x5982;&#x4E0B;&#xFF1A;</p>
-<h4 class="mume-header" id="%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91">&#x79D1;&#x5B66;&#x4E0A;&#x7F51;</h4>
+<p>不论哪方面的技术，都有一些通用的学习方面，逻辑概念，总结如下：</p>
+<ul>
+<li>关于如何学习和利用网络资料，以及一些技术方面的心得体会和总结：
+<ul>
+<li><a href="https://book.crifan.org/books/learn_tech_method_experience/website/">学习方法思路及技术心得总结</a></li>
+</ul>
+</li>
+<li>关于如何利用工具和脚本提供工作效率的：
+<ul>
+<li><a href="https://book.crifan.org/books/improve_work_efficiency/website/">如何提高工作效率</a></li>
+</ul>
+</li>
+<li>关于要有良好的编程习惯和逻辑，才能写出高质量代码：
+<ul>
+<li><a href="https://book.crifan.org/books/program_code_style/website/">编程习惯和代码风格</a></li>
+<li><a href="http://crifan.com/files/doc/docbook/lan_coding_rule/release/html/lan_coding_rule.html">计算机语言编程规范</a></li>
+</ul>
+</li>
+<li>对于不同领域的技术，都有一些通用的概念需要了解，才能更好的开发：
+<ul>
+<li><a href="https://book.crifan.org/books/program_common_logic/website/">计算机编程通用逻辑知识概念</a></li>
+</ul>
+</li>
+<li>以及都有一些通知的基础知识：
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/soft_dev_basic/release/html/soft_dev_basic.html">软件开发基础知识</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/soft_tech_common/release/html/soft_tech_common.html">软件技术开发通用知识</a></li>
+</ul>
+</li>
+<li>对于计算机，或者说电脑，各种不同类型系统都有一些通用的基础知识：
+<ul>
+<li><a href="https://book.crifan.org/books/computer_tech_summary/website/">计算机电脑知识总结</a></li>
+</ul>
+</li>
+</ul>
+<h3 class="crossnote-header" id="%E6%8E%A8%E8%8D%90%E7%9A%84%E5%B7%A5%E5%85%B7%E6%88%96%E8%BD%AF%E4%BB%B6">推荐的工具或软件</h3>
 
-<p>&#x60F3;&#x8981;&#x7528;&#x5916;&#x7F51;&#xFF0C;&#x6BD4;&#x5982;&#x7528;google&#x7B49;&#x641C;&#x7D22;&#x6280;&#x672F;&#x8D44;&#x6599;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;shadowsocks&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/scientific_network_summary/website/">&#x79D1;&#x5B66;&#x4E0A;&#x7F51;&#x76F8;&#x5173;&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
-</ul>
-<h4 class="mume-header" id="%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8Cide">&#x7F16;&#x8F91;&#x5668;&#x548C;IDE</h4>
+<p>做各种领域的技术开发，甚至非技术方面的工作，都会涉及到一些好用的工具和利器，现整理如下：</p>
+<h4 class="crossnote-header" id="%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91">科学上网</h4>
 
-<p>&#x5173;&#x4E8E;&#x7F16;&#x8F91;&#x5668;&#x548C;IDE&#x7684;&#x6982;&#x89C8;&#x548C;&#x603B;&#x7ED3;&#xFF1A;</p>
-<p><a href="https://book.crifan.org/books/editor_ide_summary/website/">&#x7F16;&#x8F91;&#x5668;&#x548C;IDE&#x603B;&#x7ED3;</a></p>
-<h5 class="mume-header" id="%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8Cide">&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x548C;IDE</h5>
+<p>想要用外网，比如用google等搜索技术资料，可以使用shadowsocks：</p>
+<ul>
+<li><a href="https://book.crifan.org/books/scientific_network_summary/website/">科学上网相关知识总结</a></li>
+</ul>
+<h4 class="crossnote-header" id="%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8Cide">编辑器和IDE</h4>
 
-<p>&#x4E4B;&#x524D;Windows&#x4E0B;&#x89C9;&#x5F97;&#x6700;&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;Notepad++&#xFF1A;</p>
-<ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html">&#x3010;crifan&#x63A8;&#x8350;&#x3011;&#x8F7B;&#x91CF;&#x7EA7;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#xFF0C;Notepad&#x6700;&#x4F73;&#x66FF;&#x4EE3;&#x54C1;&#xFF1A;Notepad++</a></li>
-</ul>
-<p>&#x73B0;&#x5728;&#x89C9;&#x5F97;&#x66F4;&#x597D;&#x7528;&#x7684;&#x3001;&#x6700;&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#xFF08;&#x751A;&#x81F3;&#x53EF;&#x79F0;&#x4E4B;&#x4E3A;IDE&#xFF09;&#xFF1A;VSCode&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/best_editor_vscode/website/">&#x53F2;&#x4E0A;&#x6700;&#x597D;&#x7528;&#x7684;&#x7F16;&#x8F91;&#x5668;&#xFF1A;VSCode</a></li>
-</ul>
-<p>Python&#x5F00;&#x53D1;&#x4E2D;&#x6700;&#x4E13;&#x4E1A;&#x7684;IDE&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website/">&#x6700;&#x667A;&#x80FD;&#x7684;Python&#x7684;IDE&#xFF1A;PyCharm</a></li>
-</ul>
-<h4 class="mume-header" id="%E7%94%BB%E5%9B%BE%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6">&#x753B;&#x56FE;&#x5DE5;&#x5177;&#x8F6F;&#x4EF6;</h4>
+<p>关于编辑器和IDE的概览和总结：</p>
+<p><a href="https://book.crifan.org/books/editor_ide_summary/website/">编辑器和IDE总结</a></p>
+<h5 class="crossnote-header" id="%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8Cide">好用的编辑器和IDE</h5>
 
-<p>&#x6D89;&#x53CA;&#x5230;&#x753B;&#x8DEF;&#x7A0B;&#x56FE;&#x3001;&#x7ED3;&#x6784;&#x56FE;&#x3001;&#x67B6;&#x6784;&#x56FE;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
-<p><a href="https://book.crifan.org/books/best_diagram_tool/website/">&#x597D;&#x7528;&#x7684;&#x753B;&#x56FE;&#x5DE5;&#x5177;</a></p>
-<p>&#x53BB;&#x9009;&#x62E9;&#x5408;&#x9002;&#x7684;&#x753B;&#x56FE;&#x5DE5;&#x5177;&#x3002;</p>
-<h4 class="mume-header" id="%E6%96%87%E4%BB%B6%E5%AF%B9%E6%AF%94%E5%B7%A5%E5%85%B7">&#x6587;&#x4EF6;&#x5BF9;&#x6BD4;&#x5DE5;&#x5177;</h4>
+<p>之前Windows下觉得最好用的编辑器Notepad++：</p>
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html">【crifan推荐】轻量级文本编辑器，Notepad最佳替代品：Notepad++</a></li>
+</ul>
+<p>现在觉得更好用的、最好用的编辑器（甚至可称之为IDE）：VSCode：</p>
+<ul>
+<li><a href="https://book.crifan.org/books/best_editor_vscode/website/">史上最好用的编辑器：VSCode</a></li>
+</ul>
+<p>Python开发中最专业的IDE：</p>
+<ul>
+<li><a href="https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website/">最智能的Python的IDE：PyCharm</a></li>
+</ul>
+<h4 class="crossnote-header" id="%E7%94%BB%E5%9B%BE%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6">画图工具软件</h4>
 
-<p>&#x5982;&#x679C;&#x9700;&#x8981;&#x5BF9;&#x6BD4;&#x6587;&#x4EF6;&#x3001;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
-<p><a href="https://book.crifan.org/books/file_compare_tool_summary/website/">&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x5BF9;&#x6BD4;&#x5DE5;&#x5177;&#x603B;&#x7ED3;</a></p>
-<h4 class="mume-header" id="api%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95">API&#x63A5;&#x53E3;&#x6D4B;&#x8BD5;</h4>
+<p>涉及到画路程图、结构图、架构图等，可以参考：</p>
+<p><a href="https://book.crifan.org/books/best_diagram_tool/website/">好用的画图工具</a></p>
+<p>去选择合适的画图工具。</p>
+<h4 class="crossnote-header" id="%E6%96%87%E4%BB%B6%E5%AF%B9%E6%AF%94%E5%B7%A5%E5%85%B7">文件对比工具</h4>
 
-<p>&#x540E;&#x7AEF;&#x4EBA;&#x5458;&#xFF0C;&#x79FB;&#x52A8;&#x7AEF;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#xFF0C;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x7B49;&#x6D89;&#x53CA;&#x8C03;&#x8BD5;api&#x63A5;&#x53E3;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;Postman&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/api_tool_postman/website/">API&#x5F00;&#x53D1;&#x5229;&#x5668;&#xFF1A;Postman</a></li>
-</ul>
-<h4 class="mume-header" id="ssh%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%B7%A5%E5%85%B7">ssh&#x8FDC;&#x7A0B;&#x8FDE;&#x63A5;&#x5DE5;&#x5177;</h4>
+<p>如果需要对比文件、文件夹中的内容，可以参考：</p>
+<p><a href="https://book.crifan.org/books/file_compare_tool_summary/website/">文件内容对比工具总结</a></p>
+<h4 class="crossnote-header" id="api%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95">API接口测试</h4>
 
-<p>&#x901A;&#x8FC7;SSH&#x8FDE;&#x63A5;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5DE5;&#x5177;&#x65B9;&#x9762;&#xFF0C;&#x5E38;&#x7528;SecureCRT&#xFF1A;</p>
+<p>后端人员，移动端开发人员，测试人员等涉及调试api接口时，可以用Postman：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html">&#x3010;crifan&#x63A8;&#x8350;&#x3011;&#x652F;&#x6301;&#x591A;&#x79CD;&#x534F;&#x8BAE;&#x7684;&#x4E32;&#x53E3;&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#xFF1A;SecureCRT</a></li>
+<li><a href="https://book.crifan.org/books/api_tool_postman/website/">API开发利器：Postman</a></li>
 </ul>
-<h4 class="mume-header" id="%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86">&#x4EE3;&#x7801;&#x7248;&#x672C;&#x7BA1;&#x7406;</h4>
+<h4 class="crossnote-header" id="ssh%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%B7%A5%E5%85%B7">ssh远程连接工具</h4>
 
-<p>&#x5F53;&#x524D;&#x6700;&#x6D41;&#x884C;&#x7684;&#x662F;<code>Git</code>&#xFF1A;</p>
+<p>通过SSH连接远程服务器的工具方面，常用SecureCRT：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/popular_version_control_git/website/">&#x6700;&#x6D41;&#x884C;&#x7684;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF1A;Git</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/rec_soft_securecrt/release/html/rec_soft_securecrt.html">【crifan推荐】支持多种协议的串口开发工具：SecureCRT</a></li>
 </ul>
-<h3 class="mume-header" id="%E7%A1%AC%E4%BB%B6%E7%B1%BB">&#x786C;&#x4EF6;&#x7C7B;</h3>
+<h4 class="crossnote-header" id="%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86">代码版本管理</h4>
 
-<p>&#x6298;&#x817E;&#x5D4C;&#x5165;&#x5F0F;&#x671F;&#x95F4;&#xFF0C;&#x5176;&#x5B9E;&#x4E5F;&#x60F3;&#x53BB;&#x4E86;&#x89E3;&#x786C;&#x4EF6;&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x6CA1;&#x6709;&#x6DF1;&#x5165;&#x3002;</p>
-<p>&#x53EA;&#x6574;&#x7406;&#x4E86;&#x70B9;&#x548C;&#x786C;&#x4EF6;&#x76F8;&#x5173;&#x7684;&#x76AE;&#x6BDB;&#xFF1A;</p>
+<p>当前最流行的是<code>Git</code>：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html">&#x786C;&#x4EF6;&#x7535;&#x8DEF;&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
+<li><a href="https://book.crifan.org/books/popular_version_control_git/website/">最流行的版本管理系统：Git</a></li>
 </ul>
-<p>&#x4E4B;&#x524D;&#x62C6;&#x8FC7;&#x667A;&#x80FD;&#x97F3;&#x7BB1;&#xFF0C;&#x7136;&#x540E;&#x603B;&#x7ED3;&#x4E86;&#x76F8;&#x5173;&#x5404;&#x79CD;&#x7EC6;&#x8282;&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/smart_speaker_disassemble_summary/website/">&#x667A;&#x80FD;&#x97F3;&#x7BB1;&#x62C6;&#x89E3;&#x603B;&#x7ED3;</a></li>
-</ul>
-<p>&#x4E14;&#x5728;&#x62C6;&#x89E3;&#x671F;&#x95F4;&#x53C8;&#x53BB;&#x6574;&#x7406;&#x4E86;&#x82AF;&#x7247;&#x548C;&#x4EA7;&#x4E1A;&#x94FE;&#x7684;&#x76F8;&#x5173;&#x77E5;&#x8BC6;&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/ic_chip_industry_chain_summary/website/">&#x82AF;&#x7247;&#x4EA7;&#x4E1A;&#x94FE;&#x603B;&#x7ED3;</a></li>
-</ul>
-<h3 class="mume-header" id="%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6">&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;</h3>
+<h3 class="crossnote-header" id="%E7%A1%AC%E4%BB%B6%E7%B1%BB">硬件类</h3>
 
-<p>&#x4E0B;&#x9762;&#x662F;&#x4E4B;&#x524D;&#x6298;&#x817E;&#x7684;&#x5D4C;&#x5165;&#x5F0F;&#x5F00;&#x53D1;&#x76F8;&#x5173;&#x7684;&#x5185;&#x5BB9;&#xFF1A;</p>
-<p>&#x5D4C;&#x5165;&#x5F0F;&#x9886;&#x57DF;&#xFF08;&#x5305;&#x62EC;&#x5F88;&#x591A;&#x786C;&#x4EF6;&#x53CD;&#x9762;&#xFF09;&#x90FD;&#x6709;&#x4E9B;&#x901A;&#x7528;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x548C;&#x6982;&#x5FF5;&#xFF1A;</p>
+<p>折腾嵌入式期间，其实也想去了解硬件方面的知识，只不过没有深入。</p>
+<p>只整理了点和硬件相关的皮毛：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/common_logic_hardware_embedded/website/">&#x786C;&#x4EF6;&#x548C;&#x5D4C;&#x5165;&#x5F0F;&#x901A;&#x7528;&#x903B;&#x8F91;&#x77E5;&#x8BC6;&#x6982;&#x5FF5;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/hardware_basic/release/html/hardware_basic.html">硬件电路基础知识</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;CPU&#x65B9;&#x9762;&#x7684;&#xFF1A;</p>
+<p>之前拆过智能音箱，然后总结了相关各种细节：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html">ARM&#x4E0E;MIPS&#x7684;&#x8BE6;&#x7EC6;&#x5BF9;&#x6BD4;</a></li>
+<li><a href="https://book.crifan.org/books/smart_speaker_disassemble_summary/website/">智能音箱拆解总结</a></li>
 </ul>
-<p>&#x548C;&#x6280;&#x672F;&#x548C;&#x6982;&#x5FF5;&#x76F8;&#x5173;&#x7684;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<p>且在拆解期间又去整理了芯片和产业链的相关知识：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html">&#x3010;&#x8BE6;&#x89E3;&#x3011;&#x4E2D;&#x65AD;&#x76F8;&#x5173;&#x7684;&#x77E5;&#x8BC6;</a></li>
+<li><a href="https://book.crifan.org/books/ic_chip_industry_chain_summary/website/">芯片产业链总结</a></li>
 </ul>
-<h4 class="mume-header" id="%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%99%A8">&#x5F00;&#x53D1;&#x73AF;&#x5883;+&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#x5668;</h4>
+<h3 class="crossnote-header" id="%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6">嵌入式软件</h3>
 
-<p>&#x5728;&#x6298;&#x817E;&#x5D4C;&#x5165;&#x5F0F;&#x76F8;&#x5173;&#x5F00;&#x53D1;&#x524D;&#xFF0C;&#x5F80;&#x5F80;&#x8981;&#x5148;&#x53BB;&#x642D;&#x5EFA;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x5176;&#x4E2D;&#x5C31;&#x8981;&#x5148;&#x53BB;&#x641E;&#x61C2;&#xFF1A;&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;</p>
-<p>&#x5148;&#x53BB;&#x641E;&#x6E05;&#x695A;&#x4EC0;&#x4E48;&#x662F;&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#xFF1A;</p>
+<p>下面是之前折腾的嵌入式开发相关的内容：</p>
+<p>嵌入式领域（包括很多硬件反面）都有些通用的基础知识和概念：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html">&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://book.crifan.org/books/common_logic_hardware_embedded/website/">硬件和嵌入式通用逻辑知识概念</a></li>
 </ul>
-<p>&#x7136;&#x540E;&#x518D;&#x53BB;&#x4E86;&#x89E3;&#x76F8;&#x5173;&#x7684;GNU&#x65B9;&#x9762;&#x7684;&#x5DE5;&#x5177;&#xFF1A;</p>
+<p>关于CPU方面的：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html">GNU Binutils&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/arm_vs_mips/release/html/arm_vs_mips.html">ARM与MIPS的详细对比</a></li>
 </ul>
-<p>&#x7136;&#x540E;&#x518D;&#x53BB;&#x7528;&#x5177;&#x4F53;&#x7684;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#xFF0C;&#x53BB;&#x642D;&#x5EFA;&#x4EA4;&#x53C9;&#x7F16;&#x8BD1;&#x73AF;&#x5883;&#xFF08;&#x548C;&#x76F8;&#x5173;&#x7684;&#x5DE5;&#x5177;&#x94FE;&#x3001;rootfs&#x7B49;&#x5185;&#x5BB9;&#xFF09;&#xFF1A;</p>
+<p>和技术和概念相关的，比如：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html">Buildroot&#x8BE6;&#x89E3;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html">crosstool-ng&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/interrupt_related/release/html/interrupt_related.html">【详解】中断相关的知识</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x7684;&#xFF1A;</p>
-<p>&#x5728;Windows&#x4E0A;&#x6298;&#x817E;Linux&#x65B9;&#x9762;&#x7684;&#x5F00;&#x53D1;&#xFF0C;&#x7528;Cygiwn&#xFF1A;</p>
-<ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html">Cygwin&#x8BE6;&#x89E3;</a></li>
-</ul>
-<h4 class="mume-header" id="%E5%B5%8C%E5%85%A5%E5%BC%8Flinux%E5%B5%8C%E5%85%A5%E5%BC%8Flinux%E9%A9%B1%E5%8A%A8">&#x5D4C;&#x5165;&#x5F0F;Linux+&#x5D4C;&#x5165;&#x5F0F;Linux&#x9A71;&#x52A8;</h4>
+<h4 class="crossnote-header" id="%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%99%A8">开发环境+交叉编译器</h4>
 
-<p>&#x5982;&#x679C;&#x5BF9;&#x4E8E;&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;&#x7684;&#x6574;&#x4F53;&#x6982;&#x5FF5;&#x4E0D;&#x4E86;&#x89E3;&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;&#x770B;&#xFF1A;</p>
+<p>在折腾嵌入式相关开发前，往往要先去搭建开发环境，其中就要先去搞懂：交叉编译</p>
+<p>先去搞清楚什么是交叉编译：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html">&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html">交叉编译详解</a></li>
 </ul>
-<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x4E86;&#x89E3;&#x5D4C;&#x5165;&#x5F0F;&#x8F6F;&#x4EF6;&#x4E2D;&#x5173;&#x4E8E;&#x9A71;&#x52A8;&#x5F00;&#x53D1;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;&#x770B;&#xFF1A;</p>
+<p>然后再去了解相关的GNU方面的工具：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html">&#x5D4C;&#x5165;&#x5F0F;&#x9A71;&#x52A8;&#x5F00;&#x53D1;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/binutils_intro/release/html/binutils_intro.html">GNU Binutils详解</a></li>
 </ul>
-<p>&#x800C;&#x5173;&#x4E8E;&#x5D4C;&#x5165;&#x5F0F;Linux&#x65B9;&#x9762;&#x7684;&#x8F6F;&#x4EF6;&#x548C;&#x8F6F;&#x4EF6;&#x4E2D;&#x7684;&#x9A71;&#x52A8;&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;&#x770B;&#xFF1A;</p>
+<p>然后再去用具体的某个工具，去搭建交叉编译环境（和相关的工具链、rootfs等内容）：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html">&#x5D4C;&#x5165;&#x5F0F;Linux&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html">&#x5D4C;&#x5165;&#x5F0F;Linux&#x9A71;&#x52A8;&#x5F00;&#x53D1;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/buildroot_intro/release/html/buildroot_intro.html">Buildroot详解</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/crosstool_ng/release/html/crosstool_ng.html">crosstool-ng详解</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;&#x5D4C;&#x5165;&#x5F0F;Linux&#x5F00;&#x53D1;&#x671F;&#x95F4;&#x7684;&#xFF0C;&#x6709;&#xFF1A;</p>
+<p>关于开发环境的：</p>
+<p>在Windows上折腾Linux方面的开发，用Cygiwn：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html">&#x3010;&#x8BE6;&#x89E3;&#x3011;&#x5D4C;&#x5165;&#x5F0F;&#x5F00;&#x53D1;&#x4E2D;&#x56FA;&#x4EF6;&#x7684;&#x70E7;&#x5F55;&#x65B9;&#x5F0F;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html">&#x5728;Linux&#x8FD0;&#x884C;&#x671F;&#x95F4;&#x5347;&#x7EA7;Linux&#x7CFB;&#x7EDF;&#xFF08;Uboot+kernel+Rootfs&#xFF09;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/cygwin_intro/release/html/cygwin_intro.html">Cygwin详解</a></li>
 </ul>
-<p>&#x800C;&#x5173;&#x4E8E;&#x5178;&#x578B;&#x7684;Uboot+Kernel+Rootfs&#x7684;&#x5D4C;&#x5165;&#x5F0F;Linux&#x4E2D;&#x7684;Uboot&#xFF1A;</p>
-<p>&#x5176;&#x4E2D;&#x7684;&#x6700;&#x5F00;&#x59CB;&#x7684;&#x542F;&#x52A8;&#x4EE3;&#x7801;&#x76F8;&#x5173;&#x7684;Start.S&#x7684;&#x6C47;&#x7F16;&#x4EE3;&#x7801;&#xFF0C;&#x5B9E;&#x73B0;&#x4E86;&#x542F;&#x52A8;&#x786C;&#x4EF6;&#x7684;&#x529F;&#x80FD;&#x3002;</p>
-<p>&#x800C;&#x5173;&#x4E8E;&#x542F;&#x52A8;&#x7684;&#x903B;&#x8F91;&#x7684;&#x5177;&#x4F53;&#x5206;&#x6790;&#xFF1A;</p>
+<h4 class="crossnote-header" id="%E5%B5%8C%E5%85%A5%E5%BC%8Flinux%E5%B5%8C%E5%85%A5%E5%BC%8Flinux%E9%A9%B1%E5%8A%A8">嵌入式Linux+嵌入式Linux驱动</h4>
+
+<p>如果对于嵌入式软件的整体概念不了解，可以去看：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html">Uboot&#x4E2D;start.S&#x6E90;&#x7801;&#x7684;&#x6307;&#x4EE4;&#x7EA7;&#x7684;&#x8BE6;&#x5C3D;&#x89E3;&#x6790;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_soft_dev/release/html/embedded_soft_dev.html">嵌入式软件开发</a></li>
 </ul>
-<p>&#x800C;&#x5173;&#x4E8E;&#x5177;&#x4F53;&#x7684;&#x67D0;&#x4E2A;&#x6A21;&#x5757;/&#x529F;&#x80FD;&#x65B9;&#x9762;&#x7684;&#x9A71;&#x52A8;&#x6709;&#xFF1A;</p>
-<p>&#x5173;&#x4E8E;DMA&#x7684;&#x9A71;&#x52A8;&#xFF1A;</p>
+<p>如果想要了解嵌入式软件中关于驱动开发的事情，可以去看：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html">&#x8BE6;&#x89E3;ARM&#x7684;AMBA&#x8BBE;&#x5907;&#x4E2D;&#x7684;DMA&#x8BBE;&#x5907;PL08X&#x7684;Linux&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_drv_dev/release/html/embedded_drv_dev.html">嵌入式驱动开发</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;&#x65E0;&#x7EBF;&#x7F51;&#x5361;&#x7684;&#x9A71;&#x52A8;&#xFF1A;</p>
+<p>而关于嵌入式Linux方面的软件和软件中的驱动，可以去看：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html">&#x5982;&#x4F55;&#x5728;Linux&#x4E0B;&#x5199;&#x65E0;&#x7EBF;&#x7F51;&#x5361;&#x7684;&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_dev/release/html/embedded_linux_dev.html">嵌入式Linux软件开发</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/embedded_linux_drv_dev/release/html/embedded_linux_drv_dev.html">嵌入式Linux驱动开发</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;Nand Flash&#x65B9;&#x9762;&#x7684;&#x9A71;&#x52A8;&#x548C;&#x4ECB;&#x7ECD;&#xFF1A;</p>
+<p>关于嵌入式Linux开发期间的，有：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html">&#x3010;&#x8BE6;&#x89E3;&#x3011;&#x5982;&#x4F55;&#x7F16;&#x5199;Linux&#x4E0B;Nand Flash&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/firmware_download/release/html/firmware_download.html">【详解】嵌入式开发中固件的烧录方式</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/runtime_upgrade_linux/release/html/runtime_upgrade_linux.html">在Linux运行期间升级Linux系统（Uboot+kernel+Rootfs）</a></li>
 </ul>
-<p>&#x800C;&#x5176;&#x4E2D;Linux&#x4E2D;&#x5173;&#x4E8E;Nand Flash&#x7684;&#x662F;MTD&#x5C42;&#xFF0C;MTD&#x4E2D;&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x8BC6;&#x522B;Nand Flash&#x548C;&#x542F;&#x52A8;&#x8FC7;&#x7A0B;&#x7684;&#x89E3;&#x6790;&#x662F;&#xFF1A;</p>
+<p>而关于典型的Uboot+Kernel+Rootfs的嵌入式Linux中的Uboot：</p>
+<p>其中的最开始的启动代码相关的Start.S的汇编代码，实现了启动硬件的功能。</p>
+<p>而关于启动的逻辑的具体分析：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html">Linux MTD&#x4E0B;&#x83B7;&#x53D6;Nand flash&#x5404;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x8FC7;&#x7A0B;&#x7684;&#x8BE6;&#x7EC6;&#x89E3;&#x6790;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/uboot_starts_analysis/release/html/uboot_starts_analysis.html">Uboot中start.S源码的指令级的详尽解析</a></li>
 </ul>
-<p>&#x800C;&#x5173;&#x4E8E;USB&#x65B9;&#x9762;&#x7684;&#x534F;&#x8BAE;&#x4ECB;&#x7ECD;&#x548C;&#x76F8;&#x5173;&#x9A71;&#x52A8;&#x5F00;&#x53D1;&#x603B;&#x7ED3;&#x662F;&#xFF1A;</p>
+<p>而关于具体的某个模块/功能方面的驱动有：</p>
+<p>关于DMA的驱动：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html">USB&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x6982;&#x8BBA;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html">&#x5982;&#x4F55;&#x5B9E;&#x73B0;Linux&#x4E0B;&#x7684;U&#x76D8;&#xFF08;USB Mass Storage&#xFF09;&#x9A71;&#x52A8;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/dma_pl08x_analysis/release/html/dma_pl08x_analysis.html">详解ARM的AMBA设备中的DMA设备PL08X的Linux驱动</a></li>
+</ul>
+<p>关于无线网卡的驱动：</p>
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/linux_wireless/release/html/linux_wireless.html">如何在Linux下写无线网卡的驱动</a></li>
+</ul>
+<p>关于Nand Flash方面的驱动和介绍：</p>
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/linux_nand_driver/release/html/linux_nand_driver.html">【详解】如何编写Linux下Nand Flash驱动</a></li>
+</ul>
+<p>而其中Linux中关于Nand Flash的是MTD层，MTD中关于如何识别Nand Flash和启动过程的解析是：</p>
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/nand_get_type/release/html/nand_get_type.html">Linux MTD下获取Nand flash各个参数的过程的详细解析</a></li>
+</ul>
+<p>而关于USB方面的协议介绍和相关驱动开发总结是：</p>
+<ul>
+<li><a href="https://www.crifan.com/files/doc/docbook/usb_basic/release/html/usb_basic.html">USB基础知识概论</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/usb_disk_driver/release/html/usb_disk_driver.html">如何实现Linux下的U盘（USB Mass Storage）驱动</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/usb_hid/release/html/usb_hid.html">USB HID Learning Record</a></li>
 </ul>
-<h4 class="mume-header" id="%E5%85%B7%E4%BD%93%E6%A8%A1%E5%9D%97%E6%88%96%E9%A2%86%E5%9F%9F">&#x5177;&#x4F53;&#x6A21;&#x5757;&#x6216;&#x9886;&#x57DF;</h4>
+<h4 class="crossnote-header" id="%E5%85%B7%E4%BD%93%E6%A8%A1%E5%9D%97%E6%88%96%E9%A2%86%E5%9F%9F">具体模块或领域</h4>
 
-<h5 class="mume-header" id="plc">PLC</h5>
+<h5 class="crossnote-header" id="plc">PLC</h5>
 
-<p>&#x6B64;&#x5904;&#x6682;&#x65F6;&#x628A;PLC&#x5F52;&#x4E3A;&#x5D4C;&#x5165;&#x5F0F;&#x5927;&#x7C7B;&#x3002;</p>
-<p>&#x5173;&#x4E8E;PLC&#x7684;&#x77E5;&#x8BC6;&#x7684;&#x603B;&#x7ED3;&#xFF1A;</p>
-<p><a href="https://book.crifan.org/books/industrial_automation_plc/website/">&#x5DE5;&#x63A7;&#x81EA;&#x52A8;&#x5316;&#x6280;&#x672F;&#xFF1A;PLC</a></p>
-<h5 class="mume-header" id="%E5%A4%A7%E7%9A%84%E6%96%B9%E5%90%91%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C%E5%BA%94%E7%94%A8%E9%A2%86%E5%9F%9F">&#x5927;&#x7684;&#x65B9;&#x5411;=&#x5D4C;&#x5165;&#x5F0F;&#x7684;&#x4E0D;&#x540C;&#x5E94;&#x7528;&#x9886;&#x57DF;</h5>
+<p>此处暂时把PLC归为嵌入式大类。</p>
+<p>关于PLC的知识的总结：</p>
+<p><a href="https://book.crifan.org/books/industrial_automation_plc/website/">工控自动化技术：PLC</a></p>
+<h5 class="crossnote-header" id="%E5%A4%A7%E7%9A%84%E6%96%B9%E5%90%91%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%9A%84%E4%B8%8D%E5%90%8C%E5%BA%94%E7%94%A8%E9%A2%86%E5%9F%9F">大的方向=嵌入式的不同应用领域</h5>
 
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html">&#x73B0;&#x573A;&#x603B;&#x7EBF;Fieldbus&#x7B80;&#x6790;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/fieldbus_intro/release/html/fieldbus_intro.html">现场总线Fieldbus简析</a></li>
 </ul>
-<p>&#x6761;&#x5F62;&#x7801;Symbology&#x76F8;&#x5173;&#x7684;&#xFF0C;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x6761;&#x5F62;&#x7801;&#x7684;&#x603B;&#x7ED3;&#xFF1A;</p>
+<p>条形码Symbology相关的，各种不同类型的条形码的总结：</p>
 <ul>
 <li><a href="https://www.crifan.com/files/doc/docbook/symbology_code128/release/html/symbology_code128.html">Code 128 Symbology Introduction</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html">GS1-128&#x6761;&#x5F62;&#x7801;&#x548C;&#x76F8;&#x5173;&#x7684;AI&#x53CA;FNC1&#x7684;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/symbology_gs1128/release/html/symbology_gs1128.html">GS1-128条形码和相关的AI及FNC1的详解</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/symbology_plessey/release/html/symbology_plessey.html">Plessey &amp; MSI Symbology Introduction</a></li>
 <li><a href="https://www.crifan.com/files/doc/docbook/symbology_upc/release/html/symbology_upc.html">UPC/UPC-A/UPC-E &amp; EAN Barcode Symbology</a></li>
 </ul>
-<h5 class="mume-header" id="%E5%B0%8F%E6%96%B9%E9%9D%A2%E6%9D%A5%E8%AF%B4%E5%85%B3%E4%BA%8E%E5%85%B7%E4%BD%93%E7%9A%84%E6%A8%A1%E5%9D%97%E7%A1%AC%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%96%B9%E9%9D%A2">&#x5C0F;&#x65B9;&#x9762;&#x6765;&#x8BF4;=&#x5173;&#x4E8E;&#x5177;&#x4F53;&#x7684;&#x6A21;&#x5757;/&#x786C;&#x4EF6;/&#x534F;&#x8BAE;&#x65B9;&#x9762;</h5>
+<h5 class="crossnote-header" id="%E5%B0%8F%E6%96%B9%E9%9D%A2%E6%9D%A5%E8%AF%B4%E5%85%B3%E4%BA%8E%E5%85%B7%E4%BD%93%E7%9A%84%E6%A8%A1%E5%9D%97%E7%A1%AC%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%96%B9%E9%9D%A2">小方面来说=关于具体的模块/硬件/协议方面</h5>
 
-<p>&#x5173;&#x4E8E;&#x84DD;&#x7259;&#x7684;&#xFF1A;</p>
+<p>关于蓝牙的：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html">&#x84DD;&#x7259;&#x534F;&#x8BAE;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/bluetooth_intro/release/html/bluetooth_intro.html">蓝牙协议详解</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;&#x4E32;&#x53E3;/RS232&#x7684;&#xFF1A;</p>
+<p>关于串口/RS232的：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html">RS232&#x4E32;&#x53E3;&#x534F;&#x8BAE;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/rs232_serial_intro/release/html/rs232_serial_intro.html">RS232串口协议详解</a></li>
 </ul>
-<p>&#x5173;&#x4E8E;&#x97F3;&#x9891;&#x9886;&#x57DF;&#x7684;&#xFF1A;</p>
-<p>&#x5173;&#x4E8E;MPEG&#x548C;MP3&#x7684;&#x77E5;&#x8BC6;&#xFF1A;</p>
+<p>关于音频领域的：</p>
+<p>关于MPEG和MP3的知识：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html">MPEG&#x7B80;&#x4ECB; + &#x5982;&#x4F55;&#x8BA1;&#x7B97;CBR&#x548C;VBR&#x7684;MP3&#x7684;&#x64AD;&#x653E;&#x65F6;&#x95F4;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/mpeg_vbr/release/html/mpeg_vbr.html">MPEG简介 + 如何计算CBR和VBR的MP3的播放时间</a></li>
 </ul>
-<h3 class="mume-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6">&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;</h3>
+<h3 class="crossnote-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6">上层软件</h3>
 
-<p>&#x5BF9;&#x4E8E;&#x4E0A;&#x5C42;&#x7EAF;&#x8F6F;&#x4EF6;&#x65B9;&#x9762;&#xFF0C;&#x4E5F;&#x6709;&#x4E00;&#x4E9B;&#x603B;&#x7ED3;&#xFF1A;</p>
-<h4 class="mume-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86">&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x901A;&#x7528;&#x77E5;&#x8BC6;</h4>
+<p>对于上层纯软件方面，也有一些总结：</p>
+<h4 class="crossnote-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%80%9A%E7%94%A8%E7%9F%A5%E8%AF%86">上层软件的通用知识</h4>
 
-<p>&#x5173;&#x4E8E;&#x540E;&#x53F0;&#x5F00;&#x53D1;&#x548C;&#x8BBE;&#x8BA1;&#x63A5;&#x53E3;&#xFF0C;&#x79FB;&#x52A8;&#x7AEF;&#x8C03;&#x7528;&#x540E;&#x53F0;&#x63A5;&#x53E3;&#xFF0C;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x6D4B;&#x8BD5;&#x63A5;&#x53E3;&#x548C;&#x7F51;&#x9875;&#x7B49;&#x76F8;&#x5173;&#x7684;&#xFF1A;</p>
-<p>&#x548C;HTTP&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#xFF1A;</p>
+<p>关于后台开发和设计接口，移动端调用后台接口，测试人员测试接口和网页等相关的：</p>
+<p>和HTTP方面的知识：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/http_summary/website/">HTTP&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/http_summary/website/">HTTP知识总结</a></li>
 </ul>
-<p>&#x4EE5;&#x53CA;&#x540E;&#x53F0;&#x4EBA;&#x5458;&#x8BBE;&#x8BA1;RESTFul&#x7684;API&#x63A5;&#x53E3;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x7684;&#xFF1A;</p>
+<p>以及后台人员设计RESTFul的API接口需要了解的：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/http_restful_api/website/">HTTP&#x540E;&#x53F0;&#x7AEF;&#xFF1A;RESTful API&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;</a></li>
+<li><a href="https://book.crifan.org/books/http_restful_api/website/">HTTP后台端：RESTful API接口设计</a></li>
 </ul>
-<p>&#x5404;&#x79CD;&#x8BA1;&#x7B97;&#x673A;&#x8BED;&#x8A00;&#x901A;&#x7528;&#x7684;&#x7684;&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#x603B;&#x7ED3;&#xFF1A;</p>
+<p>各种计算机语言通用的的方面的知识总结：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html">&#x8BA1;&#x7B97;&#x673A;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x57FA;&#x7840;&#x77E5;&#x8BC6;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html">&#x5404;&#x79CD;&#x8BA1;&#x7B97;&#x673A;&#x8BED;&#x8A00;&#x7B80;&#x4ECB;&#x548C;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/programming_language_basic/release/html/programming_language_basic.html">计算机编程语言基础知识</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/language_summary/release/html/language_summary.html">各种计算机语言简介和总结</a></li>
 </ul>
-<p>&#x5728;&#x6D89;&#x53CA;&#x5230;&#x524D;&#x53F0;&#x548C;&#x540E;&#x53F0;&#x6570;&#x636E;&#x4EA4;&#x4E92;&#xFF0C;&#x5E38;&#x7528;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x662F;JSON&#xFF1A;</p>
+<p>在涉及到前台和后台数据交互，常用数据格式是JSON：</p>
 <ul>
-<li>&#x65E7;&#x6559;&#x7A0B;
+<li>旧教程
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html">JSON&#x8BE6;&#x89E3;</a></li>
-</ul>
-</li>
-<li>&#x65B0;&#x6559;&#x7A0B;
-<ul>
-<li><a href="https://book.crifan.org/books/common_data_format_json/website/">&#x4E3B;&#x6D41;&#x6570;&#x636E;&#x683C;&#x5F0F;&#xFF1A;JSON</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/json_tutorial/release/html/json_tutorial.html">JSON详解</a></li>
 </ul>
 </li>
+<li>新教程
+<ul>
+<li><a href="https://book.crifan.org/books/common_data_format_json/website/">主流数据格式：JSON</a></li>
 </ul>
-<h5 class="mume-header" id="%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81">&#x5B57;&#x7B26;&#x7F16;&#x7801;</h5>
+</li>
+</ul>
+<h5 class="crossnote-header" id="%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81">字符编码</h5>
 
-<p>&#x800C;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x6216;IDE&#xFF0C;&#x4EE5;&#x53CA;&#x5904;&#x7406;&#x6587;&#x4EF6;&#x76F8;&#x5173;&#x7684;&#x5185;&#x5BB9;&#x65F6;&#xFF0C;&#x5F80;&#x5F80;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x5B57;&#x7B26;&#x7F16;&#x7801;&#xFF0C;&#x53EF;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>而用不同的编辑器或IDE，以及处理文件相关的内容时，往往会涉及到文件的字符编码，可参考：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html">&#x5B57;&#x7B26;&#x7F16;&#x7801;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding/release/html/char_encoding.html">字符编码详解</a></li>
 </ul>
-<p>&#x800C;&#x4E0A;&#x9762;&#x7684;&#x6559;&#x7A0B;&#x5185;&#x5BB9;&#x592A;&#x591A;&#x592A;&#x6742;&#xFF0C;&#x5982;&#x679C;&#x53EA;&#x662F;&#x60F3;&#x8981;&#x7B80;&#x5355;&#x7684;&#x4F7F;&#x7528;&#x7F16;&#x7801;&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x53BB;&#x770B;&#xFF1A;</p>
+<p>而上面的教程内容太多太杂，如果只是想要简单的使用编码方面的知识，可以直接去看：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html">&#x5B57;&#x7B26;&#x7F16;&#x7801;&#x5E94;&#x7528;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/char_encoding_usage/release/html/char_encoding_usage.html">字符编码应用</a></li>
 </ul>
-<h5 class="mume-header" id="%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</h5>
+<h5 class="crossnote-header" id="%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">正则表达式</h5>
 
-<p>&#x4E0D;&#x540C;&#x7684;&#x8BED;&#x8A00;&#x548C;&#x5DE5;&#x5177;&#x4E2D;&#xFF0C;&#x90FD;&#x652F;&#x6301;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x53BB;&#x5B9E;&#x73B0;&#x590D;&#x6742;&#x7684;&#x89C4;&#x5219;&#x53BB;&#x63D0;&#x53D6;&#x60F3;&#x8981;&#x7684;&#x6570;&#x636E;&#x3002;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>不同的语言和工具中，都支持用正则表达式去实现复杂的规则去提取想要的数据。可以参考：</p>
 <ul>
-<li>&#x4E4B;&#x524D;&#x7528;docbook&#x5199;&#x7684;&#x65E7;&#x6559;&#x7A0B;&#xFF1A;
+<li>之前用docbook写的旧教程：
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5B66;&#x4E60;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/regular_expression/release/html/regular_expression.html">正则表达式学习心得</a></li>
 </ul>
 </li>
-<li>&#x540E;&#x6765;&#x7528;gitbook&#x5199;&#x7684;&#x65B0;&#x6559;&#x7A0B;
+<li>后来用gitbook写的新教程
 <ul>
-<li><a href="https://book.crifan.org/books/super_search_regex/website/">&#x5E94;&#x7528;&#x5E7F;&#x6CDB;&#x7684;&#x8D85;&#x5F3A;&#x641C;&#x7D22;&#xFF1A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</a></li>
-<li>&#x4EE5;&#x53CA;&#x5B9E;&#x9645;&#x7684;&#x4F7F;&#x7528;&#x6848;&#x4F8B;&#xFF1A;
+<li><a href="https://book.crifan.org/books/super_search_regex/website/">应用广泛的超强搜索：正则表达式</a></li>
+<li>以及实际的使用案例：
 <ul>
-<li><a href="https://book.crifan.org/books/regex_usage_examples/website/">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5E94;&#x7528;&#x4E3E;&#x4F8B;</a></li>
-</ul>
-</li>
+<li><a href="https://book.crifan.org/books/regex_usage_examples/website/">正则表达式应用举例</a></li>
 </ul>
 </li>
 </ul>
-<h4 class="mume-header" id="%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8">&#x4FE1;&#x606F;&#x5B89;&#x5168;</h4>
+</li>
+</ul>
+<h4 class="crossnote-header" id="%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8">信息安全</h4>
 
-<p>&#x9700;&#x8981;&#x5148;&#x5BF9;&#x4FE1;&#x606F;&#x5B89;&#x5168;&#x9886;&#x57DF;&#x6709;&#x4E2A;&#x603B;&#x4F53;&#x7684;&#x4E86;&#x89E3;&#xFF0C;&#x53EF;&#x53C2;&#x8003;&#x6211;&#x81EA;&#x5DF1;&#x8FB9;&#x5B66;&#x8FB9;&#x6574;&#x7406;&#x51FA;&#x7684;&#xFF1A;</p>
+<p>需要先对信息安全领域有个总体的了解，可参考我自己边学边整理出的：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/information_security_overview/website/">&#x4FE1;&#x606F;&#x5B89;&#x5168;&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/information_security_overview/website/">信息安全概览</a></li>
 </ul>
-<p>&#x7136;&#x540E;&#x518D;&#x53BB;&#x5206;&#x522B;&#x4E86;&#x89E3;&#x4E0D;&#x540C;&#x9886;&#x57DF;&#x5185;&#x7684;&#x5B89;&#x5168;&#x6280;&#x672F;&#xFF1A;</p>
-<h5 class="mume-header" id="web%E5%AE%89%E5%85%A8">Web&#x5B89;&#x5168;</h5>
+<p>然后再去分别了解不同领域内的安全技术：</p>
+<h5 class="crossnote-header" id="web%E5%AE%89%E5%85%A8">Web安全</h5>
 
-<p>&#x5176;&#x4E2D;&#x4FA7;&#x603B;&#x57FA;&#x4E8E;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x3001;Web&#x76F8;&#x5173;&#x7684;&#x5B89;&#x5168;&#x662F;&#xFF1A;</p>
+<p>其中侧总基于浏览器的、Web相关的安全是：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/avoid_hacker_attack_web_security/website/">&#x9632;&#x6B62;&#x88AB;&#x9ED1;&#x5BA2;&#x653B;&#x51FB;&#xFF1A;Web&#x5B89;&#x5168;</a></li>
+<li><a href="https://book.crifan.org/books/avoid_hacker_attack_web_security/website/">防止被黑客攻击：Web安全</a></li>
 </ul>
-<p>&#x5176;&#x4E2D;Web&#x5B89;&#x5168;&#x5305;&#x542B;&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x65B9;&#x9762;&#xFF1A;</p>
+<p>其中Web安全包含几个主要方面：</p>
 <ul>
-<li>&#x6E17;&#x900F;&#x6D4B;&#x8BD5;
+<li>渗透测试
 <ul>
-<li><a href="https://book.crifan.org/books/infiltrate_your_net_penetration_testing/website/">&#x6F5C;&#x5165;&#x4F60;&#x7684;&#x7F51;&#x7EDC;&#xFF1A;&#x6E17;&#x900F;&#x6D4B;&#x8BD5;</a></li>
-</ul>
-</li>
-<li>&#x6A21;&#x7CCA;&#x6D4B;&#x8BD5;</li>
-<li>&#x5B89;&#x5168;(&#x65E5;&#x5FD7;)&#x5206;&#x6790;
-<ul>
-<li><a href="https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/">&#x638C;&#x63E1;&#x9ED1;&#x5BA2;&#x7684;&#x884C;&#x8E2A;&#xFF1A;&#x5B89;&#x5168;&#x5206;&#x6790;</a></li>
+<li><a href="https://book.crifan.org/books/infiltrate_your_net_penetration_testing/website/">潜入你的网络：渗透测试</a></li>
 </ul>
 </li>
+<li>模糊测试</li>
+<li>安全(日志)分析
+<ul>
+<li><a href="https://book.crifan.org/books/grasp_hacker_track_security_analysis/website/">掌握黑客的行踪：安全分析</a></li>
 </ul>
-<h5 class="mume-header" id="%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8">&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;</h5>
+</li>
+</ul>
+<h5 class="crossnote-header" id="%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E5%85%A8">二进制安全</h5>
 
-<p>&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;&#xFF0C;&#x4E5F;&#x79F0;<code>PWN</code>&#xFF0C;&#x4E3B;&#x8981;&#x4FA7;&#x91CD;&#x70B9;&#x662F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x5E95;&#x5C42;&#x673A;&#x5236;&#xFF1A;</p>
+<p>二进制安全，也称<code>PWN</code>，主要侧重点是操作系统的底层机制：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/">&#x63A2;&#x7A76;&#x5E95;&#x5C42;&#x673A;&#x5236;&#xFF1A;&#x4E8C;&#x8FDB;&#x5236;&#x5B89;&#x5168;</a></li>
+<li><a href="https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/">探究底层机制：二进制安全</a></li>
 </ul>
-<p>&#x5176;&#x4E2D;&#x5BF9;&#x4E8E;Windows&#x7CFB;&#x7EDF;&#xFF0C;&#x5C31;&#x662F;&#x5E38;&#x8BF4;&#x7684;Windows&#x7684;&#x6F0F;&#x6D1E;&#x548C;&#x6316;&#x6398;&#x7B49;&#x65B9;&#x5411;&#x3002;</p>
-<h5 class="mume-header" id="%E8%AE%BE%E5%A4%87%E5%AE%89%E5%85%A8">&#x8BBE;&#x5907;&#x5B89;&#x5168;</h5>
+<p>其中对于Windows系统，就是常说的Windows的漏洞和挖掘等方向。</p>
+<h5 class="crossnote-header" id="%E8%AE%BE%E5%A4%87%E5%AE%89%E5%85%A8">设备安全</h5>
 
-<p>&#x5BF9;&#x4E8E;<code>&#x8BBE;&#x5907;&#x5B89;&#x5168;</code>~=<code>&#x7269;&#x8054;&#x7F51;&#x5B89;&#x5168;</code>&#xFF0C;&#x5305;&#x542B;&#x51E0;&#x4E2A;&#x5B50;&#x9886;&#x57DF;=&#x4E0D;&#x540C;&#x4FA7;&#x91CD;&#x70B9;&#xFF1A;</p>
+<p>对于<code>设备安全</code>~=<code>物联网安全</code>，包含几个子领域=不同侧重点：</p>
 <ul>
-<li>&#x5DE5;&#x63A7;&#x9886;&#x57DF;
+<li>工控领域
 <ul>
-<li><a href="https://book.crifan.org/books/industrial_control_security_overview/website/">&#x5DE5;&#x63A7;&#x5B89;&#x5168;&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/industrial_control_security_overview/website/">工控安全概览</a></li>
 </ul>
 </li>
-<li>&#x6C7D;&#x8F66;&#x9886;&#x57DF;
+<li>汽车领域
 <ul>
-<li><a href="https://book.crifan.org/books/guard_your_car_safety/website/">&#x5B88;&#x62A4;&#x4F60;&#x7684;&#x5EA7;&#x9A7E;&#xFF1A;&#x6C7D;&#x8F66;&#x5B89;&#x5168;</a></li>
+<li><a href="https://book.crifan.org/books/guard_your_car_safety/website/">守护你的座驾：汽车安全</a></li>
 </ul>
 </li>
 </ul>
-<h5 class="mume-header" id="%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%89%E5%85%A8%E5%92%8C%E9%80%86%E5%90%91">&#x79FB;&#x52A8;&#x7AEF;&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;</h5>
+<h5 class="crossnote-header" id="%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%89%E5%85%A8%E5%92%8C%E9%80%86%E5%90%91">移动端安全和逆向</h5>
 
-<p>&#x722C;&#x53D6;&#x5B89;&#x5353;app&#x7684;&#x6570;&#x636E;&#x671F;&#x95F4;&#xFF0C;&#x6298;&#x817E;&#x8FC7;&#x5982;&#x4F55;&#x7834;&#x89E3;&#x5B89;&#x5353;&#xFF0C;&#x540E;&#x6574;&#x7406;&#x5FC3;&#x5F97;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>爬取安卓app的数据期间，折腾过如何破解安卓，后整理心得如下：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/android_app_security_crack/website/">&#x5B89;&#x5353;&#x5E94;&#x7528;&#x7684;&#x5B89;&#x5168;&#x548C;&#x7834;&#x89E3;</a></li>
+<li><a href="https://book.crifan.org/books/android_app_security_crack/website/">安卓应用的安全和破解</a></li>
 </ul>
-<p>&#x4EE5;&#x53CA;&#x8F85;&#x52A9;&#x5DE5;&#x5177;&#xFF1A;</p>
+<p>以及辅助工具：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/crack_assistant_xposed_framework/website/">&#x5F3A;&#x5927;&#x7684;&#x5B89;&#x5353;&#x7834;&#x89E3;&#x8F85;&#x52A9;&#x5DE5;&#x5177;&#xFF1A;XPosed&#x6846;&#x67B6;</a></li>
-<li><a href="https://book.crifan.org/books/good_android_emulator_nox/website/">&#x597D;&#x7528;&#x7684;&#x5B89;&#x5353;&#x6A21;&#x62DF;&#x5668;&#xFF1A;&#x591C;&#x795E;Nox</a></li>
+<li><a href="https://book.crifan.org/books/android_re_xposed_framework/website/">安卓逆向调试：XPosed框架</a></li>
+<li><a href="https://book.crifan.org/books/good_android_emulator_nox/website/">好用的安卓模拟器：夜神Nox</a></li>
 </ul>
-<p>&#x540E;&#x6765;&#x6574;&#x7406;&#x51FA;&#x79FB;&#x52A8;&#x7AEF;&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;&#x7684;&#x6210;&#x5957;&#x7684;&#x6559;&#x7A0B;&#xFF1A;</p>
+<p>后来整理出移动端安全和逆向的成套的教程：</p>
 <ul>
-<li>&#x901A;&#x7528;
+<li>通用
 <ul>
-<li>&#x7F16;&#x7A0B;&#x8BED;&#x8A00;
+<li>编程语言
 <ul>
-<li>&#x6C47;&#x7F16;
+<li>汇编
 <ul>
-<li><a href="https://book.crifan.org/books/popular_assembly_arm/website/">&#x6700;&#x6D41;&#x884C;&#x6C47;&#x7F16;&#x8BED;&#x8A00;&#xFF1A;ARM</a></li>
-</ul>
-</li>
-<li>&#x9AD8;&#x7EA7;&#x8BED;&#x8A00;
-<ul>
-<li><a href="https://book.crifan.org/books/c_lang_dev_summary/website/">C&#x8BED;&#x8A00;&#x5F00;&#x53D1;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://book.crifan.org/books/popular_assembly_arm/website/">最流行汇编语言：ARM</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>&#x9759;&#x6001;&#x5206;&#x6790;
+<li>高级语言
 <ul>
-<li><a href="https://book.crifan.org/books/reverse_tool_ida/website/">&#x9006;&#x5411;&#x5229;&#x5668;&#xFF1A;IDA</a></li>
-</ul>
-</li>
-<li>&#x52A8;&#x6001;&#x8C03;&#x8BD5;
-<ul>
-<li><a href="https://book.crifan.org/books/reverse_debug_frida/website/">&#x9006;&#x5411;&#x8C03;&#x8BD5;&#x5229;&#x5668;&#xFF1A;Frida</a></li>
-<li><a href="https://book.crifan.org/books/popular_debugger_lldb/website/">&#x4E3B;&#x6D41;&#x8C03;&#x8BD5;&#x5668;&#xFF1A;LLDB</a></li>
-<li>&#x9AD8;&#x7EA7;&#x9006;&#x5411;
-<ul>
-<li>&#x4EE3;&#x7801;&#x6A21;&#x62DF;
-<ul>
-<li><a href="https://book.crifan.org/books/cpu_emulator_unicorn/website/">CPU&#x6A21;&#x62DF;&#x5229;&#x5668;&#xFF1A;Unicorn</a></li>
+<li><a href="https://book.crifan.org/books/c_lang_dev_summary/website/">C语言开发心得</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li>静态分析
+<ul>
+<li><a href="https://book.crifan.org/books/reverse_tool_ida/website/">逆向利器：IDA</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>Android&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;
+<li>动态调试
 <ul>
-<li>Android&#x9006;&#x5411;
+<li><a href="https://book.crifan.org/books/reverse_debug_frida/website/">逆向调试利器：Frida</a></li>
+<li><a href="https://book.crifan.org/books/popular_debugger_lldb/website/">主流调试器：LLDB</a></li>
+<li>高级逆向
 <ul>
-<li><a href="https://book.crifan.org/books/android_reverse_dev/website/">Android&#x9006;&#x5411;&#x5F00;&#x53D1;</a>
+<li>代码模拟
 <ul>
-<li><a href="https://book.crifan.org/books/android_re_enable_root/website/">Android&#x9006;&#x5411;&#xFF1A;&#x5F00;&#x542F;root</a></li>
-<li><a href="https://book.crifan.org/books/android_re_repack_apk/website/">Android&#x9006;&#x5411;&#xFF1A;&#x91CD;&#x65B0;&#x6253;&#x5305;apk</a></li>
-<li><a href="https://book.crifan.org/books/android_re_dynamic_debug/website/">Android&#x9006;&#x5411;&#xFF1A;&#x52A8;&#x6001;&#x8C03;&#x8BD5;</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>iOS&#x5B89;&#x5168;&#x548C;&#x9006;&#x5411;
+<li><a href="https://book.crifan.org/books/cpu_emulator_unicorn/website/">CPU模拟利器：Unicorn</a>
 <ul>
-<li>iOS&#x5B89;&#x5168;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_security_protect/website/">iOS&#x5B89;&#x5168;&#x4E0E;&#x9632;&#x62A4;</a></li>
-</ul>
-</li>
-<li>iOS&#x9006;&#x5411;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_reverse_dev/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;</a>
-<ul>
-<li>&#x7CFB;&#x5217;
-<ul>
-<li>&#x5178;&#x578B;&#x6D41;&#x7A0B;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_iphone_jailbreak/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;iPhone&#x8D8A;&#x72F1;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_ios15_jailbreak/website/">iOS&#x9006;&#x5411;&#xFF1A;iOS15&#x8D8A;&#x72F1;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_package_manager/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x8D8A;&#x72F1;&#x5305;&#x7BA1;&#x7406;&#x5668;</a></li>
-</ul>
-</li>
-<li><a href="https://book.crifan.org/books/ios_re_crack_shell_ipa/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x7838;&#x58F3;ipa</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_static_analysis/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x9759;&#x6001;&#x5206;&#x6790;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_dynamic_debug/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x52A8;&#x6001;&#x8C03;&#x8BD5;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_monkeydev_debug/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;MonkeyDev&#x8C03;&#x8BD5;</a></li>
-<li><a href="https://book.crifan.org/books/xcode_dev_summary/website/">Xcode&#x5F00;&#x53D1;&#x5FC3;&#x5F97;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/xcode_dev_debug_summary/website/">Xcode&#x5F00;&#x53D1;&#xFF1A;&#x8C03;&#x8BD5;&#x5FC3;&#x5F97;</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>&#x6D89;&#x53CA;&#x9886;&#x57DF;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_jailbreak_tweak/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x8D8A;&#x72F1;&#x63D2;&#x4EF6;&#x5F00;&#x53D1;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_iosopendev_tweak/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;iOSOpenDev&#x5F00;&#x53D1;&#x63D2;&#x4EF6;</a></li>
-</ul>
-</li>
-<li><a href="https://book.crifan.org/books/ios_re_ios_internal/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;iOS&#x5E95;&#x5C42;&#x673A;&#x5236;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_objc_runtime/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;ObjC&#x8FD0;&#x884C;&#x65F6;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_objc_block/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;Block&#x533F;&#x540D;&#x51FD;&#x6570;</a></li>
-</ul>
-</li>
-<li><a href="https://book.crifan.org/books/ios_re_jb_detection/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;&#x8D8A;&#x72F1;&#x68C0;&#x6D4B;&#x548C;&#x53CD;&#x8D8A;&#x72F1;&#x68C0;&#x6D4B;</a></li>
-<li><a href="https://book.crifan.org/books/ios_re_debug_breakpoint/website/">iOS&#x9006;&#x5411;&#x4E4B;&#x52A8;&#x6001;&#x8C03;&#x8BD5;&#xFF1A;&#x65AD;&#x70B9;</a></li>
-</ul>
-</li>
-<li>&#x5B9E;&#x4F8B;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_youtube_reverse/website/">iOS&#x9006;&#x5411;&#x5F00;&#x53D1;&#xFF1A;YouTube&#x9006;&#x5411;</a>
-<ul>
-<li><a href="https://book.crifan.org/books/ios_re_protobuf_reverse/website/">iOS&#x9006;&#x5411;YouTube&#xFF1A;protobuf&#x9006;&#x5411;</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>&#x76F8;&#x5173;
-<ul>
-<li>&#x5F00;&#x53D1;&#x8BED;&#x8A00;
-<ul>
-<li><a href="https://book.crifan.org/books/ios_dev_summary/website/">iOS&#x5F00;&#x53D1;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://book.crifan.org/books/ultimate_disassembler_capstone/website/">反汇编利器：Capstone</a></li>
 </ul>
 </li>
 </ul>
@@ -1853,74 +1530,172 @@ pre[data-line] .line-highlight[data-end]:after {
 </li>
 </ul>
 </li>
+<li>Android安全和逆向
+<ul>
+<li>Android逆向
+<ul>
+<li><a href="https://book.crifan.org/books/android_reverse_dev/website/">Android逆向开发</a>
+<ul>
+<li><a href="https://book.crifan.org/books/android_re_enable_root/website/">Android逆向：开启root</a></li>
+<li><a href="https://book.crifan.org/books/android_re_static_analysis/website/">Android逆向：静态分析</a>
+<ul>
+<li><a href="https://book.crifan.org/books/android_re_decompile_jadx/website/">安卓反编译利器：jadx</a></li>
 </ul>
-<h4 class="mume-header" id="%E8%87%AA%E5%8A%A8%E5%8C%96">&#x81EA;&#x52A8;&#x5316;</h4>
+</li>
+<li><a href="https://book.crifan.org/books/android_re_dynamic_debug/website/">Android逆向：动态调试</a></li>
+<li><a href="https://book.crifan.org/books/android_re_repack_apk/website/">Android逆向：重新打包apk</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>iOS安全和逆向
+<ul>
+<li>iOS安全
+<ul>
+<li><a href="https://book.crifan.org/books/ios_security_protect/website/">iOS安全与防护</a></li>
+</ul>
+</li>
+<li>iOS逆向
+<ul>
+<li><a href="https://book.crifan.org/books/ios_reverse_dev/website/">iOS逆向开发</a>
+<ul>
+<li>系列
+<ul>
+<li>典型流程
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_iphone_jailbreak/website/">iOS逆向开发：iPhone越狱</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_ios15_jailbreak/website/">iOS逆向：iOS15越狱</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_package_manager/website/">iOS逆向开发：越狱包管理器</a></li>
+</ul>
+</li>
+<li><a href="https://book.crifan.org/books/ios_re_crack_shell_ipa/website/">iOS逆向开发：砸壳ipa</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_static_analysis/website/">iOS逆向开发：静态分析</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_dynamic_debug/website/">iOS逆向开发：动态调试</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_monkeydev_debug/website/">iOS逆向开发：MonkeyDev调试</a></li>
+<li><a href="https://book.crifan.org/books/xcode_dev_summary/website/">Xcode开发心得</a>
+<ul>
+<li><a href="https://book.crifan.org/books/xcode_dev_debug_summary/website/">Xcode开发：调试心得</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>涉及领域
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_jailbreak_tweak/website/">iOS逆向开发：越狱插件开发</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_iosopendev_tweak/website/">iOS逆向开发：iOSOpenDev开发插件</a></li>
+</ul>
+</li>
+<li><a href="https://book.crifan.org/books/ios_re_ios_internal/website/">iOS逆向开发：iOS底层机制</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_objc_runtime/website/">iOS逆向开发：ObjC运行时</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_objc_block/website/">iOS逆向开发：Block匿名函数</a></li>
+</ul>
+</li>
+<li><a href="https://book.crifan.org/books/ios_re_jb_detection/website/">iOS逆向开发：越狱检测和反越狱检测</a></li>
+<li><a href="https://book.crifan.org/books/ios_re_debug_breakpoint/website/">iOS逆向之动态调试：断点</a></li>
+</ul>
+</li>
+<li>实例
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_youtube_reverse/website/">iOS逆向开发：YouTube逆向</a>
+<ul>
+<li><a href="https://book.crifan.org/books/ios_re_protobuf_reverse/website/">iOS逆向YouTube：protobuf逆向</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>相关
+<ul>
+<li>开发语言
+<ul>
+<li><a href="https://book.crifan.org/books/ios_dev_summary/website/">iOS开发心得</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 class="crossnote-header" id="%E8%87%AA%E5%8A%A8%E5%8C%96">自动化</h4>
 
-<h5 class="mume-header" id="%E6%8A%8A%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9A%84%E5%B7%A5%E5%85%B7">&#x628A;&#x5DE5;&#x4F5C;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x5DE5;&#x5177;</h5>
+<h5 class="crossnote-header" id="%E6%8A%8A%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96%E7%9A%84%E5%B7%A5%E5%85%B7">把工作自动化的工具</h5>
 
-<p>&#x4E0D;&#x8BBA;&#x662F;&#x5D4C;&#x5165;&#x5F0F;&#x8FD8;&#x662F;&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x7528;&#x4E00;&#x4E9B;&#x5DE5;&#x5177;&#xFF0C;&#x4ECE;&#x624B;&#x52A8;&#x53D8;&#x81EA;&#x52A8;&#xFF0C;&#x53BB;&#x63D0;&#x9AD8;&#x505A;&#x4E8B;&#x6548;&#x7387;&#xFF0C;&#x6BD4;&#x5982;Makefile&#xFF1A;</p>
+<p>不论是嵌入式还是上层软件，都可以用一些工具，从手动变自动，去提高做事效率，比如Makefile：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/good_automation_tool_makefile/website/">&#x81EA;&#x52A8;&#x5316;&#x5229;&#x5668;&#xFF1A;Makefile</a></li>
+<li><a href="https://book.crifan.org/books/good_automation_tool_makefile/website/">自动化利器：Makefile</a></li>
 </ul>
-<h5 class="mume-header" id="%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95">&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;</h5>
+<h5 class="crossnote-header" id="%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95">自动化测试</h5>
 
-<p>&#x5BF9;&#x4E8E;&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#xFF0C;&#x5148;&#x770B;&#x6982;&#x89C8;&#x4EE5;&#x4E86;&#x89E3;&#x6709;&#x54EA;&#x4E9B;&#x5B50;&#x9886;&#x57DF;&#xFF1A;</p>
+<p>对于自动化测试，先看概览以了解有哪些子领域：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/free_hand_test_automation/website/">&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/free_hand_test_automation/website/">自动化测试概览</a></li>
 </ul>
-<p>&#x7136;&#x540E;&#x518D;&#x53BB;&#x4E86;&#x89E3;&#x4E0D;&#x540C;&#x5B50;&#x9886;&#x57DF;&#xFF1A;</p>
+<p>然后再去了解不同子领域：</p>
 <ul>
-<li>Web&#x7AEF;
+<li>Web端
 <ul>
-<li>Web&#x9886;&#x57DF;&#x7684;&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E5F;&#x53EB;Web&#x7F51;&#x9875;&#x81EA;&#x52A8;&#x5316;&#xFF0C;&#x5F80;&#x5F80;&#x4E5F;&#x5C5E;&#x4E8E;&#x722C;&#x866B;&#x9886;&#x57DF;&#xFF0C;&#x5E38;&#x7528;&#x5DE5;&#x5177;&#x6709;
+<li>Web领域的自动化测试，也叫Web网页自动化，往往也属于爬虫领域，常用工具有
 <ul>
 <li>Selenium
 <ul>
-<li><a href="https://book.crifan.org/books/selenium_summary/website/">Selenium&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/selenium_summary/website/">Selenium知识总结</a></li>
 </ul>
 </li>
 <li>Playwright
 <ul>
-<li><a href="https://book.crifan.org/books/web_automation_tool_playwright/website/">&#x8DE8;&#x5E73;&#x53F0;Web&#x81EA;&#x52A8;&#x5316;&#x795E;&#x5668;&#xFF1A;Playwright</a></li>
+<li><a href="https://book.crifan.org/books/web_automation_tool_playwright/website/">跨平台Web自动化神器：Playwright</a></li>
 </ul>
 </li>
 <li>puppeteer
 <ul>
-<li><a href="https://book.crifan.org/books/web_automation_tool_puppeteer/website/">Web&#x524D;&#x7AEF;&#x81EA;&#x52A8;&#x5316;&#x5229;&#x5668;&#xFF1A;puppeteer</a></li>
+<li><a href="https://book.crifan.org/books/web_automation_tool_puppeteer/website/">Web前端自动化利器：puppeteer</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x79FB;&#x52A8;&#x7AEF;
+<li>移动端
 <ul>
-<li>&#x5148;&#x4E86;&#x89E3;&#x6982;&#x51B5;
+<li>先了解概况
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_automation_overview/website/">&#x79FB;&#x52A8;&#x7AEF;&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#x6982;&#x89C8;</a></li>
+<li><a href="https://book.crifan.org/books/mobile_automation_overview/website/">移动端自动化测试概览</a></li>
 </ul>
 </li>
-<li>&#x518D;&#x770B;&#x5177;&#x4F53;&#x7684;&#x4E0D;&#x540C;&#x65B9;&#x5411;&#x7684;&#x5DE5;&#x5177;
+<li>再看具体的不同方向的工具
 <ul>
-<li>&#x901A;&#x7528;=&#x8DE8;&#x5E73;&#x53F0;
+<li>通用=跨平台
 <ul>
-<li><a href="https://book.crifan.org/books/popular_automation_framework_appium/website/">&#x4E3B;&#x6D41;&#x8DE8;&#x5E73;&#x53F0;&#x81EA;&#x52A8;&#x5316;&#x6846;&#x67B6;&#xFF1A;Appium</a></li>
+<li><a href="https://book.crifan.org/books/popular_automation_framework_appium/website/">主流跨平台自动化框架：Appium</a></li>
 </ul>
 </li>
-<li>Android&#x7AEF;
+<li>Android端
 <ul>
-<li>&#x5B89;&#x5353;&#x7AEF;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;<code>uiautomator2</code>
+<li>安卓端的话，可以用<code>uiautomator2</code>
 <ul>
-<li><a href="https://book.crifan.org/books/android_automation_uiautomator2/website/">&#x5B89;&#x5353;&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#x5229;&#x5668;&#xFF1A;uiautomator2</a></li>
+<li><a href="https://book.crifan.org/books/android_automation_uiautomator2/website/">安卓自动化测试利器：uiautomator2</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>iOS&#x7AEF;
+<li>iOS端
 <ul>
-<li>&#x5173;&#x4E8E;iOS&#x7AEF;&#x7684;&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#xFF0C;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;<code>facebook-wda</code>&#xFF1A;
+<li>关于iOS端的自动化测试，可以考虑用<code>facebook-wda</code>：
 <ul>
-<li><a href="https://book.crifan.org/books/ios_automation_facebook_wda/website/">iOS&#x81EA;&#x52A8;&#x5316;&#x6D4B;&#x8BD5;&#x5229;&#x5668;&#xFF1A;facebook-wda</a></li>
+<li><a href="https://book.crifan.org/books/ios_automation_facebook_wda/website/">iOS自动化测试利器：facebook-wda</a></li>
 </ul>
 </li>
 </ul>
@@ -1930,255 +1705,255 @@ pre[data-line] .line-highlight[data-end]:after {
 </ul>
 </li>
 </ul>
-<h4 class="mume-header" id="pc%E6%A1%8C%E9%9D%A2%E7%AB%AF%E8%BD%AF%E4%BB%B6">PC&#x684C;&#x9762;&#x7AEF;&#x8F6F;&#x4EF6;</h4>
+<h4 class="crossnote-header" id="pc%E6%A1%8C%E9%9D%A2%E7%AB%AF%E8%BD%AF%E4%BB%B6">PC桌面端软件</h4>
 
-<p>&#x5728;&#x5199;Windows&#x5E73;&#x53F0;&#x7684;&#x684C;&#x9762;&#x7AEF;&#x8F6F;&#x4EF6;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>C#</code>&#xFF1A;</p>
+<p>在写Windows平台的桌面端软件时，可以使用<code>C#</code>：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html">C#&#x5B66;&#x4E60;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/csharp_summary/release/html/csharp_summary.html">C#学习心得</a></li>
 </ul>
-<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x5F00;&#x53D1;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x684C;&#x9762;&#x7AEF;&#x5E94;&#x7528;&#xFF0C;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x9009;&#x7528;<code>Electron</code>&#xFF1A;</p>
+<p>如果想要开发跨平台的桌面端应用，可以考虑选用<code>Electron</code>：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/desktop_app_framework_electron/website/">&#x8DE8;&#x5E73;&#x53F0;&#x684C;&#x9762;&#x5E94;&#x7528;&#x6846;&#x67B6;&#xFF1A;Electron</a></li>
+<li><a href="https://book.crifan.org/books/desktop_app_framework_electron/website/">跨平台桌面应用框架：Electron</a></li>
 </ul>
-<h4 class="mume-header" id="%E8%8B%B9%E6%9E%9C%E7%B3%BB%E7%BB%9F">&#x82F9;&#x679C;&#x7CFB;&#x7EDF;</h4>
+<h4 class="crossnote-header" id="%E8%8B%B9%E6%9E%9C%E7%B3%BB%E7%BB%9F">苹果系统</h4>
 
-<p>&#x82F9;&#x679C;&#x7684;<code>Mac</code>&#x3001;<code>iOS</code>&#x7B49;&#x76F8;&#x5173;&#x5F00;&#x53D1;&#x603B;&#x7ED3;&#xFF1A;</p>
-<p><a href="https://book.crifan.org/books/apple_develop_summary/website/">&#x82F9;&#x679C;&#x76F8;&#x5173;&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></p>
-<h4 class="mume-header" id="%E7%BD%91%E9%A1%B5web%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91">&#x7F51;&#x9875;Web&#x9886;&#x57DF;&#x5F00;&#x53D1;</h4>
+<p>苹果的<code>Mac</code>、<code>iOS</code>等相关开发总结：</p>
+<p><a href="https://book.crifan.org/books/apple_develop_summary/website/">苹果相关开发总结</a></p>
+<h4 class="crossnote-header" id="%E7%BD%91%E9%A1%B5web%E9%A2%86%E5%9F%9F%E5%BC%80%E5%8F%91">网页Web领域开发</h4>
 
-<p>&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x642D;&#x5EFA;&#x7F51;&#x7AD9;&#xFF0C;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x7ED9;&#x7F51;&#x7AD9;&#x642C;&#x5BB6;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>关于如何搭建网站，以及如何给网站搬家的话，可以参考：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html">&#x5EFA;&#x8BBE;&#x7F51;&#x7AD9;&#x8BE6;&#x7EC6;&#x6559;&#x7A0B;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html">&#x7F51;&#x7AD9;&#x642C;&#x5BB6;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/build_website/release/html/build_website.html">建设网站详细教程</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html">网站搬家详解</a></li>
 </ul>
-<p>&#x5728;&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;&#x65B9;&#x9762;&#xFF0C;&#x6709;&#x5F88;&#x591A;JS&#x56FE;&#x5F62;&#x5E93;&#xFF0C;&#x56FE;&#x6807;&#x5E93;&#xFF0C;&#x5176;&#x4E2D;&#x4E3B;&#x6D41;&#x7684;&#x6709;&#xFF1A;</p>
+<p>在数据可视化方面，有很多JS图形库，图标库，其中主流的有：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/popular_js_chart_lib_echarts/website/">&#x6D41;&#x884C;&#x7684;JS&#x56FE;&#x8868;&#x5E93;&#xFF1A;ECharts</a></li>
+<li><a href="https://book.crifan.org/books/popular_js_chart_lib_echarts/website/">流行的JS图表库：ECharts</a></li>
 </ul>
-<h4 class="mume-header" id="%E7%A7%BB%E5%8A%A8%E7%AB%AFapp%E5%BC%80%E5%8F%91">&#x79FB;&#x52A8;&#x7AEF;APP&#x5F00;&#x53D1;</h4>
+<h4 class="crossnote-header" id="%E7%A7%BB%E5%8A%A8%E7%AB%AFapp%E5%BC%80%E5%8F%91">移动端APP开发</h4>
 
-<p>&#x5728;&#x6D89;&#x53CA;&#x5230;&#x79FB;&#x52A8;&#x7AEF;&#x5F00;&#x53D1;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>在涉及到移动端开发时，可以参考：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_app_summary/website/">&#x79FB;&#x52A8;&#x7AEF;APP&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/mobile_app_summary/website/">移动端APP开发总结</a></li>
 </ul>
-<p>&#x540E;&#x7EED;&#x6574;&#x7406;&#x51FA;&#x4E86;&#xFF0C;&#x4E0D;&#x540C;&#x7AEF;&#x7684;&#x5F00;&#x53D1;&#x603B;&#x7ED3;&#xFF1A;</p>
+<p>后续整理出了，不同端的开发总结：</p>
 <ul>
 <li>Android
 <ul>
-<li><a href="https://book.crifan.org/books/android_dev_summary/website/">Android&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/android_dev_summary/website/">Android开发总结</a></li>
 </ul>
 </li>
 <li>iOS
 <ul>
-<li><a href="https://book.crifan.org/books/ios_dev_summary/website/">iOS&#x5F00;&#x53D1;&#x5FC3;&#x5F97;</a></li>
+<li><a href="https://book.crifan.org/books/ios_dev_summary/website/">iOS开发心得</a></li>
 </ul>
 </li>
 </ul>
-<h4 class="mume-header" id="%E7%88%AC%E8%99%AB">&#x722C;&#x866B;</h4>
+<h4 class="crossnote-header" id="%E7%88%AC%E8%99%AB">爬虫</h4>
 
-<p>&#x6298;&#x817E;&#x7F51;&#x7EDC;&#x722C;&#x866B;&#xFF08;&#x548C;&#x6A21;&#x62DF;&#x767B;&#x5F55;&#xFF09;&#x9886;&#x57DF;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x5148;&#x53BB;&#x4E86;&#x89E3;&#x5B8F;&#x89C2;&#x903B;&#x8F91;&#x548C;&#x6982;&#x5FF5;&#xFF1A;</p>
+<p>折腾网络爬虫（和模拟登录）领域的话，可以先去了解宏观逻辑和概念：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/crawl_your_data_spider_technology/website/">&#x722C;&#x53D6;&#x4F60;&#x8981;&#x7684;&#x6570;&#x636E;&#xFF1A;&#x722C;&#x866B;&#x6280;&#x672F;</a></li>
+<li><a href="https://book.crifan.org/books/crawl_your_data_spider_technology/website/">爬取你要的数据：爬虫技术</a></li>
 </ul>
-<p>&#x518D;&#x53BB;&#x9009;&#x62E9;&#x5408;&#x9002;&#x7684;&#x8BED;&#x8A00;&#x53BB;&#x5199;&#x722C;&#x866B;&#xFF0C;&#x6BD4;&#x5982;&#x76EE;&#x524D;&#x6700;&#x9002;&#x5408;&#x7684;&#x662F;Python&#xFF1A;</p>
+<p>再去选择合适的语言去写爬虫，比如目前最适合的是Python：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/use_python_write_spider/website/">&#x5982;&#x4F55;&#x7528;Python&#x5199;&#x722C;&#x866B;</a></li>
+<li><a href="https://book.crifan.org/books/use_python_write_spider/website/">如何用Python写爬虫</a></li>
 </ul>
-<p>&#x7136;&#x540E;&#x624D;&#x6D89;&#x53CA;&#x5230;&#x57FA;&#x4E8E;&#x67D0;&#x8BED;&#x8A00;&#xFF08;Python&#xFF09;&#x53BB;&#x5177;&#x4F53;&#x9009;&#x62E9;&#x4EC0;&#x4E48;&#x6846;&#x67B6;&#xFF08;PySpider&#xFF09;&#xFF0C;&#x4EE5;&#x63D0;&#x9AD8;&#x722C;&#x866B;&#x6548;&#x7387;&#xFF1A;</p>
+<p>然后才涉及到基于某语言（Python）去具体选择什么框架（PySpider），以提高爬虫效率：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/python_spider_pyspider/website/">Python&#x722C;&#x866B;&#x6846;&#x67B6;&#xFF1A;PySpider</a></li>
-<li><a href="https://book.crifan.org/books/python_spider_scrapy/website/">&#x4E3B;&#x6D41;Python&#x722C;&#x866B;&#x6846;&#x67B6;&#xFF1A;Scrapy</a></li>
+<li><a href="https://book.crifan.org/books/python_spider_pyspider/website/">Python爬虫框架：PySpider</a></li>
+<li><a href="https://book.crifan.org/books/python_spider_scrapy/website/">主流Python爬虫框架：Scrapy</a></li>
 </ul>
-<p>&#x5728;&#x722C;&#x866B;&#x9886;&#x57DF;&#x5185;&#x6D89;&#x53CA;&#x5230;&#x63D0;&#x53D6;&#x5185;&#x5BB9;&#x65F6;&#xFF0C;&#x5F80;&#x5F80;&#x624D;&#x4F1A;&#x6D89;&#x53CA;&#x5230;Xpath&#xFF1A;</p>
+<p>在爬虫领域内涉及到提取内容时，往往才会涉及到Xpath：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/xpath_summary/website/">XPath&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/xpath_summary/website/">XPath知识总结</a></li>
 </ul>
-<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x6293;&#x5305;app&#x65F6;&#x53EF;&#x4EE5;&#x7528;&#xFF1A;</p>
+<p>如果想要抓包app时可以用：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/app_capture_package_tool_charles/website/">app&#x6293;&#x5305;&#x5229;&#x5668;&#xFF1A;Charles</a></li>
+<li><a href="https://book.crifan.org/books/app_capture_package_tool_charles/website/">app抓包利器：Charles</a></li>
 </ul>
-<p>&#x53E6;&#x5916;&#xFF0C;&#x4E4B;&#x524D;&#x4E5F;&#x5199;&#x8FC7;&#x76F8;&#x5173;&#x7684;&#x722C;&#x866B;&#x65B9;&#x9762;&#x7684;&#x8D44;&#x6599;&#xFF1A;</p>
+<p>另外，之前也写过相关的爬虫方面的资料：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html">&#x8BE6;&#x89E3;&#x6293;&#x53D6;&#x7F51;&#x7AD9;&#xFF0C;&#x6A21;&#x62DF;&#x767B;&#x9646;&#xFF0C;&#x6293;&#x53D6;&#x52A8;&#x6001;&#x7F51;&#x9875;&#x7684;&#x539F;&#x7406;&#x548C;&#x5B9E;&#x73B0;&#xFF08;Python&#xFF0C;C#&#x7B49;&#xFF09;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html">Python&#x4E13;&#x9898;&#x6559;&#x7A0B;&#xFF1A;&#x6293;&#x53D6;&#x7F51;&#x7AD9;&#xFF0C;&#x6A21;&#x62DF;&#x767B;&#x9646;&#xFF0C;&#x6293;&#x53D6;&#x52A8;&#x6001;&#x7F51;&#x9875;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html">详解抓取网站，模拟登陆，抓取动态网页的原理和实现（Python，C#等）</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_web_scrape/release/html/python_topic_web_scrape.html">Python专题教程：抓取网站，模拟登陆，抓取动态网页</a></li>
 </ul>
-<h4 class="mume-header" id="%E9%80%9A%E4%BF%A1%E9%A2%86%E5%9F%9F">&#x901A;&#x4FE1;&#x9886;&#x57DF;</h4>
+<h4 class="crossnote-header" id="%E9%80%9A%E4%BF%A1%E9%A2%86%E5%9F%9F">通信领域</h4>
 
-<p>&#x5728;&#x79FB;&#x52A8;&#x901A;&#x4FE1;&#x7F51;&#x7EDC;&#x4E2D;&#xFF0C;&#x603B;&#x4F53;&#x7F51;&#x7EDC;&#x4ECE;1G&#x5230;5G&#x7684;&#x6F14;&#x5316;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>在移动通信网络中，总体网络从1G到5G的演化，可以参考：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/mobile_network_evolution_history/website/">&#x79FB;&#x52A8;&#x7F51;&#x7EDC;&#x6F14;&#x5316;&#x53F2;</a></li>
+<li><a href="https://book.crifan.org/books/mobile_network_evolution_history/website/">移动网络演化史</a></li>
 </ul>
-<p>&#x671F;&#x95F4;&#x51FA;&#x73B0;&#x4E86;&#x76F8;&#x5173;&#x6280;&#x672F;&#xFF1A;</p>
+<p>期间出现了相关技术：</p>
 <ul>
-<li>(RCS&#x5E95;&#x5C42;&#x6240;&#x4F9D;&#x8D56;&#x7684;&#x6280;&#x672F;)IMS
+<li>(RCS底层所依赖的技术)IMS
 <ul>
-<li><a href="https://book.crifan.org/books/multimedia_core_system_ims/website/">&#x591A;&#x5A92;&#x4F53;&#x4E1A;&#x52A1;&#x6838;&#x5FC3;&#x5B50;&#x7CFB;&#x7EDF;&#xFF1A;IMS</a></li>
+<li><a href="https://book.crifan.org/books/multimedia_core_system_ims/website/">多媒体业务核心子系统：IMS</a></li>
 </ul>
 </li>
 <li>RCS
 <ul>
-<li>&#x6982;&#x89C8;
+<li>概览
 <ul>
-<li><a href="https://book.crifan.org/books/5g_message_rcs_tech_summary/website/">5G&#x6D88;&#x606F;RCS&#x6280;&#x672F;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/5g_message_rcs_tech_summary/website/">5G消息RCS技术总结</a></li>
 </ul>
 </li>
-<li>&#x5F00;&#x53D1;
+<li>开发
 <ul>
-<li><a href="https://book.crifan.org/books/rcs_tech_dev_summary/website/">RCS&#x6280;&#x672F;&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></li>
-</ul>
-</li>
+<li><a href="https://book.crifan.org/books/rcs_tech_dev_summary/website/">RCS技术开发总结</a></li>
 </ul>
 </li>
 </ul>
-<p>&#x800C;&#x6700;&#x65B0;&#x7684;5G&#x6280;&#x672F;&#xFF0C;&#x603B;&#x4F53;&#x6982;&#x89C8;&#x5982;&#x4E0B;&#xFF1A;</p>
-<ul>
-<li><a href="https://book.crifan.org/books/5g_tech_summary/website/">5G&#x6280;&#x672F;&#x6982;&#x8FF0;</a></li>
+</li>
 </ul>
-<h4 class="mume-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%85%B6%E4%BB%96%E9%A2%86%E5%9F%9F">&#x4E0A;&#x5C42;&#x8F6F;&#x4EF6;&#x7684;&#x5176;&#x4ED6;&#x9886;&#x57DF;</h4>
+<p>而最新的5G技术，总体概览如下：</p>
+<ul>
+<li><a href="https://book.crifan.org/books/5g_tech_summary/website/">5G技术概述</a></li>
+</ul>
+<h4 class="crossnote-header" id="%E4%B8%8A%E5%B1%82%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%85%B6%E4%BB%96%E9%A2%86%E5%9F%9F">上层软件的其他领域</h4>
 
-<p>&#x6BD4;&#x5982;&#x60F3;&#x8981;&#x5F00;&#x53D1;&#x81EA;&#x5DF1;&#x7279;&#x5B9A;&#x9886;&#x57DF;&#x5185;&#x7684;&#x8BED;&#x8A00;&#x7684;&#x89E3;&#x6790;&#x5668;&#xFF0C;&#x5373;&#x5B9E;&#x73B0;&#x81EA;&#x5DF1;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;ANTLR&#xFF1A;</p>
+<p>比如想要开发自己特定领域内的语言的解析器，即实现自己的编译器，可以使用ANTLR：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html">ANTLR&#x6559;&#x7A0B;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/antlr_tutorial/release/html/antlr_tutorial.html">ANTLR教程</a></li>
 </ul>
-<p>&#x60F3;&#x8981;&#x548C;&#x6211;&#x4E00;&#x6837;&#x53BB;&#x5236;&#x4F5C;&#x51FA;&#x590D;&#x6742;&#x7684;&#x7535;&#x5B50;&#x4E66;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#xFF1A;</p>
-<p>&#x5148;&#x5B66;&#x4E60;&#x901A;&#x7528;&#x7684;&#x8BED;&#x6CD5;&#x683C;&#x5F0F;Markdown&#xFF1A;</p>
+<p>想要和我一样去制作出复杂的电子书，则可以：</p>
+<p>先学习通用的语法格式Markdown：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/doc_format_markdown/website/">&#x6700;&#x6D41;&#x884C;&#x7684;&#x6587;&#x6863;&#x683C;&#x5F0F;&#xFF1A;Markdown</a></li>
+<li><a href="https://book.crifan.org/books/doc_format_markdown/website/">最流行的文档格式：Markdown</a></li>
 </ul>
-<p>&#x518D;&#x53BB;&#x4F7F;&#x7528;&#x76F8;&#x5BF9;&#x7B80;&#x5355;&#x597D;&#x7528;&#x7684;&#x5DE5;&#x5177;GitBook&#x53BB;&#x5236;&#x4F5C;&#x7535;&#x5B50;&#x4E66;&#xFF1A;</p>
+<p>再去使用相对简单好用的工具GitBook去制作电子书：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/ebook_system_gitbook/website/">&#x7535;&#x5B50;&#x4E66;&#x5236;&#x4F5C;&#x5229;&#x5668;&#xFF1A;GitBook</a>
+<li><a href="https://book.crifan.org/books/ebook_system_gitbook/website/">电子书制作利器：GitBook</a>
 <ul>
-<li>&#x5982;&#x679C;&#x60F3;&#x8981;&#x66F4;&#x7B80;&#x5355;&#x6613;&#x7528;&#x66F4;&#x7701;&#x5FC3;&#xFF0C;&#x53EF;&#x4EE5;&#x57FA;&#x4E8E;&#x6211;&#x7684;<a href="https://github.com/crifan/gitbook_template">Gitbook&#x7684;&#x6A21;&#x677F;</a>&#x53BB;&#x5236;&#x4F5C;&#xFF0C;&#x751F;&#x6210;&#x7684;&#x6548;&#x679C;&#x662F;<a href="https://book.crifan.org/books/gitbook_demo/website/">Gitbook&#x6F14;&#x793A;</a></li>
+<li>如果想要更简单易用更省心，可以基于我的<a href="https://github.com/crifan/gitbook_template">Gitbook的模板</a>去制作，生成的效果是<a href="https://book.crifan.org/books/gitbook_demo/website/">Gitbook演示</a></li>
 </ul>
 </li>
 </ul>
-<p>&#x4E0D;&#x8FC7;gitbook&#x5B98;&#x7F51;&#x653E;&#x5F03;&#x7EF4;&#x62A4;&#xFF0C;&#x6240;&#x4EE5;&#x6362;&#x7528;&#x517C;&#x5BB9;&#x548C;&#x96C6;&#x6210;&#x81EA;<code>Gitbook</code>&#x7684;<code>HonKit</code>&#xFF1A;</p>
+<p>不过gitbook官网放弃维护，所以换用兼容和集成自<code>Gitbook</code>的<code>HonKit</code>：</p>
 <ul>
-<li><a href="https://github.com/crifan/honkit_template">crifan/honkit_template: &#x7528;&#x4E8E;&#x521B;&#x5EFA;HonKit&#x7535;&#x5B50;&#x4E66;&#x7684;HonKit&#x7684;&#x6A21;&#x677F;</a></li>
+<li><a href="https://github.com/crifan/honkit_template">crifan/honkit_template: 用于创建HonKit电子书的HonKit的模板</a></li>
 </ul>
-<p>&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x66F4;&#x52A0;&#x5F3A;&#x5927;&#x4F46;&#x975E;&#x5E38;&#x590D;&#x6742;&#x7684;&#xFF0C;&#x6280;&#x672F;&#x7C7B;&#x4E66;&#x7C4D;&#x4E13;&#x4E1A;&#x5236;&#x4F5C;&#x5DE5;&#x5177;Docbook&#xFF1A;</p>
+<p>也可以用更加强大但非常复杂的，技术类书籍专业制作工具Docbook：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html">Docbook&#x5F00;&#x53D1;&#x624B;&#x8BB0;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/docbook_dev_note/release/html/docbook_dev_note.html">Docbook开发手记</a></li>
 </ul>
-<p>&#x5728;&#x6570;&#x636E;&#x5E93;&#x65B9;&#x9762;&#xFF0C;&#x4E3B;&#x6D41;&#x7684;&#x6587;&#x6863;&#x6570;&#x636E;&#x5E93;&#x6709;&#xFF1A;</p>
+<p>在数据库方面，主流的文档数据库有：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/popular_rmdb_mysql/website/">&#x4E3B;&#x6D41;&#x5173;&#x7CFB;&#x6570;&#x636E;&#x5E93;&#xFF1A;MySQL</a></li>
-<li><a href="https://book.crifan.org/books/popular_document_db_mongodb/website/">&#x4E3B;&#x6D41;&#x6587;&#x6863;&#x578B;&#x6570;&#x636E;&#x5E93;&#xFF1A;MongoDB</a></li>
+<li><a href="https://book.crifan.org/books/popular_rmdb_mysql/website/">主流关系数据库：MySQL</a></li>
+<li><a href="https://book.crifan.org/books/popular_document_db_mongodb/website/">主流文档型数据库：MongoDB</a></li>
 </ul>
-<p>&#x4E0D;&#x540C;&#x7CFB;&#x7EDF;&#x4E2D;&#x90FD;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x6587;&#x4EF6;&#x548C;&#x4EE3;&#x7801;&#x7B49;&#x538B;&#x7F29;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>不同系统中都会涉及到文件和代码等压缩，可以参考：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/common_compress_tool_summary/website/">&#x5E38;&#x89C1;&#x538B;&#x7F29;&#x5DE5;&#x5177;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/common_compress_tool_summary/website/">常见压缩工具总结</a></li>
 </ul>
-<p>&#x5982;&#x679C;&#x6D89;&#x53CA;&#x5230;&#x97F3;&#x89C6;&#x9891;&#x7684;&#x5904;&#x7406;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x5F3A;&#x5927;&#x7684;<code>ffmpeg</code>&#xFF1A;</p>
+<p>如果涉及到音视频的处理，可以用强大的<code>ffmpeg</code>：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/media_process_ffmpeg/website/">&#x5F3A;&#x5927;&#x7684;&#x97F3;&#x89C6;&#x9891;&#x5904;&#x7406;&#x5DE5;&#x5177;&#xFF1A;ffmpeg</a></li>
+<li><a href="https://book.crifan.org/books/media_process_ffmpeg/website/">强大的音视频处理工具：ffmpeg</a></li>
 </ul>
-<h4 class="mume-header" id="python%E8%AF%AD%E8%A8%80">Python&#x8BED;&#x8A00;</h4>
+<h4 class="crossnote-header" id="python%E8%AF%AD%E8%A8%80">Python语言</h4>
 
-<p>&#x6298;&#x817E;&#x6298;&#x817E;Pyton&#x671F;&#x95F4;&#xFF0C;&#x5355;&#x72EC;&#x6574;&#x7406;&#x4E86;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4F9B;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>折腾折腾Pyton期间，单独整理了一系列的内容，供参考：</p>
 <ul>
-<li>&#x65E7;&#x7684;
+<li>旧的
 <ul>
-<li>&#x7528;&#x4E8E;&#x5165;&#x95E8;&#x7EA7;&#x7684;&#x4ECB;&#x7ECD;&#x7684;&#xFF1A;
+<li>用于入门级的介绍的：
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html">python&#x521D;&#x7EA7;&#x6559;&#x7A0B;&#xFF1A;&#x5165;&#x95E8;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_beginner_tutorial/release/html/python_beginner_tutorial.html">python初级教程：入门详解</a></li>
 </ul>
 </li>
-<li>&#x5173;&#x4E8E;&#x6574;&#x4F53;&#x7684;Python&#x7684;&#x5FC3;&#x5F97;&#x548C;&#x603B;&#x7ED3;&#xFF1A;
+<li>关于整体的Python的心得和总结：
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html">python&#x4E2D;&#x7EA7;&#x6559;&#x7A0B;&#xFF1A;&#x5F00;&#x53D1;&#x603B;&#x7ED3;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html">Python&#x8BED;&#x8A00;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_intermediate_tutorial/release/html/python_intermediate_tutorial.html">python中级教程：开发总结</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_summary/release/html/python_summary.html">Python语言总结</a></li>
 </ul>
 </li>
-<li>&#x5173;&#x4E8E;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x6A21;&#x5757;&#x7684;&#x603B;&#x7ED3;&#xFF1A;
+<li>关于某个特定的模块的总结：
 <ul>
 <li>BeautifulSoup
 <ul>
-<li>&#x65E7;&#x6559;&#x7A0B;
+<li>旧教程
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html">Python&#x4E13;&#x9898;&#x6559;&#x7A0B;&#xFF1A;BeautifulSoup&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_beautifulsoup/release/html/python_topic_beautifulsoup.html">Python专题教程：BeautifulSoup详解</a></li>
 </ul>
 </li>
-<li>&#x65B0;&#x6559;&#x7A0B;
+<li>新教程
 <ul>
-<li><a href="https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/">&#x7F51;&#x9875;&#x89E3;&#x6790;&#x5229;&#x5668;&#xFF1A;BeautifulSoup</a></li>
+<li><a href="https://book.crifan.org/books/html_parse_tool_beautifulsoup/website/">网页解析利器：BeautifulSoup</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li>PyQuery
 <ul>
-<li><a href="https://book.crifan.org/books/python_html_parse_pyquery/website/">HTML&#x89E3;&#x6790;&#x5E93;Python&#x7248;jQuery&#xFF1A;PyQuery</a></li>
+<li><a href="https://book.crifan.org/books/python_html_parse_pyquery/website/">HTML解析库Python版jQuery：PyQuery</a></li>
 </ul>
 </li>
-<li>re&#x6A21;&#x5757;
+<li>re模块
 <ul>
-<li>&#x65E7;&#x7684;
+<li>旧的
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html">Python&#x4E13;&#x9898;&#x6559;&#x7A0B;&#xFF1A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;re&#x6A21;&#x5757;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_re/release/html/python_topic_re.html">Python专题教程：正则表达式re模块详解</a></li>
 </ul>
 </li>
-<li>&#x65B0;&#x7684;
+<li>新的
 <ul>
-<li><a href="https://book.crifan.org/books/python_regex_re_intro/website/">Python&#x4E2D;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;re&#x6A21;&#x5757;&#x8BE6;&#x89E3;</a></li>
+<li><a href="https://book.crifan.org/books/python_regex_re_intro/website/">Python中正则表达式：re模块详解</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x5B57;&#x7B26;&#x7F16;&#x7801;
+<li>字符编码
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html">Python&#x4E13;&#x9898;&#x6559;&#x7A0B;&#xFF1A;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x5B57;&#x7B26;&#x7F16;&#x7801;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/python_topic_str_encoding/release/html/python_topic_str_encoding.html">Python专题教程：字符串和字符编码</a></li>
 </ul>
 </li>
-<li>&#x7F51;&#x7EDC;&#x5E93;
+<li>网络库
 <ul>
-<li><a href="https://book.crifan.org/books/python_summary_http_lib/website/">Python&#x5FC3;&#x5F97;&#xFF1A;http&#x7F51;&#x7EDC;&#x5E93;</a></li>
+<li><a href="https://book.crifan.org/books/python_summary_http_lib/website/">Python心得：http网络库</a></li>
 </ul>
 </li>
-<li>&#x64CD;&#x4F5C;excel&#x548C;CSV
+<li>操作excel和CSV
 <ul>
-<li><a href="https://book.crifan.org/books/python_process_csv_excel/website/">Python&#x5FC3;&#x5F97;&#xFF1A;&#x64CD;&#x4F5C;CSV&#x548C;Excel</a></li>
+<li><a href="https://book.crifan.org/books/python_process_csv_excel/website/">Python心得：操作CSV和Excel</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x65B0;&#x7684;
+<li>新的
 <ul>
-<li>&#x5BF9;&#x4E8E;&#x65B0;&#x624B;&#x5C0F;&#x767D;&#x5E38;&#x89C1;&#x7684;&#x9519;&#x8BEF;&#x548C;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x548C;&#x5F15;&#x7533;&#x601D;&#x8003;&#xFF1A;
+<li>对于新手小白常见的错误和解决方案和引申思考：
 <ul>
-<li><a href="https://book.crifan.org/books/python_newbie_mistakes_questions/website/">Python&#x65B0;&#x624B;&#x5C0F;&#x767D;&#x5E38;&#x89C1;&#x9519;&#x8BEF;&#x548C;&#x95EE;&#x9898;</a></li>
+<li><a href="https://book.crifan.org/books/python_newbie_mistakes_questions/website/">Python新手小白常见错误和问题</a></li>
 </ul>
 </li>
-<li>&#x5168;&#x65B0;&#x6574;&#x7406;&#x7684;
+<li>全新整理的
 <ul>
-<li><a href="https://book.crifan.org/books/make_life_better_python/website/">&#x8BA9;&#x4F60;&#x4EBA;&#x751F;&#x4E0D;&#x82E6;&#x77ED;&#x7684;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#xFF1A;Python</a></li>
-<li>&#x5E38;&#x7528;&#x4EE3;&#x7801;&#x6BB5;&#xFF1A;
+<li><a href="https://book.crifan.org/books/make_life_better_python/website/">让你人生不苦短的编程语言：Python</a></li>
+<li>常用代码段：
 <ul>
-<li><a href="https://book.crifan.org/books/python_common_code_snippet/website/">Python&#x5E38;&#x7528;&#x4EE3;&#x7801;&#x6BB5;</a></li>
+<li><a href="https://book.crifan.org/books/python_common_code_snippet/website/">Python常用代码段</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x865A;&#x62DF;&#x73AF;&#x5883;
+<li>虚拟环境
 <ul>
-<li><a href="https://book.crifan.org/books/python_summary_virtual_environment/website/">Python&#x5FC3;&#x5F97;&#xFF1A;&#x865A;&#x62DF;&#x73AF;&#x5883;</a></li>
+<li><a href="https://book.crifan.org/books/python_summary_virtual_environment/website/">Python心得：虚拟环境</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h4 class="mume-header" id="%E6%88%91crifan%E7%9A%84%E6%8A%80%E6%9C%AF%E5%BA%93">&#x6211;Crifan&#x7684;&#x6280;&#x672F;&#x5E93;</h4>
+<h4 class="crossnote-header" id="%E6%88%91crifan%E7%9A%84%E6%8A%80%E6%9C%AF%E5%BA%93">我Crifan的技术库</h4>
 
-<p>&#x5728;&#x6298;&#x817E;&#x6280;&#x672F;&#x65B9;&#x9762;&#xFF0C;&#x6574;&#x7406;&#x51FA;&#x4E00;&#x4E9B;&#xFF0C;&#x76F8;&#x5BF9;&#x901A;&#x7528;&#x7684;&#x5E93;&#xFF0C;&#x6574;&#x7406;&#x51FA;&#x6765;&#xFF0C;&#x4F9B;&#x53C2;&#x8003;&#xFF1A;</p>
-<p>&#x76EE;&#x524D;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x90FD;&#x653E;&#x5230; <a href="https://github.com/crifan">crifan&#x7684;Github</a>&#x4E0A;&#x4E86;&#xFF1A;</p>
-<p>&#x5176;&#x4E2D;&#x5173;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x5E93;&#x51FD;&#x6570;&#xFF0C;&#x5404;&#x79CD;&#x8BED;&#x8A00;&#x90FD;&#x6709;&#xFF1A;</p>
+<p>在折腾技术方面，整理出一些，相对通用的库，整理出来，供参考：</p>
+<p>目前最新的代码，都放到 <a href="https://github.com/crifan">crifan的Github</a>上了：</p>
+<p>其中关于自己的库函数，各种语言都有：</p>
 <ul>
 <li><a href="https://github.com/crifan/crifanLib">https://github.com/crifan/crifanLib</a>
 <ul>
-<li>&#x5176;&#x4E2D;Python&#x5DF2;&#x5355;&#x72EC;&#x6574;&#x7406;&#x51FA;
+<li>其中Python已单独整理出
 <ul>
 <li><a href="https://github.com/crifan/crifanLibPython">https://github.com/crifan/crifanLibPython</a></li>
 </ul>
@@ -2186,86 +1961,84 @@ pre[data-line] .line-highlight[data-end]:after {
 </ul>
 </li>
 </ul>
-<p>&#x5176;&#x4E2D;&#x5173;&#x4E8E;C#&#x548C;Python&#xFF0C;&#x5206;&#x522B;&#x5199;&#x4E86;&#x4E13;&#x95E8;&#x7684;&#x7535;&#x5B50;&#x4E66;&#x89E3;&#x91CA;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#xFF1A;</p>
+<p>其中关于C#和Python，分别写了专门的电子书解释如何使用：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html">&#x8BE6;&#x89E3;crifan&#x7684;C#&#x5E93;&#xFF1A;crifanLib.cs</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html">&#x8BE6;&#x89E3;crifan&#x7684;Python&#x5E93;&#xFF1A;crifanLib.py</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_csharp/release/html/crifanlib_csharp.html">详解crifan的C#库：crifanLib.cs</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/crifanlib_python/release/html/crifanlib_python.html">详解crifan的Python库：crifanLib.py</a></li>
 </ul>
-<h2 class="mume-header" id="%E9%9D%9E%E6%8A%80%E6%9C%AF%E7%B1%BB">&#x975E;&#x6280;&#x672F;&#x7C7B;</h2>
+<h2 class="crossnote-header" id="%E9%9D%9E%E6%8A%80%E6%9C%AF%E7%B1%BB">非技术类</h2>
 
-<h3 class="mume-header" id="%E7%94%B5%E8%84%91%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%BF%E7%94%A8%E7%B1%BB">&#x7535;&#x8111;&#x8BA1;&#x7B97;&#x673A;&#x4F7F;&#x7528;&#x7C7B;</h3>
+<h3 class="crossnote-header" id="%E7%94%B5%E8%84%91%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%BF%E7%94%A8%E7%B1%BB">电脑计算机使用类</h3>
 
-<p>&#x548C;&#x7535;&#x8111;/&#x8BA1;&#x7B97;&#x673A;&#x4F7F;&#x7528;&#x65B9;&#x9762;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x6BD4;&#x5982;&#x6709;&#x54EA;&#x4E9B;&#x5E38;&#x89C1;&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x548C;&#x9A71;&#x52A8;&#x7B49;&#x77E5;&#x8BC6;&#x7684;&#xFF1A;</p>
+<p>和电脑/计算机使用方面的知识，比如有哪些常见的操作系统，以及如何安装软件和驱动等知识的：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html">&#x7535;&#x8111;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x6559;&#x7A0B;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/compute_basic/release/html/compute_basic.html">电脑基础知识教程</a></li>
 </ul>
-<p>&#x4EE5;&#x53CA;&#x89C9;&#x5F97;&#x5F88;&#x591A;&#x597D;&#x7528;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x8F6F;&#x4EF6;&#xFF0C;&#x4E5F;&#x8FDB;&#x884C;&#x4E86;&#x63A8;&#x8350;&#xFF1A;</p>
+<p>以及觉得很多好用的工具和软件，也进行了推荐：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html">crifan&#x63A8;&#x8350;&#x8F6F;&#x4EF6;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/crifan_rec_soft/release/html/crifan_rec_soft.html">crifan推荐软件</a></li>
 </ul>
-<p>&#x548C;&#x6280;&#x672F;&#x5F00;&#x53D1;&#x6709;&#x70B9;&#x5173;&#x7CFB;&#xFF0C;&#x4F46;&#x662F;&#x66F4;&#x4E3B;&#x8981;&#x662F;&#x5C5E;&#x4E8E;&#x7535;&#x8111;&#x4F7F;&#x7528;&#x65B9;&#x9762;&#x7684;&#xFF0C;&#x865A;&#x62DF;&#x673A;&#xFF1A;</p>
-<p>&#x5728;<code>Windows</code>&#x3001;<code>Mac</code>&#x7B49;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x60F3;&#x8981;&#x5B89;&#x88C5;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x7CFB;&#x7EDF;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x865A;&#x62DF;&#x673A;&#x8F6F;&#x4EF6;&#xFF0C;&#x6BD4;&#x5982;<code>VMWare</code>&#x6216;<code>VirtualBox</code>&#xFF1A;</p>
+<p>和技术开发有点关系，但是更主要是属于电脑使用方面的，虚拟机：</p>
+<p>在<code>Windows</code>、<code>Mac</code>等系统中，想要安装另外一个系统，可以用虚拟机软件，比如<code>VMWare</code>或<code>VirtualBox</code>：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html">&#x865A;&#x62DF;&#x673A;&#x6559;&#x7A0B;</a></li>
-<li><a href="https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html">VirtualBox&#x6559;&#x7A0B;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/virutal_machine_tutorial/release/html/virutal_machine_tutorial.html">虚拟机教程</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/html/virtualbox_tutorial.html">VirtualBox教程</a></li>
 <li>VMWare
 <ul>
-<li>&#x65E7;&#x7684;
+<li>旧的
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html">VMWare&#x6559;&#x7A0B;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/vmware_tutorial/release/html/vmware_tutorial.html">VMWare教程</a></li>
 </ul>
 </li>
-<li>&#x65B0;&#x7684;
+<li>新的
 <ul>
-<li><a href="https://book.crifan.org/books/popular_virtual_machine_vmware/website/">&#x4E3B;&#x6D41;&#x865A;&#x62DF;&#x673A;&#x8F6F;&#x4EF6;&#xFF1A;VMWare</a></li>
-</ul>
-</li>
+<li><a href="https://book.crifan.org/books/popular_virtual_machine_vmware/website/">主流虚拟机软件：VMWare</a></li>
 </ul>
 </li>
 </ul>
-<h3 class="mume-header" id="%E5%B7%A5%E4%BD%9C%E7%B1%BB">&#x5DE5;&#x4F5C;&#x7C7B;</h3>
+</li>
+</ul>
+<h3 class="crossnote-header" id="%E5%B7%A5%E4%BD%9C%E7%B1%BB">工作类</h3>
 
-<p>&#x800C;&#x5F00;&#x59CB;&#x4E86;&#x5DE5;&#x4F5C;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x7684;&#x5404;&#x79CD;&#x57FA;&#x672C;&#x6982;&#x5FF5;&#x548C;&#x5E38;&#x8BC6;&#xFF0C;&#x5305;&#x62EC;&#x62DB;&#x8058;&#x548C;&#x5E94;&#x8058;&#xFF0C;&#x85AA;&#x8D44;&#x5F85;&#x9047;&#xFF0C;&#x80A1;&#x7968;&#x548C;&#x671F;&#x6743;&#xFF0C;&#x521B;&#x4E1A;&#x548C;&#x516C;&#x53F8;&#x7B49;&#xFF1A;</p>
+<p>而开始了工作后，需要了解的各种基本概念和常识，包括招聘和应聘，薪资待遇，股票和期权，创业和公司等：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/work_job_summary/website/">&#x5DE5;&#x4F5C;&#x548C;&#x804C;&#x4E1A;&#x76F8;&#x5173;&#x77E5;&#x8BC6;</a></li>
+<li><a href="https://book.crifan.org/books/work_job_summary/website/">工作和职业相关知识</a></li>
 </ul>
-<p>&#x800C;&#x548C;&#x522B;&#x4EBA;&#x5408;&#x4F5C;&#x65F6;&#xFF0C;&#x5F80;&#x5F80;&#x6D89;&#x53CA;&#x5230;&#x6587;&#x4EF6;&#x5171;&#x4EAB;&#xFF0C;&#x8D44;&#x6599;&#x5171;&#x4EAB;&#xFF0C;&#x534F;&#x540C;&#x7F16;&#x8F91;&#x7B49;&#x5185;&#x5BB9;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6709;&#x9053;&#x4E91;&#x534F;&#x4F5C;&#xFF1A;</p>
+<p>而和别人合作时，往往涉及到文件共享，资料共享，协同编辑等内容，可以使用有道云协作：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/youdao_note_summary/website/">&#x6709;&#x9053;&#x4E91;&#x7B14;&#x8BB0;&#x548C;&#x4E91;&#x534F;&#x4F5C;&#x4F7F;&#x7528;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/youdao_note_summary/website/">有道云笔记和云协作使用总结</a></li>
 </ul>
-<p>&#x800C;&#x5DE5;&#x4F5C;&#x540E;&#xFF0C;&#x4F1A;&#x9047;&#x5230;&#x5177;&#x4F53;&#x7684;&#x67D0;&#x4E2A;&#x5546;&#x4E1A;&#x9886;&#x57DF;&#x76F8;&#x5173;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
-<h4 class="mume-header" id="%E9%A2%86%E5%9F%9F%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86">&#x9886;&#x57DF;&#x76F8;&#x5173;&#x77E5;&#x8BC6;</h4>
+<p>而工作后，会遇到具体的某个商业领域相关的知识，比如：</p>
+<h4 class="crossnote-header" id="%E9%A2%86%E5%9F%9F%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86">领域相关知识</h4>
 
-<p>&#x6C7D;&#x8F66;&#x9500;&#x552E;&#x884C;&#x4E1A;&#x5185;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x5305;&#x62EC;&#x552E;&#x524D;&#x548C;&#x552E;&#x540E;&#x3001;&#x6574;&#x8F66;&#x5382;&#x548C;&#x7ECF;&#x9500;&#x5546;&#x3002;&#x7ECF;&#x9500;&#x5546;&#x548C;&#x5BA2;&#x6237;&#x7B49;&#x76F8;&#x5173;&#x5185;&#x5BB9;&#xFF1A;</p>
+<p>汽车销售行业内的知识，包括售前和售后、整车厂和经销商。经销商和客户等相关内容：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/automobile_sales_summary/website/">&#x6C7D;&#x8F66;&#x9500;&#x552E;&#x9886;&#x57DF;&#x77E5;&#x8BC6;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/automobile_sales_summary/website/">汽车销售领域知识总结</a></li>
 </ul>
-<h3 class="mume-header" id="%E7%94%9F%E6%B4%BB%E7%B1%BB">&#x751F;&#x6D3B;&#x7C7B;</h3>
+<h3 class="crossnote-header" id="%E7%94%9F%E6%B4%BB%E7%B1%BB">生活类</h3>
 
-<p>&#x548C;&#x4E70;&#x623F;&#x524D;&#x540E;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x54EA;&#x4E9B;&#x4E8B;&#x9879;&#xFF0C;&#x5177;&#x4F53;&#x4E70;&#x623F;&#x7684;&#x8FC7;&#x7A0B;&#x7684;&#x5185;&#x5BB9;&#xFF1A;</p>
+<p>和买房前后需要注意哪些事项，具体买房的过程的内容：</p>
 <ul>
-<li><a href="https://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html">&#x4E70;&#x623F;&#x8BE6;&#x7EC6;&#x6559;&#x7A0B;</a></li>
+<li><a href="https://www.crifan.com/files/doc/docbook/buy_house/release/html/buy_house.html">买房详细教程</a></li>
 </ul>
-<p>&#x4EE5;&#x53CA;&#x65E5;&#x5E38;&#x751F;&#x6D3B;&#x671F;&#x95F4;&#x4E5F;&#x6709;&#x4E9B;&#x5FC3;&#x5F97;&#x4F9B;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>以及日常生活期间也有些心得供参考：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/resident_life_experience_summary/website/">&#x5C45;&#x6C11;&#x751F;&#x6D3B;&#x7ECF;&#x9A8C;&#x603B;&#x7ED3;</a></li>
+<li><a href="https://book.crifan.org/books/resident_life_experience_summary/website/">居民生活经验总结</a></li>
 </ul>
-<p>&#x9488;&#x5BF9;&#x82CF;&#x5DDE;&#x8FD9;&#x4E2A;&#x57CE;&#x5E02;&#xFF0C;&#x4E5F;&#x4E13;&#x95E8;&#x6574;&#x7406;&#x4E86;&#x6781;&#x5176;&#x8BE6;&#x5C3D;&#x7684;&#x5404;&#x79CD;&#x8D44;&#x6599;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x5B8F;&#x89C2;&#x89C4;&#x5212;&#xFF0C;&#x8BE6;&#x89C1;&#xFF1A;</p>
+<p>针对苏州这个城市，也专门整理了极其详尽的各种资料，尤其是宏观规划，详见：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/china_suitable_living_suzhou/website/">&#x4E2D;&#x56FD;&#x5B9C;&#x5C45;&#x57CE;&#x5E02;&#xFF1A;&#x82CF;&#x5DDE;</a></li>
+<li><a href="https://book.crifan.org/books/china_suitable_living_suzhou/website/">中国宜居城市：苏州</a></li>
 </ul>
-<h3 class="mume-header" id="%E5%A8%B1%E4%B9%90%E7%B1%BB">&#x5A31;&#x4E50;&#x7C7B;</h3>
+<h3 class="crossnote-header" id="%E5%A8%B1%E4%B9%90%E7%B1%BB">娱乐类</h3>
 
-<p>&#x672C;&#x4EBA;&#x5E38;&#x5E74;&#x6253;&#x7FBD;&#x6BDB;&#x7403;&#xFF0C;&#x6709;&#x4E9B;&#x5FC3;&#x5F97;&#xFF0C;&#x6574;&#x7406;&#x5982;&#x4E0B;&#xFF0C;&#x4F9B;&#x559C;&#x6B22;&#x7FBD;&#x6BDB;&#x7403;&#x8FD0;&#x52A8;&#x7684;&#x53C2;&#x8003;&#xFF1A;</p>
+<p>本人常年打羽毛球，有些心得，整理如下，供喜欢羽毛球运动的参考：</p>
 <ul>
-<li><a href="https://book.crifan.org/books/all_age_sports_badminton/website/">&#x8001;&#x5C11;&#x7686;&#x5B9C;&#x7684;&#x8FD0;&#x52A8;&#xFF1A;&#x7FBD;&#x6BDB;&#x7403;</a></li>
+<li><a href="https://book.crifan.org/books/all_age_sports_badminton/website/">老少皆宜的运动：羽毛球</a></li>
 </ul>
 
       </div>
       
       
-    
-    
     
     
     

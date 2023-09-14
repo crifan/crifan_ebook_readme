@@ -79,9 +79,12 @@
     * https://book.crifan.org/books/android_app_security_crack/website/
     * https://book.crifan.org/books/android_automation_uiautomator2/website/
     * https://book.crifan.org/books/android_dev_summary/website/
+    * https://book.crifan.org/books/android_re_decompile_jadx/website/
     * https://book.crifan.org/books/android_re_dynamic_debug/website/
     * https://book.crifan.org/books/android_re_enable_root/website/
     * https://book.crifan.org/books/android_re_repack_apk/website/
+    * https://book.crifan.org/books/android_re_static_analysis/website/
+    * https://book.crifan.org/books/android_re_xposed_framework/website/
     * https://book.crifan.org/books/android_reverse_dev/website/
     * https://book.crifan.org/books/api_tool_postman/website/
     * https://book.crifan.org/books/app_capture_package_tool_charles/website/
@@ -97,7 +100,6 @@
     * https://book.crifan.org/books/common_logic_hardware_embedded/website/
     * https://book.crifan.org/books/computer_tech_summary/website/
     * https://book.crifan.org/books/cpu_emulator_unicorn/website/
-    * https://book.crifan.org/books/crack_assistant_xposed_framework/website/
     * https://book.crifan.org/books/crawl_your_data_spider_technology/website/
     * https://book.crifan.org/books/desktop_app_framework_electron/website/
     * https://book.crifan.org/books/doc_format_markdown/website/
@@ -176,6 +178,7 @@
     * https://book.crifan.org/books/selenium_summary/website/
     * https://book.crifan.org/books/smart_speaker_disassemble_summary/website/
     * https://book.crifan.org/books/super_search_regex/website/
+    * https://book.crifan.org/books/ultimate_disassembler_capstone/website/
     * https://book.crifan.org/books/use_python_write_spider/website/
     * https://book.crifan.org/books/web_automation_tool_playwright/website/
     * https://book.crifan.org/books/web_automation_tool_puppeteer/website/

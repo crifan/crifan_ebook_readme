@@ -1,6 +1,6 @@
 # Crifan的电子书的使用说明
 
-最后更新：`20230713`
+最后更新：`20230914`
 
 ---
 
@@ -97,12 +97,15 @@
                 * 高级逆向
                   * 代码模拟
                     * [Unicorn](https://book.crifan.org/books/cpu_emulator_unicorn/website/)
+                      * [Capstone](https://book.crifan.org/books/ultimate_disassembler_capstone/website/)
             * [Android安全和逆向](https://book.crifan.org/books/android_app_security_crack/website/)
               * Android逆向
                 * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
                   * [开启root](https://book.crifan.org/books/android_re_enable_root/website/)
-                  * [重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
+                  * [静态分析](https://book.crifan.org/books/android_re_static_analysis/website/)
+                    * [jadx](https://book.crifan.org/books/android_re_decompile_jadx/website/)
                   * [动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
+                  * [重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
             * iOS安全和逆向
               * iOS安全
                 * [iOS安全与防护](https://book.crifan.org/books/ios_security_protect/website/)
@@ -139,7 +142,7 @@
         * 移动端
           * 安卓
             * 辅助工具
-              * [Xposed](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
+              * [Xposed](https://book.crifan.org/books/android_re_xposed_framework/website/)
               * [Nox模拟器](https://book.crifan.org/books/good_android_emulator_nox/website/)
         * 自动化
           * 工具
@@ -702,7 +705,7 @@ Python开发中最专业的IDE：
 
 以及辅助工具：
 
-* [强大的安卓破解辅助工具：XPosed框架](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
+* [安卓逆向调试：XPosed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
 * [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
 
 后来整理出移动端安全和逆向的成套的教程：
@@ -721,12 +724,15 @@ Python开发中最专业的IDE：
     * 高级逆向
       * 代码模拟
         * [CPU模拟利器：Unicorn](https://book.crifan.org/books/cpu_emulator_unicorn/website/)
+          * [反汇编利器：Capstone](https://book.crifan.org/books/ultimate_disassembler_capstone/website/)
 * Android安全和逆向
   * Android逆向
     * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
       * [Android逆向：开启root](https://book.crifan.org/books/android_re_enable_root/website/)
-      * [Android逆向：重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
+      * [Android逆向：静态分析](https://book.crifan.org/books/android_re_static_analysis/website/)
+        * [安卓反编译利器：jadx](https://book.crifan.org/books/android_re_decompile_jadx/website/)
       * [Android逆向：动态调试](https://book.crifan.org/books/android_re_dynamic_debug/website/)
+      * [Android逆向：重新打包apk](https://book.crifan.org/books/android_re_repack_apk/website/)
 * iOS安全和逆向
   * iOS安全
     * [iOS安全与防护](https://book.crifan.org/books/ios_security_protect/website/)
