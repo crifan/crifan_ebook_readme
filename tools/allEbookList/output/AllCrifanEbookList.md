@@ -73,17 +73,21 @@
     * https://www.crifan.com/files/doc/docbook/web_scrape_emulate_login/release/html/web_scrape_emulate_login.html
     * https://www.crifan.com/files/doc/docbook/website_transfer/release/html/website_transfer.html
   * gitbook
+    * http://book.crifan.org/books/c_lang_dev_summary/website/
     * https://book.crifan.org/books/5g_message_rcs_tech_summary/website/
     * https://book.crifan.org/books/5g_tech_summary/website/
     * https://book.crifan.org/books/all_age_sports_badminton/website/
     * https://book.crifan.org/books/android_app_security_crack/website/
+    * https://book.crifan.org/books/android_auto_tool_adb/website/
     * https://book.crifan.org/books/android_automation_uiautomator2/website/
     * https://book.crifan.org/books/android_dev_summary/website/
+    * https://book.crifan.org/books/android_keep_alive_tech/website/
     * https://book.crifan.org/books/android_re_decompile_jadx/website/
     * https://book.crifan.org/books/android_re_dynamic_debug/website/
     * https://book.crifan.org/books/android_re_enable_root/website/
     * https://book.crifan.org/books/android_re_repack_apk/website/
     * https://book.crifan.org/books/android_re_static_analysis/website/
+    * https://book.crifan.org/books/android_re_tool_jeb/website/
     * https://book.crifan.org/books/android_re_xposed_framework/website/
     * https://book.crifan.org/books/android_reverse_dev/website/
     * https://book.crifan.org/books/api_tool_postman/website/
@@ -108,6 +112,7 @@
     * https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/
     * https://book.crifan.org/books/file_compare_tool_summary/website/
     * https://book.crifan.org/books/free_hand_test_automation/website/
+    * https://book.crifan.org/books/frida_re_example_function/website/
     * https://book.crifan.org/books/gitbook_demo/website/
     * https://book.crifan.org/books/good_android_emulator_nox/website/
     * https://book.crifan.org/books/good_automation_tool_makefile/website/
@@ -117,6 +122,7 @@
     * https://book.crifan.org/books/http_restful_api/website/
     * https://book.crifan.org/books/http_summary/website/
     * https://book.crifan.org/books/ic_chip_industry_chain_summary/website/
+    * https://book.crifan.org/books/ida_plugin_script_idapython/website
     * https://book.crifan.org/books/improve_work_efficiency/website/
     * https://book.crifan.org/books/industrial_automation_plc/website/
     * https://book.crifan.org/books/industrial_control_security_overview/website/
@@ -124,30 +130,46 @@
     * https://book.crifan.org/books/information_security_overview/website/
     * https://book.crifan.org/books/ios_automation_facebook_wda/website/
     * https://book.crifan.org/books/ios_dev_summary/website/
+    * https://book.crifan.org/books/ios_re_apple_os/website/
+    * https://book.crifan.org/books/ios_re_codesign_ent/website/
+    * https://book.crifan.org/books/ios_re_common_tweak/website
     * https://book.crifan.org/books/ios_re_crack_shell_ipa/website/
     * https://book.crifan.org/books/ios_re_debug_breakpoint/website/
+    * https://book.crifan.org/books/ios_re_debug_debugserver_lldb/website
+    * https://book.crifan.org/books/ios_re_debug_xcode_iosopendev/website/
+    * https://book.crifan.org/books/ios_re_detail_example/website
+    * https://book.crifan.org/books/ios_re_dyld_link/website/
     * https://book.crifan.org/books/ios_re_dynamic_debug/website/
+    * https://book.crifan.org/books/ios_re_experience_collection/website
+    * https://book.crifan.org/books/ios_re_export_header/website/
+    * https://book.crifan.org/books/ios_re_framework_dylib/website/
     * https://book.crifan.org/books/ios_re_ios15_jailbreak/website/
     * https://book.crifan.org/books/ios_re_ios_internal/website/
     * https://book.crifan.org/books/ios_re_iosopendev_tweak/website/
     * https://book.crifan.org/books/ios_re_iphone_jailbreak/website/
     * https://book.crifan.org/books/ios_re_jailbreak_tweak/website/
     * https://book.crifan.org/books/ios_re_jb_detection/website/
+    * https://book.crifan.org/books/ios_re_manage_app_tweak/website/
     * https://book.crifan.org/books/ios_re_monkeydev_debug/website/
     * https://book.crifan.org/books/ios_re_objc_block/website/
     * https://book.crifan.org/books/ios_re_objc_runtime/website/
     * https://book.crifan.org/books/ios_re_package_manager/website/
     * https://book.crifan.org/books/ios_re_protobuf_reverse/website/
+    * https://book.crifan.org/books/ios_re_restore_symbol/website
     * https://book.crifan.org/books/ios_re_static_analysis/website/
+    * https://book.crifan.org/books/ios_re_swift_reverse/website/
+    * https://book.crifan.org/books/ios_re_tool_hopper/website/
     * https://book.crifan.org/books/ios_re_youtube_reverse/website/
     * https://book.crifan.org/books/ios_reverse_dev/website/
     * https://book.crifan.org/books/ios_security_protect/website/
     * https://book.crifan.org/books/learn_tech_method_experience/website/
+    * https://book.crifan.org/books/low_level_assembly_asm/website/
     * https://book.crifan.org/books/make_life_better_python/website/
     * https://book.crifan.org/books/media_process_ffmpeg/website/
     * https://book.crifan.org/books/mobile_app_summary/website/
     * https://book.crifan.org/books/mobile_automation_overview/website/
     * https://book.crifan.org/books/mobile_network_evolution_history/website/
+    * https://book.crifan.org/books/mobile_reverse_debug_objection/website/
     * https://book.crifan.org/books/most_intelligent_python_ide_pycharm/website/
     * https://book.crifan.org/books/multimedia_core_system_ims/website/
     * https://book.crifan.org/books/popular_assembly_arm/website/

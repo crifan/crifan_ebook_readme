@@ -53,7 +53,7 @@ mdStr = loadTextFromFile(InputMdFile)
 # print("mdStr=%s" % mdStr)
 
 # * [Notepad++](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/html/rec_soft_npp.html)
-allDocbookUrlList = re.findall("https?://www\.crifan\.com/files/doc/docbook/\w+/release/html/\w+.html", mdStr)
+allDocbookUrlList = re.findall(r"https?://www\.crifan\.com/files/doc/docbook/\w+/release/html/\w+.html", mdStr)
 docbookTotalNum = len(allDocbookUrlList)
 print("docbookTotalNum=%s" % docbookTotalNum) # 113
 uniqueDocbookUrlList = uniqueList(allDocbookUrlList)
@@ -64,7 +64,7 @@ print("uniqueDocbookUrlTotalNum=%s" % uniqueDocbookUrlTotalNum) # 56
 # * [VSCode](http://book.crifan.com/books/best_editor_vscode/website)
 # allGitbookUrlList = re.findall("https?://book\.crifan\.com/books/\w+/website", mdStr)
 # allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website", mdStr)
-allGitbookUrlList = re.findall("https?://book\.crifan\.org/books/\w+/website/?", mdStr)
+allGitbookUrlList = re.findall(r"https?://book\.crifan\.org/books/\w+/website/?", mdStr)
 allGitbookNameTotalNum = len(allGitbookUrlList)
 print("allGitbookNameTotalNum=%s" % allGitbookNameTotalNum) # 139
 uniqueGitbookUrlList = uniqueList(allGitbookUrlList)
